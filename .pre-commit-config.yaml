@@ -1,0 +1,22 @@
+repos:
+  - repo: local
+    hooks:
+      - id: black
+        name: Black - Code Formatter
+        entry: black
+        language: system
+        types: [python]
+      - id: end-of-file-fixer
+        name: Fix End of Files
+        entry: end-of-file-fixer
+        language: python
+      - id: trailing-whitespace
+        name: Trim Trailing Whitespace
+        entry: trailing-whitespace-fixer
+        language: python
+
+  - repo: https://github.com/prettier/pre-commit
+    rev: v2.1.2
+    hooks:
+      - id: prettier
+        name: Prettier - Code Formatter

@@ -1,0 +1,6308 @@
+[
+  {
+    "base_grade": "SES - ZFG",
+    "grade_coating": "SES - ZFG-G",
+    "coating": ["07/07", "10/10"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "28G",
+    "grade_coating": "28G-G",
+    "coating": ["07/07", "10/10"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "ES",
+    "grade_coating": "ES -G",
+    "coating": ["07/07", "10/10"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "E390D - 40G",
+    "grade_coating": "E390D-G",
+    "coating": ["07/07", "10/10"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DP780 - D7G",
+    "grade_coating": "DP780-G",
+    "coating": ["07/07", "10/10"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR660Y760T-CP",
+    "grade_coating": "HR660Y760T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR340LA",
+    "grade_coating": "HR340LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "E390D",
+    "grade_coating": "E390D-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP",
+    "grade_coating": "CR440Y780T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "E335D",
+    "grade_coating": "E335D - 34G-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "ES",
+    "grade_coating": "ES-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "FB60 - B6G",
+    "grade_coating": "FB60-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DP780 - D7G",
+    "grade_coating": "DP780-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "E275D ",
+    "grade_coating": "E275D-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HD300LA - A30G",
+    "grade_coating": "HD300LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A23",
+    "grade_coating": "WSS-M1A367-A23-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "3C",
+    "grade_coating": "3C-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HE335D - H3G",
+    "grade_coating": "HE335D-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR380LA",
+    "grade_coating": "HR380LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DP590 - D59G",
+    "grade_coating": "DP590-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR440Y580T-FB",
+    "grade_coating": "HR440Y580T-FB-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR2",
+    "grade_coating": "CR2-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR4",
+    "grade_coating": "CR4-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR460LA",
+    "grade_coating": "CR460LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR4",
+    "grade_coating": "CR4-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR780Y980T-CP",
+    "grade_coating": "CR780Y980T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP",
+    "grade_coating": "CR440Y780T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210IF",
+    "grade_coating": "CR210IF-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR440Y780T-DH",
+    "grade_coating": "CR440Y780T-DH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR270LA",
+    "grade_coating": "CR270LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240BH",
+    "grade_coating": "CR240BH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR290Y490T-DP",
+    "grade_coating": "CR290Y490T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR1",
+    "grade_coating": "CR1-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DH",
+    "grade_coating": "CR330Y590T-DH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210BH",
+    "grade_coating": "CR210BH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR590Y980T-DP",
+    "grade_coating": "CR590Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR270BH",
+    "grade_coating": "CR270BH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR420LA",
+    "grade_coating": "CR420LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR2",
+    "grade_coating": "CR2-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR570Y780T-CP",
+    "grade_coating": "CR570Y780T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR660Y760T-CP",
+    "grade_coating": "HR660Y760T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR180IF",
+    "grade_coating": "CR180IF-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR180BH",
+    "grade_coating": "CR180BH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210IF",
+    "grade_coating": "CR210IF-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "ES - XSV",
+    "grade_coating": "ES-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR340LA",
+    "grade_coating": "HR340LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR900Y1180T-CP",
+    "grade_coating": "CR900Y1180T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR700MC",
+    "grade_coating": "HR700MC-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR4",
+    "grade_coating": "CR4-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR280BH",
+    "grade_coating": "CR280BH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR400Y690T-TR",
+    "grade_coating": "CR400Y690T-TR-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "WSS-M1A365-A14",
+    "grade_coating": "WSS-M1A365-A14-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "E335D - 34G",
+    "grade_coating": "E335D-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR660Y780T-CP",
+    "grade_coating": "CR660Y780T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP",
+    "grade_coating": "CR440Y780T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240IF",
+    "grade_coating": "CR240IF-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210BH",
+    "grade_coating": "CR210BH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "E390D - 40G",
+    "grade_coating": "E390D-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "E275D - 28V",
+    "grade_coating": "E275D-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR500LA",
+    "grade_coating": "HR500LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "E390D - 40G",
+    "grade_coating": "E390D-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR420LA",
+    "grade_coating": "HR420LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR660Y760T-CP",
+    "grade_coating": "HR660Y760T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "ES - XSV",
+    "grade_coating": "ES-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP",
+    "grade_coating": "CR440Y780T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DH",
+    "grade_coating": "CR330Y590T-DH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR380LA",
+    "grade_coating": "HR380LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DP780 - D7G",
+    "grade_coating": "DP780 - D7G-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR4",
+    "grade_coating": "CR4-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DH",
+    "grade_coating": "CR330Y590T-DH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR270LA",
+    "grade_coating": "CR270LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR460LA",
+    "grade_coating": "HR460LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210BH",
+    "grade_coating": "CR210BH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR590Y980T-DP",
+    "grade_coating": "CR590Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR1",
+    "grade_coating": "CR1-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR440Y780T-DH",
+    "grade_coating": "CR440Y780T-DH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR460LA",
+    "grade_coating": "CR460LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR2",
+    "grade_coating": "CR2-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR700MC",
+    "grade_coating": "HR700MC-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR4",
+    "grade_coating": "CR4-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP",
+    "grade_coating": "CR440Y780T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR4",
+    "grade_coating": "CR4-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240IF",
+    "grade_coating": "CR240IF-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR660Y760T-CP",
+    "grade_coating": "HR660Y760T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP",
+    "grade_coating": "CR440Y780T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR1",
+    "grade_coating": "CR1-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210IF",
+    "grade_coating": "CR210IF-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR180BH",
+    "grade_coating": "CR180BH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR420LA",
+    "grade_coating": "CR420LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR330Y590T-DH",
+    "grade_coating": "CR330Y590T-DH-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HR660Y760T-CP",
+    "grade_coating": "HR660Y760T-CP-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DP590 - D59G",
+    "grade_coating": "DP590 - D59G-G",
+    "coating": ["07/07", "10/10"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DP450 - D4G",
+    "grade_coating": "DP450 - D4G-G",
+    "coating": ["07/07", "10/10"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "XSG",
+    "grade_coating": "XSG-G",
+    "coating": ["07/07", "10/10"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX300LAD",
+    "grade_coating": "HX300LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220YD",
+    "grade_coating": "HX220YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX500LAD",
+    "grade_coating": "HX500LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX460LAD",
+    "grade_coating": "HX460LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX300LAD",
+    "grade_coating": "HX300LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220LAD",
+    "grade_coating": "HX220LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX380LAD",
+    "grade_coating": "HX380LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT600X",
+    "grade_coating": "HCT600X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT590X",
+    "grade_coating": "HCT590X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC180BD",
+    "grade_coating": "HC180BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT780X",
+    "grade_coating": "HCT780X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260BD",
+    "grade_coating": "HX260BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220YD",
+    "grade_coating": "HX220YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT780X",
+    "grade_coating": "HCT780X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX300LAD",
+    "grade_coating": "HX300LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220LAD",
+    "grade_coating": "HX220LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX500LAD",
+    "grade_coating": "HX500LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "CR420LA",
+    "grade_coating": "CR420LA+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT780C",
+    "grade_coating": "HCT780C+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260YD",
+    "grade_coating": "HX260YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220BD",
+    "grade_coating": "HX220BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX57D",
+    "grade_coating": "DX57D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX300LAD",
+    "grade_coating": "HX300LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HD680CD",
+    "grade_coating": "HD680CD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "220",
+    "grade_coating": "220+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX500LAD",
+    "grade_coating": "HX500LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX300LAD",
+    "grade_coating": "HX300LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT780X",
+    "grade_coating": "HCT780X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT590X",
+    "grade_coating": "HCT590X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX180BD",
+    "grade_coating": "HX180BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT980X",
+    "grade_coating": "HCT980X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260YD",
+    "grade_coating": "HX260YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220BD",
+    "grade_coating": "HX220BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC340XD+Z",
+    "grade_coating": "HC340XD+Z+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC260LAD",
+    "grade_coating": "HC260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220YD",
+    "grade_coating": "HX220YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260BD",
+    "grade_coating": "HX260BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220YD",
+    "grade_coating": "HX220YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC380LAD",
+    "grade_coating": "HC380LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX460LAD",
+    "grade_coating": "HX460LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220PD",
+    "grade_coating": "HX220PD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX57D",
+    "grade_coating": "DX57D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC220BD",
+    "grade_coating": "HC220BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT600X",
+    "grade_coating": "HCT600X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT780X",
+    "grade_coating": "HCT780X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "220",
+    "grade_coating": "220+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX380LAD",
+    "grade_coating": "HX380LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "H220D",
+    "grade_coating": "H220D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT780C",
+    "grade_coating": "HCT780C+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX180YD",
+    "grade_coating": "HX180YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX300YD",
+    "grade_coating": "HX300YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC340XD",
+    "grade_coating": "HC340XD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "VW TL 1550",
+    "grade_coating": "VW TL 1550+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HDT580X",
+    "grade_coating": "HDT580X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC300BD",
+    "grade_coating": "HC300BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX160YD",
+    "grade_coating": "HX160YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX160YD",
+    "grade_coating": "HX160YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC300XD",
+    "grade_coating": "HC300XD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC300LAD",
+    "grade_coating": "HC300LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC300XD",
+    "grade_coating": "HC300XD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT980XG",
+    "grade_coating": "HCT980XG+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HC260BD",
+    "grade_coating": "HC260BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S550GD",
+    "grade_coating": "S550GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S550GD",
+    "grade_coating": "S550GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S550GD",
+    "grade_coating": "S550GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX380LAD",
+    "grade_coating": "HX380LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S390GD",
+    "grade_coating": "S390GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S420GD",
+    "grade_coating": "S420GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S450GD",
+    "grade_coating": "S450GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX300LAD",
+    "grade_coating": "HX300LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S390GD",
+    "grade_coating": "S390GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX180YD",
+    "grade_coating": "HX180YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT780X",
+    "grade_coating": "HCT780X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX380LAD",
+    "grade_coating": "HX380LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX51D",
+    "grade_coating": "DX51D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX500LAD",
+    "grade_coating": "HX500LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT980X",
+    "grade_coating": "HCT980X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX460LAD",
+    "grade_coating": "HX460LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260LAD",
+    "grade_coating": "HX260LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT600X",
+    "grade_coating": "HCT600X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S250GD",
+    "grade_coating": "S250GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX420LAD",
+    "grade_coating": "HX420LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S450GD",
+    "grade_coating": "S450GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D",
+    "grade_coating": "DX52D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S280GD",
+    "grade_coating": "S280GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S450GD",
+    "grade_coating": "S450GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX260BD",
+    "grade_coating": "HX260BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220BD",
+    "grade_coating": "HX220BD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX56D",
+    "grade_coating": "DX56D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX340LAD",
+    "grade_coating": "HX340LAD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220YD",
+    "grade_coating": "HX220YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220YD",
+    "grade_coating": "HX220YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HX220YD",
+    "grade_coating": "HX220YD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S420GD",
+    "grade_coating": "S420GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S550GD",
+    "grade_coating": "S550GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "HCT980X",
+    "grade_coating": "HCT980X+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S220GD",
+    "grade_coating": "S220GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S350GD",
+    "grade_coating": "S350GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX53D",
+    "grade_coating": "DX53D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "S320GD",
+    "grade_coating": "S320GD+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX52D EN",
+    "grade_coating": "DX52D EN+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "DX54D",
+    "grade_coating": "DX54D+Z",
+    "coating": ["100", "140", "200", "275"],
+    "treatment": ["UO", "EO", "MAO", "MAC", "MBO", "MBC"]
+  },
+  {
+    "base_grade": "LAC320Y400T",
+    "grade_coating": "LAC320Y400T-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR1",
+    "grade_coating": "CR1-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "LAC320Y400T",
+    "grade_coating": "LAC320Y400T-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR3+NONIF",
+    "grade_coating": "CR3+NONIF-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR420LA",
+    "grade_coating": "CR420LA-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR4",
+    "grade_coating": "CR4-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR4",
+    "grade_coating": "CR4-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR1270Y1500T-MS - UC",
+    "grade_coating": "CR1270Y1500T-MS - UC-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR460LA",
+    "grade_coating": "CR460LA-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP",
+    "grade_coating": "CR440Y780T-DP-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR1",
+    "grade_coating": "CR1-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR590Y980T-DP",
+    "grade_coating": "CR590Y980T-DP-EG",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR590Y980T-DP",
+    "grade_coating": "CR590Y980T-DP+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR2",
+    "grade_coating": "CR2+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC180B",
+    "grade_coating": "HC180B+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC380LA",
+    "grade_coating": "HC380LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC220P",
+    "grade_coating": "HC220P+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC380LA",
+    "grade_coating": "HC380LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC180CA FCE",
+    "grade_coating": "HC180CA FCE+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC180B",
+    "grade_coating": "HC180B+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC260Y",
+    "grade_coating": "HC260Y+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC380LA",
+    "grade_coating": "HC380LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC700X",
+    "grade_coating": "HC700X+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC380LA",
+    "grade_coating": "HC380LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC420LA",
+    "grade_coating": "HC420LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC660X",
+    "grade_coating": "HC660X+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC07",
+    "grade_coating": "DC07+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC300LA",
+    "grade_coating": "HC300LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC380LA",
+    "grade_coating": "HC380LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC220Y",
+    "grade_coating": "HC220Y+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC300LA",
+    "grade_coating": "HC300LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "HC420LA",
+    "grade_coating": "HC420LA+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03+ZE",
+    "coating": [
+      "47/47",
+      "50/50",
+      "53/53",
+      "70/70",
+      "25/25",
+      "75/75",
+      "47/0",
+      "50/0",
+      "53/0",
+      "70/0",
+      "75/0"
+    ],
+    "treatment": ["APC", "APO", "AO", "BO", "BPC", "BPO ", "EO", "EPO"]
+  },
+  {
+    "base_grade": "S235JR",
+    "grade_coating": "S235JR",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S420MC",
+    "grade_coating": "S420MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR660Y760T-CP",
+    "grade_coating": "HR660Y760T-CP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR420LA",
+    "grade_coating": "HR420LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A46 / UC",
+    "grade_coating": "WSS-M1A367-A46 / UC-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR2",
+    "grade_coating": "HR2-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR420MC ",
+    "grade_coating": "HR420MC -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR340MC",
+    "grade_coating": "HR340MC-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR700LA",
+    "grade_coating": "HR700LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR500LA",
+    "grade_coating": "HR500LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "C67S",
+    "grade_coating": "C67S-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A45 ",
+    "grade_coating": "WSS-M1A367-A45 -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A365-A20",
+    "grade_coating": "WSS-M1A365-A20-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR380LA",
+    "grade_coating": "HR380LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR380LA",
+    "grade_coating": "HR380LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR420MC ",
+    "grade_coating": "HR420MC -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR440Y580T-FB ",
+    "grade_coating": "HR440Y580T-FB -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR500LA",
+    "grade_coating": "HR500LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR550LA ",
+    "grade_coating": "HR550LA -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR460LA",
+    "grade_coating": "HR460LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DD14",
+    "grade_coating": "DD14",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S420MC",
+    "grade_coating": "S420MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S500MC",
+    "grade_coating": "S500MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DD13",
+    "grade_coating": "DD13",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S420MC",
+    "grade_coating": "S420MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S315MC",
+    "grade_coating": "S315MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S355MC",
+    "grade_coating": "S355MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DD11",
+    "grade_coating": "DD11",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S235JR",
+    "grade_coating": "S235JR",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S500MC",
+    "grade_coating": "S500MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S460MC",
+    "grade_coating": "S460MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S700MC",
+    "grade_coating": "S700MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S600MC",
+    "grade_coating": "S600MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S275JR",
+    "grade_coating": "S275JR",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S550MC",
+    "grade_coating": "S550MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S355MC",
+    "grade_coating": "S355MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DD11",
+    "grade_coating": "DD11",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S355MC",
+    "grade_coating": "S355MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DD12",
+    "grade_coating": "DD12",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S550MC",
+    "grade_coating": "S550MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S355J2",
+    "grade_coating": "S355J2",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S235JRC",
+    "grade_coating": "S235JRC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DD14",
+    "grade_coating": "DD14",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S315MC",
+    "grade_coating": "S315MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S420MC",
+    "grade_coating": "S420MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S235J2",
+    "grade_coating": "S235J2",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S260NC",
+    "grade_coating": "S260NC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HD680C",
+    "grade_coating": "HD680C-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S235J2C",
+    "grade_coating": "S235J2C",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S650MC",
+    "grade_coating": "S650MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S500MC",
+    "grade_coating": "S500MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S700MC ",
+    "grade_coating": "S700MC ",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S380MC",
+    "grade_coating": "S380MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S235JR+N",
+    "grade_coating": "S235JR+N",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S355NC",
+    "grade_coating": "S355NC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DD12",
+    "grade_coating": "DD12",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S500MC",
+    "grade_coating": "S500MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S260MC",
+    "grade_coating": "S260MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S460MC",
+    "grade_coating": "S460MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S275J2",
+    "grade_coating": "S275J2",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DD14",
+    "grade_coating": "DD14",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S355MC",
+    "grade_coating": "S355MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HDT760C",
+    "grade_coating": "HDT760C-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S355MC",
+    "grade_coating": "S355MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A46",
+    "grade_coating": "WSS-M1A367-A46-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A47",
+    "grade_coating": "WSS-M1A367-A47-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A344-A1",
+    "grade_coating": "WSS-M1A344-A1-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S420MC",
+    "grade_coating": "S420MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR1500T-MB-DS-",
+    "grade_coating": "HR1500T-MB-DS--UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S460MC",
+    "grade_coating": "S460MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S500MC",
+    "grade_coating": "S500MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S700MC",
+    "grade_coating": "S700MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S600MC",
+    "grade_coating": "S600MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HDT580F",
+    "grade_coating": "HDT580F-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "H360",
+    "grade_coating": "H360-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR660Y760T-CP",
+    "grade_coating": "HR660Y760T-CP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "QStE380TM",
+    "grade_coating": "QStE380TM",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "FB60 ",
+    "grade_coating": "FB60 -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "StW24W",
+    "grade_coating": "StW24W",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "QStE380TM",
+    "grade_coating": "QStE380TM",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "P235GH",
+    "grade_coating": "P235GH",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HE335D ",
+    "grade_coating": "HE335D -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "P265GH",
+    "grade_coating": "P265GH",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "StW24H",
+    "grade_coating": "StW24H",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "StW24H",
+    "grade_coating": "StW24H",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "QStE500TM",
+    "grade_coating": "QStE500TM",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "S420MC",
+    "grade_coating": "S420MC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "QStE460TM",
+    "grade_coating": "QStE460TM-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR2",
+    "grade_coating": "HR2-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HD340LA",
+    "grade_coating": "HD340LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "H500",
+    "grade_coating": "H500-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HDT780C",
+    "grade_coating": "HDT780C-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HR300LA",
+    "grade_coating": "HR300LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "1C",
+    "grade_coating": "1C-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "E275D ",
+    "grade_coating": "E275D ",
+    "coating": [],
+    "treatment": []
+  },
+  {
+    "base_grade": "E275D ",
+    "grade_coating": "E275D ",
+    "coating": [],
+    "treatment": []
+  },
+  {
+    "base_grade": "ES ",
+    "grade_coating": "ES ",
+    "coating": [],
+    "treatment": []
+  },
+  {
+    "base_grade": "ES ",
+    "grade_coating": "ES ",
+    "coating": [],
+    "treatment": []
+  },
+  {
+    "base_grade": "C ",
+    "grade_coating": "C ",
+    "coating": [],
+    "treatment": []
+  },
+  {
+    "base_grade": "E",
+    "grade_coating": "E",
+    "coating": [],
+    "treatment": []
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR1",
+    "grade_coating": "CR1-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR5",
+    "grade_coating": "CR5-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR240IF ",
+    "grade_coating": "CR240IF -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP ",
+    "grade_coating": "CR440Y780T-DP -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP ",
+    "grade_coating": "CR700Y980T-DP -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR210LA",
+    "grade_coating": "CR210LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR270LA",
+    "grade_coating": "CR270LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR3",
+    "grade_coating": "CR3-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR380LA",
+    "grade_coating": "CR380LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR4-UC",
+    "grade_coating": "CR4-UC-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR210IF",
+    "grade_coating": "CR210IF-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR240LA",
+    "grade_coating": "CR240LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR440Y780T-DP ",
+    "grade_coating": "CR440Y780T-DP -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR420LA",
+    "grade_coating": "CR420LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR460LA ",
+    "grade_coating": "CR460LA -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR2",
+    "grade_coating": "CR2-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR4-UC",
+    "grade_coating": "CR4-UC-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "22MnB5",
+    "grade_coating": "22MnB5-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR270LA",
+    "grade_coating": "CR270LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR290Y490T-DP",
+    "grade_coating": "CR290Y490T-DP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR3 ",
+    "grade_coating": "CR3 -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR570Y780T-CP ",
+    "grade_coating": "CR570Y780T-CP -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR420LA",
+    "grade_coating": "CR420LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR780Y980T-CP ",
+    "grade_coating": "CR780Y980T-CP -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR300LA",
+    "grade_coating": "CR300LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR6",
+    "grade_coating": "CR6-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR330Y590T-DP",
+    "grade_coating": "CR330Y590T-DP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR590Y980T-DP ",
+    "grade_coating": "CR590Y980T-DP -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR700Y980T-DP",
+    "grade_coating": "CR700Y980T-DP-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR3+NON-IF ",
+    "grade_coating": "CR3+NON-IF -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR270LA",
+    "grade_coating": "CR270LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR340LA",
+    "grade_coating": "CR340LA-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR6",
+    "grade_coating": "CR6-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A38",
+    "grade_coating": "WSS-M1A367-A38-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A365-A14",
+    "grade_coating": "WSS-M1A365-A14-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A365-A12",
+    "grade_coating": "WSS-M1A365-A12-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A22 ",
+    "grade_coating": "WSS-M1A367-A22 -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "LAC300Y370T",
+    "grade_coating": "LAC300Y370T-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A34 ",
+    "grade_coating": "WSS-M1A367-A34 -UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A365-A12",
+    "grade_coating": "WSS-M1A365-A12-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A365-A15",
+    "grade_coating": "WSS-M1A365-A15-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A367-A36",
+    "grade_coating": "WSS-M1A367-A36-UC",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "C - XE",
+    "grade_coating": "C ",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "C - XE",
+    "grade_coating": "C ",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A365-A12",
+    "grade_coating": "WSS-M1A365-A12",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "WSS-M1A345-A2",
+    "grade_coating": "WSS-M1A345-A2",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC420LA",
+    "grade_coating": "HC420LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC300LA",
+    "grade_coating": "HC300LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC420LA",
+    "grade_coating": "HC420LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC380LA",
+    "grade_coating": "HC380LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC06ED",
+    "grade_coating": "DC06ED",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC700X",
+    "grade_coating": "HC700X",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04ED",
+    "grade_coating": "DC04ED",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HCT590X",
+    "grade_coating": "HCT590X",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC460LA",
+    "grade_coating": "HC460LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04EK",
+    "grade_coating": "DC04EK",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC01EK",
+    "grade_coating": "DC01EK",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC500LA",
+    "grade_coating": "HC500LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC420LA",
+    "grade_coating": "HC420LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "TL 1550 220",
+    "grade_coating": "TL 1550 220",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC380LA",
+    "grade_coating": "HC380LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC03ED",
+    "grade_coating": "DC03ED",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04",
+    "grade_coating": "DC04",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC260Y",
+    "grade_coating": "HC260Y",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC420LA",
+    "grade_coating": "HC420LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC550LA",
+    "grade_coating": "HC550LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HCT490X",
+    "grade_coating": "HCT490X",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC300LA",
+    "grade_coating": "HC300LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "Docol 1000DP",
+    "grade_coating": "Docol 1000DP",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC04ED",
+    "grade_coating": "DC04ED",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DP 600",
+    "grade_coating": "DP 600",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC340LA",
+    "grade_coating": "HC340LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HCT780X",
+    "grade_coating": "HCT780X",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC01",
+    "grade_coating": "DC01",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC05",
+    "grade_coating": "DC05",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC380LA",
+    "grade_coating": "HC380LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC300I",
+    "grade_coating": "HC300I",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC220Y",
+    "grade_coating": "HC220Y",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HCT780C",
+    "grade_coating": "HCT780C",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC420LA",
+    "grade_coating": "HC420LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC03",
+    "grade_coating": "DC03",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "DC06",
+    "grade_coating": "DC06",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC660X",
+    "grade_coating": "HC660X",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HC260LA",
+    "grade_coating": "HC260LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HCT980XG",
+    "grade_coating": "HCT980XG",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HCT600X",
+    "grade_coating": "HCT600X",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "HCT600XB",
+    "grade_coating": "HCT600XB",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "SAE 1015",
+    "grade_coating": "SAE 1015",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "CR300MB",
+    "grade_coating": "CR300MB",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "E335D ",
+    "grade_coating": "E335D ",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  },
+  {
+    "base_grade": "H220LA",
+    "grade_coating": "H220LA",
+    "coating": [],
+    "treatment": ["UO", "AO"]
+  }
+]

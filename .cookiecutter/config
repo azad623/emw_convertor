@@ -1,0 +1,5 @@
+# Change these at your peril:
+export PROJECT_NAME=emw_convertor
+export REPO_NAME=emw_convertor
+export DESCRIPTION=A short description of the project.
+export PROJECT_OPENNESS=private
