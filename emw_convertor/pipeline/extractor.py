@@ -4,9 +4,10 @@ from typing import List, Tuple, Optional, Dict
 from emw_convertor import global_vars, schema
 from emw_convertor.pipeline.grade_coating_extractor import GradeCoatingExtractor
 from emw_convertor.pipeline.dimension_extractor import DimensionExtractor
+from emw_convertor.pipeline.treatment import TreatmentExtractor
 
 # Configure logging
-logger = logging.getLogger("<Bilstein SLExA ETL>")
+logger = logging.getLogger("<EMW Extractor SLExA ETL>")
 
 
 class ExtractorRunner:
@@ -15,6 +16,7 @@ class ExtractorRunner:
         header_names: Dict,
         grade_coating_extractor: GradeCoatingExtractor,
         dimension_extractor: DimensionExtractor,
+        treatment_extractor: TreatmentExtractor,
     ):
         """
         Initialize the ExtractorRunner.
@@ -26,6 +28,7 @@ class ExtractorRunner:
         self.header_names = header_names
         self.grade_coating_extractor = grade_coating_extractor
         self.dimension_extractor = dimension_extractor
+        self.treatment_extractor = treatment_extractor
 
     def run_extractor(self, df: pd.DataFrame) -> pd.DataFrame:
         """
@@ -45,6 +48,7 @@ class ExtractorRunner:
 
         df["Güte"] = None  # Grade
         df["Auflage"] = None  # Coating
+        df["Oberfläche"] = None
 
         for idx, candidate in df[self.header_names["grades"]].items():
             if not isinstance(candidate, str) or not candidate.strip():
@@ -65,12 +69,21 @@ class ExtractorRunner:
                     self.grade_coating_extractor.grade_coating_list,
                     self.grade_coating_extractor.coating_list,
                 )
+                treatment = self.treatment_extractor.extract_treatment(
+                    index,
+                    candidate,
+                    best_match,
+                    coating,
+                    self.treatment_extractor.treatment_list,
+                )
+
                 logger.info(
                     f"Candidate '{candidate}' matched with grade & coating '{best_match}' "
                     f"and coating '{coating}' (Score: {score:.2f})."
                 )
                 df.at[idx, "Güte"] = best_match
                 df.at[idx, "Auflage"] = coating
+                df.at[idx, "Oberfläche"] = treatment
             else:
                 # Fallback to grade_list if no match found in grade_coating_list
                 index, best_match, matched, score = (
@@ -83,19 +96,31 @@ class ExtractorRunner:
                         f"Candidate '{candidate}' matched with grade '{best_match}' and no coating "
                         f"(Score: {score:.2f})."
                     )
+
+                    treatment = self.treatment_extractor.extract_treatment(
+                        index,
+                        candidate,
+                        best_match,
+                        coating,
+                        self.treatment_extractor.treatment_list,
+                    )
+
                     df.at[idx, "Güte"] = best_match
                     df.at[idx, "Auflage"] = None
+                    df.at[idx, "Oberfläche"] = treatment
                 else:
                     logger.warning(
                         f"Candidate '{candidate}' at index {idx} did not match any reference."
                     )
                     df.at[idx, "Güte"] = None
                     df.at[idx, "Auflage"] = None
-
+                    df.at[idx, "Oberfläche"] = None
+        print(df.columns)
         # Extract dimensions if applicable
-        if "dimensions" in self.header_names:
-            df = self.dimension_extractor.extract_dimensions(
-                df, self.header_names["dimensions"]
-            )
+        if (
+            "dimensions" in self.header_names
+            and self.header_names["dimesnions"] is not None
+        ):
+            df = self.dimension_extractor.extract_dimensions(df)
 
         return df

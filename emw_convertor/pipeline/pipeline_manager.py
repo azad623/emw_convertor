@@ -18,6 +18,7 @@ from emw_convertor.pipeline.transformation import (
 from emw_convertor.pipeline.extractor import ExtractorRunner
 from emw_convertor.pipeline.grade_coating_extractor import GradeCoatingExtractor
 from emw_convertor.pipeline.dimension_extractor import DimensionExtractor
+from emw_convertor.pipeline.treatment import TreatmentExtractor
 from emw_convertor.utils.helper import delete_all_files, load_schema_list
 from emw_convertor.config.logging_system import setup_logger
 
@@ -72,25 +73,31 @@ def pipeline_run(header_names: Dict, file_path: str) -> pd.DataFrame:
 
         dimension_extractor = DimensionExtractor(column_name=header_names["dimensions"])
 
+        treatment_extractor = TreatmentExtractor(
+            treatment_list=load_schema_list(schema, "treatment")
+        )
+
         extractor_runner = ExtractorRunner(
             header_names=header_names,
             grade_coating_extractor=grade_coating_extractor,
             dimension_extractor=dimension_extractor,
+            treatment_extractor=treatment_extractor,
         )
 
         df = extractor_runner.run_extractor(df)
 
-        del grade_coating_extractor, extractor_runner  # Free up resources
-
-        # Step 5: Check and update the finish column
-        # logger.info("<< Step 5: Validating and updating the finish column >>")
-        # treatment_checker = TreatmentExtractor(header_name=header_name)
-        # df = treatment_checker.check_and_update_treatment(df)
-        # del treatment_checker  # Free up resources
+        del (
+            grade_coating_extractor,
+            extractor_runner,
+            treatment_extractor,
+        )  # Free up resources
 
         # Step 6: Log success
         logger.info(f"File {file_path} processed successfully.")
         global_vars["error_list"].append(f"File {file_path} processed successfully.")
+
+        df.to_excel("demo.xlsx", sheet_name="sheet1", index=False)
+
         return df
 
     except ValueError as ve:
