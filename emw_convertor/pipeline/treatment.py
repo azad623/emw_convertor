@@ -2,7 +2,7 @@ import logging
 from typing import List, Optional, Tuple
 
 # Configure logging
-logger = logging.getLogger("<EMW Treatment SLExA ETL>")
+logger = logging.getLogger("<EMW SLExA ETL>")
 
 # Treatment conversion dictionary
 TREATMENT_CONVERSION = {"U": "UO", "AMO": "AO", "MB": "MBO", "AM": "MAO"}

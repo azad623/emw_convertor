@@ -7,7 +7,7 @@ from emw_convertor.pipeline.dimension_extractor import DimensionExtractor
 from emw_convertor.pipeline.treatment import TreatmentExtractor
 
 # Configure logging
-logger = logging.getLogger("<EMW Extractor SLExA ETL>")
+logger = logging.getLogger("<EMW SLExA ETL>")
 
 
 class ExtractorRunner:
@@ -119,7 +119,7 @@ class ExtractorRunner:
         # Extract dimensions if applicable
         if (
             "dimensions" in self.header_names
-            and self.header_names["dimesnions"] is not None
+            and self.header_names["dimensions"] is not None  # Fixed the typo here
         ):
             df = self.dimension_extractor.extract_dimensions(df)
 

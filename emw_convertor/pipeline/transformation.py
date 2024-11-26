@@ -2,7 +2,7 @@ import pandas as pd
 import logging
 import numpy as np
 
-logger = logging.getLogger("<Bilstein SLExA ETL>")
+logger = logging.getLogger("<EMW SLExA ETL>")
 
 
 def standardize_missing_values(df) -> pd.DataFrame:

@@ -3,7 +3,7 @@ from typing import Optional, List, Tuple
 import pandas as pd
 from emw_convertor import global_vars, schema
 
-logger = logging.getLogger("<Bilstein SLExA ETL>")
+logger = logging.getLogger("<EMW SLExA ETLL>")
 
 
 def calculate_match_ratio(base_grade: str, cell_value: str) -> float:

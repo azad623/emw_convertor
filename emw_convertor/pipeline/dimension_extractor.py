@@ -3,7 +3,7 @@ import re
 import logging
 
 # Configure logging
-logger = logging.getLogger("<Bilstein SLExA ETL>")
+logger = logging.getLogger("<EMW SLExA ETL>")
 
 
 class DimensionExtractor:

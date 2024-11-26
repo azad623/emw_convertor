@@ -6,7 +6,7 @@ from typing import List, Dict
 import json
 from emw_convertor import local_data_input_path
 
-logger = logging.getLogger("<Bilstein SLExA ETL>")
+logger = logging.getLogger("<EMW SLExA ETL>")
 
 
 def load_schema_list(schema_column: List[Dict], key: str) -> List[str]:

@@ -1,7 +1,7 @@
 import logging
 from typing import List, Tuple, Optional
 
-logger = logging.getLogger("<Bilstein SLExA ETL>")
+logger = logging.getLogger("<EMW SLExA ETL>")
 
 
 class GradeCoatingExtractor:
