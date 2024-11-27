@@ -4,9 +4,36 @@ import pandas as pd
 import logging
 from typing import List, Dict
 import json
-from emw_convertor import local_data_input_path
+from emw_convertor import local_data_input_path, global_vars
 
 logger = logging.getLogger("<EMW SLExA ETL>")
+
+
+def validate_output(df):
+    required_columns = [
+        "Güte_",
+        "Auflage_",
+        "Oberfläche_",
+        "Dicke_",
+        "Länge_",
+        "Breit_",
+    ]
+
+    df.dropna(axis=1, how="all", inplace=True)
+    dataframe_cols = df.columns
+
+    set1 = set(required_columns)
+    set2 = set(dataframe_cols)
+
+    # Find items unique to each list
+    non_overlapping_items = list((set1 - set2))
+
+    if len(non_overlapping_items) == len(required_columns):
+        global_vars["error_list"].append(
+            f"Eine der Spalten ist falsch ausgewählt und die erwarteten Informationen können nicht extrahiert werden {non_overlapping_items}!"
+        )
+        return False, global_vars["error_list"]
+    return True, None
 
 
 def load_schema_list(schema_column: List[Dict], key: str) -> List[str]:

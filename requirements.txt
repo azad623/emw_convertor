@@ -36,3 +36,5 @@ streamlit
 structlog
 matplotlib
 streamlit-navigation-bar
+xlsxwriter
+streamlit-aggrid

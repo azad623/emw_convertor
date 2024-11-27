@@ -34,7 +34,19 @@ class DimensionExtractor:
         try:
             # Normalize the description
             description = description.replace(",", ".")  # Convert commas to dots
-            description = re.sub(r"\s+", "", description)  # Remove spaces
+            # description = re.sub(r"\s+", "", description)  # Remove spaces
+
+            # Remove tolerances (e.g., "+/- 0.08", "+0/-1")
+            description = re.sub(
+                r"\+/-\s*[\d\.]+", "", description
+            )  # Remove +/- tolerances
+            description = re.sub(
+                r"\+[\d\.]+/-[\d\.]+", "", description
+            )  # Remove +X/-Y tolerances
+
+            description = re.sub(r"\(.*?\)", "", description)
+
+            description = re.sub(r"\s+", "", description)
 
             # Regex to capture numbers around 'x' or '*', ignoring others
             pattern = re.compile(r"(\d+\.?\d*)[x\*](\d+\.?\d*)(?:[x\*](\d+\.?\d*))?")
@@ -79,7 +91,7 @@ class DimensionExtractor:
         """
         try:
             # Apply parsing to each row in the specified column
-            df[["Dicke", "Breit", "Länge"]] = df[self.column_name].apply(
+            df[["Dicke_", "Breit_", "Länge_"]] = df[self.column_name].apply(
                 lambda x: pd.Series(self.parse_dimensions(str(x)))
             )
             logger.info(

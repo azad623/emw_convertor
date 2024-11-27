@@ -46,9 +46,9 @@ class ExtractorRunner:
                 logger.error(f"Column '{header}' not found in DataFrame.")
                 raise ValueError(f"Column '{header}' not found in DataFrame.")
 
-        df["Güte"] = None  # Grade
-        df["Auflage"] = None  # Coating
-        df["Oberfläche"] = None
+        df["Güte_"] = None  # Grade
+        df["Auflage_"] = None  # Coating
+        df["Oberfläche_"] = None
 
         for idx, candidate in df[self.header_names["grades"]].items():
             if not isinstance(candidate, str) or not candidate.strip():
@@ -81,9 +81,9 @@ class ExtractorRunner:
                     f"Candidate '{candidate}' matched with grade & coating '{best_match}' "
                     f"and coating '{coating}' (Score: {score:.2f})."
                 )
-                df.at[idx, "Güte"] = best_match
-                df.at[idx, "Auflage"] = coating
-                df.at[idx, "Oberfläche"] = treatment
+                df.at[idx, "Güte_"] = best_match
+                df.at[idx, "Auflage_"] = coating
+                df.at[idx, "Oberfläche_"] = treatment
             else:
                 # Fallback to grade_list if no match found in grade_coating_list
                 index, best_match, matched, score = (
@@ -101,20 +101,20 @@ class ExtractorRunner:
                         index,
                         candidate,
                         best_match,
-                        coating,
+                        "",
                         self.treatment_extractor.treatment_list,
                     )
 
-                    df.at[idx, "Güte"] = best_match
-                    df.at[idx, "Auflage"] = None
-                    df.at[idx, "Oberfläche"] = treatment
+                    df.at[idx, "Güte_"] = best_match
+                    df.at[idx, "Auflage_"] = None
+                    df.at[idx, "Oberfläche_"] = treatment
                 else:
                     logger.warning(
                         f"Candidate '{candidate}' at index {idx} did not match any reference."
                     )
-                    df.at[idx, "Güte"] = None
-                    df.at[idx, "Auflage"] = None
-                    df.at[idx, "Oberfläche"] = None
+                    df.at[idx, "Güte_"] = None
+                    df.at[idx, "Auflage_"] = None
+                    df.at[idx, "Oberfläche_"] = None
         print(df.columns)
         # Extract dimensions if applicable
         if (

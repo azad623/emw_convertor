@@ -47,7 +47,6 @@ def load_layout_schema(schema_path: str) -> dict | None:
 # Define project base directory
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 
-
 # Collect errors
 global_vars = {"error_list": []}
 

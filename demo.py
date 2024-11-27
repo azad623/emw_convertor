@@ -1,209 +1,350 @@
 import streamlit as st
 import pandas as pd
-from mitosheet.streamlit.v1 import spreadsheet
-from etl_pipeline import run_etl_pipeline
 from streamlit_option_menu import option_menu
+from emw_convertor.pipeline.pipeline_manager import pipeline_run
+import os
+import shutil
+import matplotlib.pyplot as plt
+import uuid
+from io import BytesIO
+from random import randint
+from emw_convertor.getters.data_getter import load_excel_file
+from emw_convertor.pipeline.transformation import (
+    standardize_missing_values,
+    drop_rows_with_missing_values,
+)
+
 
 # Initialize Streamlit App
 st.set_page_config(
-    page_title="Excel Processing System",
+    page_title="Excel-Verarbeitungssystem",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+# def set_download_state(tab_name):
 
-# Sidebar menu for navigation
+# Disable the analysis button after download
+#    st.session_state.uploaded_files[tab_name]["analysis_disabled"] = True
+
+
+def cleanup_session_folder():
+    """Clean up the session folder when the session ends."""
+    session_folder = st.session_state.get("session_folder")
+    if session_folder and os.path.exists(session_folder):
+        shutil.rmtree(session_folder)
+        st.session_state["session_folder"] = None
+
+
+def save_uploaded_file(uploaded_file, save_path):
+    """Save an uploaded file to the specified path."""
+    with open(save_path, "wb") as f:
+        f.write(uploaded_file.getbuffer())
+
+
+def convert_to_excel(df):
+    """Convert a DataFrame to an in-memory Excel file."""
+    buffer = BytesIO()
+    with pd.ExcelWriter(buffer, engine="xlsxwriter") as writer:
+        df = sanitize_dataframe(df)
+        df.to_excel(writer, index=False, sheet_name="Sheet1")
+        print(buffer.getvalue)
+    return buffer.getvalue()
+
+
+def force_string_conversion(df):
+    return df.map(lambda x: str(x) if x is not None else "")
+
+
+def sanitize_dataframe(df):
+    """
+    Sanitize a DataFrame by:
+    - Replacing NaN and pd.NA values with None.
+    - Ensuring column names are unique.
+    - Converting all data to JSON-compatible types.
+    - Removing columns where all values are NaN or empty.
+    """
+    # Ensure unique column names
+    cols = pd.Series(df.columns)
+    for dup in cols[cols.duplicated()].unique():
+        dup_indices = cols[cols == dup].index
+        cols[dup_indices] = [
+            f"{dup}_{i}" if i > 0 else dup for i in range(len(dup_indices))
+        ]
+    df.columns = cols
+
+    # Replace problematic values with None
+    df = df.replace([pd.NA, pd.NaT, float("nan"), float("inf"), -float("inf")], None)
+
+    # Convert all data to JSON-compatible strings
+    df = df.map(lambda x: str(x) if pd.notnull(x) else None)
+
+    # Remove columns where all values are NaN or empty
+    df.dropna(axis=1, how="all", inplace=True)
+
+    return df
+
+
+# Sidebar menu
 with st.sidebar:
-    st.image(
-        "https://media.licdn.com/dms/image/v2/C4D0BAQGtkiuGujzBJg/company-logo_200_200/company-logo_200_200/0/1647590698565/vanilla_steel_logo?e=2147483647&v=beta&t=_kzJxw1IBEPFvHxt8okz_ZUgnzkreVhLXqwS7XaZlwQ",
-        width=100,
-    )  # Add your company logo
-    st.title("Company Name")  # Add your company name
+    (
+        col1,
+        col2,
+    ) = st.columns([2, 1])
+    with col1:
+        st.image(
+            "images/emw.png", use_container_width=False, width=100
+        )  # Adjust width as needed
+    with col2:
+        st.image("images/vanilla.png", use_container_width=False, width=60)
+    st.title("EMW/Vanilla Steel")
     selected_menu = option_menu(
-        menu_title="Main Menu",
-        options=["Dashboard", "Process Excel Sheets", "ETL Logs", "Settings"],
+        menu_title="Hauptmenü",
+        options=[
+            "Dashboard",
+            "Excel-Dateien verarbeiten",
+            "ETL-Protokolle",
+            "Einstellungen",
+        ],
         icons=["grid", "file-earmark-spreadsheet", "book", "gear"],
         menu_icon="cast",
         default_index=0,
     )
 
-# Handle menu selection
+
 if selected_menu == "Dashboard":
-    st.title("Dashboard Overview")
-    st.subheader("Summary of Uploaded Files")
+    # Define columns to analyze
+    columns_to_analyze = [
+        "Güte_",
+        "Auflage_",
+        "Oberfläche_",
+        "Dicke_",
+        "Länge_",
+        "Breit_",
+    ]
+    st.title("Dashboard Übersicht")
+    # File status summary
+    # Check if any file is processed
+    has_processed_files = any(
+        file_info["status"] == "Erfolgreich"
+        for file_info in st.session_state.get("uploaded_files", {}).values()
+    )
 
-    if "uploaded_files" in st.session_state:
-        summary_data = {
-            "File Name": list(st.session_state.uploaded_files.keys()),
-            "Status": [
-                file["status"] for file in st.session_state.uploaded_files.values()
-            ],
-        }
-        summary_table = pd.DataFrame(summary_data)
-        st.table(summary_table)
+    if not has_processed_files:
+        st.info(
+            "Es wurden noch keine Dateien verarbeitet. Führen Sie die ETL-Pipeline aus, um Statistiken zu sehen."
+        )
+    else:
+        # File status summary
+        file_status_counts = {"Hochgeladen": 0, "Erfolgreich": 0, "Fehlgeschlagen": 0}
+        processed_files_data = []
 
-    st.subheader("Graphs and Analytics")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.bar_chart([3, 2, 1])
-    with col2:
-        st.line_chart([1, 2, 3])
+        for file_name, file_info in st.session_state.get("uploaded_files", {}).items():
+            file_status_counts[file_info["status"]] += 1
 
-elif selected_menu == "Process Excel Sheets":
-    st.title("Excel Sheet Processor")
+            if file_info["status"] == "Erfolgreich" and file_info["output"] is not None:
+                df = pd.DataFrame(file_info["output"])
+                filled_counts = {
+                    col: df[col].notna().sum() if col in df.columns else 0
+                    for col in columns_to_analyze
+                }
+                processed_files_data.append(
+                    {
+                        "Dateiname": file_name,
+                        "Status": file_info["status"],
+                        **filled_counts,
+                    }
+                )
+            else:
+                processed_files_data.append(
+                    {
+                        "Dateiname": file_name,
+                        "Status": file_info["status"],
+                        **{col: None for col in columns_to_analyze},
+                    }
+                )
 
-    # Temporary storage for uploaded files
+        # Display statistics table
+        stats_df = pd.DataFrame(processed_files_data)
+        st.markdown("### Status und Statistiken der hochgeladenen Dateien")
+        st.dataframe(stats_df)
+
+        # Create bar chart for filled values
+        col1, col2, col3 = st.columns([3, 3, 1])
+        with col1:
+            total_filled_counts = stats_df[columns_to_analyze].sum()
+            fig, ax = plt.subplots(figsize=(10, 6))
+            total_filled_counts.plot(kind="bar", ax=ax, color="skyblue")
+            ax.set_title("Gesamtanzahl der ausgefüllten Werte (pro Spalte)")
+            ax.set_ylabel("Anzahl der Werte")
+            ax.set_xlabel("Spalten")
+            st.pyplot(fig)
+
+        # Create pie chart for file status
+        with col2:
+            fig, ax = plt.subplots(figsize=(6, 6))
+            ax.pie(
+                file_status_counts.values(),
+                labels=file_status_counts.keys(),
+                autopct="%1.1f%%",
+                startangle=90,
+                colors=["#FFCCCC", "#CCFFCC", "#CCCCFF"],
+            )
+            ax.set_title("Verteilung des Datei-Status")
+            st.pyplot(fig)
+
+elif selected_menu == "Excel-Dateien verarbeiten":
+    st.title("Excel-Dateiverarbeitung")
+
     if "uploaded_files" not in st.session_state:
         st.session_state.uploaded_files = {}
 
-    # File upload section
-    st.markdown("### Upload Excel Files")
+    st.markdown("### Excel-Dateien hochladen")
     uploaded_files_area = st.file_uploader(
-        "Upload Excel files here:", accept_multiple_files=True, type=["xlsx"]
+        "Hier Excel-Dateien hochladen:",
+        accept_multiple_files=True,
+        type=["xlsx"],
+        key="file_uploader",
     )
 
     if uploaded_files_area:
+        session_folder = "inputs/tmp"
         for uploaded_file in uploaded_files_area:
             if uploaded_file.name not in st.session_state.uploaded_files:
+                save_path = os.path.join(session_folder, uploaded_file.name)
+                save_uploaded_file(uploaded_file, save_path)
                 st.session_state.uploaded_files[uploaded_file.name] = {
-                    "data": pd.read_excel(uploaded_file),
-                    "path": f"inputs/tmp/{uploaded_file.name}",
-                    "status": "Uploaded",
+                    "data": drop_rows_with_missing_values(
+                        load_excel_file(save_path), threshold=0.7
+                    ),
+                    "path": save_path,
+                    "status": "Hochgeladen",
                     "output": None,
                 }
-    # Buttons for processing all and clearing tabs
-    row = st.columns([1, 4, 1])
 
-    with row[0]:
-        # Process all files at once
-        if st.button("Process All Files"):
-            # Prepare the paths for processing
-            file_paths = [
-                info["path"] for info in st.session_state.uploaded_files.values()
-            ]
+    if st.button("Alles löschen", key="clear_button"):
+        st.session_state.uploaded_files.clear()
+        cleanup_session_folder()
 
-            # Run ETL pipeline for all files and collect outputs
-            etl_results = run_etl_pipeline(file_paths)
-
-            # Update session state with results
-            for idx, tab_name in enumerate(st.session_state.uploaded_files.keys()):
-                etl_status, etl_output, etl_errors = etl_results[idx]
-                if etl_status:
-                    st.session_state.uploaded_files[tab_name]["status"] = "Success"
-                    st.session_state.uploaded_files[tab_name]["output"] = etl_output
-                else:
-                    st.session_state.uploaded_files[tab_name]["status"] = "Failed"
-                    st.session_state.uploaded_files[tab_name]["output"] = etl_errors
-    # Pagination for Tabs
-    tab_names = list(st.session_state.uploaded_files.keys())
-    num_tabs = len(tab_names)
-    tabs_per_page = 5
-
-    with row[1]:
-        if num_tabs > tabs_per_page:
-            num_pages = (num_tabs + tabs_per_page - 1) // tabs_per_page
-            current_page = st.number_input(
-                "navigate page",
-                min_value=1,
-                max_value=num_pages,
-                value=1,
-                step=1,
-            )
-
-            start_index = (current_page - 1) * tabs_per_page
-            end_index = start_index + tabs_per_page
-            paginated_tab_names = tab_names[start_index:end_index]
-        else:
-            paginated_tab_names = tab_names
-
-    with row[2]:
-        if st.button("Clear All Tabs", key="clear_tabs"):
-            st.session_state.uploaded_files.clear()
-            # st.experimental_rerun()
-
-    # Create tabs for each uploaded file
     if st.session_state.uploaded_files:
         tab_names = list(st.session_state.uploaded_files.keys())
-        tabs = st.tabs(paginated_tab_names)
+        tabs = st.tabs(tab_names)
 
-        for idx, tab_name in enumerate(paginated_tab_names):
+        for idx, tab_name in enumerate(tab_names):
+            analysis_disabled = st.session_state.uploaded_files[tab_name].get(
+                "analysis_disabled", False
+            )
             with tabs[idx]:
-                st.subheader(f"Processing: {tab_name}")
-                file_data = st.session_state.uploaded_files[tab_name]["data"]
+                # st.markdown(f"### Bearbeitung: {tab_name}")
+
+                # Determine which dataframe to display
+                if st.session_state.uploaded_files[tab_name]["output"] is not None:
+                    display_data = st.session_state.uploaded_files[tab_name]["data"]
+                    display_data = pd.DataFrame(display_data.to_dict(orient="records"))
+                    display_data = force_string_conversion(display_data)
+                else:
+                    display_data = st.session_state.uploaded_files[tab_name]["data"]
+                    display_data = pd.DataFrame(display_data.to_dict(orient="records"))
+                    display_data = force_string_conversion(display_data)
+
+                # Sanitize DataFrame
+                display_data = sanitize_dataframe(display_data)
+
                 temp_path = st.session_state.uploaded_files[tab_name]["path"]
 
-                # Mito Table
-                st.write("### Interactive Table (Mito)")
-                mitosheet_result, _ = spreadsheet(
-                    file_data, key=f"spreadsheet_{tab_name}"
-                )
-                edited_data = mitosheet_result.get("df1", None)
+                st.markdown("### Zusätzliche Einstellungen")
+                col1, col2, col3 = st.columns([3, 3, 2])
+                with col1:
+                    column_names = display_data.columns.tolist()
+                    grade_selection = st.selectbox(
+                        "Wählen Sie die Spalte für Güte:",
+                        options=column_names,
+                        index=0,
+                        key=f"grade_dropdown_{tab_name}",
+                    )
+                with col2:
+                    dimension_selection = st.selectbox(
+                        "Wählen Sie die Spalte für Dimensionen:",
+                        options=column_names,
+                        index=0,
+                        disabled=st.session_state.get(f"same_value_{tab_name}", False),
+                        key=f"dimension_dropdown_{tab_name}",
+                    )
 
-                if isinstance(edited_data, pd.DataFrame):
-                    # Save the modified DataFrame back to the original file
-                    edited_data.to_excel(temp_path, index=False)
-                    st.session_state.uploaded_files[tab_name]["data"] = edited_data
-                else:
-                    st.error("Error: Could not extract data from Mito table.")
-                    continue
+                st.session_state[f"same_value_{tab_name}"] = st.checkbox(
+                    "Die Güte und die Dimension sind nicht gleich.",
+                    key=f"same_value_checkbox_{tab_name}",
+                )
+
+                # Render DataFrame with styler
+
+                editable_df = st.data_editor(
+                    sanitize_dataframe(display_data),
+                    key=f"editor_{tab_name}",
+                    num_rows="dynamic",  # Allow adding/removing rows
+                )
 
                 # Analysis Button
                 if st.button(
-                    f"Run ETL Pipeline for {tab_name}", key=f"analyze_{tab_name}"
+                    f"Analyse ausführen für {tab_name}",
+                    key=f"run_{tab_name}",
+                    disabled=analysis_disabled,
                 ):
-                    st.write(f"Running ETL pipeline for {tab_name}...")
-                    etl_status, etl_output, etl_errors = run_etl_pipeline(temp_path)
+                    with st.spinner("Bearbeitungsbeleg"):
+                        file_path = st.session_state.uploaded_files[tab_name]["path"]
+                        etl_status, etl_output, etl_errors = pipeline_run(
+                            header_names={
+                                "grades": grade_selection,
+                                "dimensions": (
+                                    dimension_selection
+                                    if not st.session_state.get(
+                                        f"same_value_{tab_name}", False
+                                    )
+                                    else grade_selection
+                                ),
+                            },
+                            file_path=file_path,
+                        )
 
                     if etl_status:
-                        etl_output = edited_data
+                        sanitized_output = sanitize_dataframe(etl_output)
+                        st.session_state.uploaded_files[tab_name][
+                            "status"
+                        ] = "Erfolgreich"
+                        sanitized_output = pd.DataFrame(
+                            sanitized_output.to_dict(orient="records")
+                        )
+                        sanitized_output = force_string_conversion(sanitized_output)
+                        st.session_state.uploaded_files[tab_name][
+                            "output"
+                        ] = sanitized_output
+                        # sanitized_output.to_excel(file_path, index=False)
+
+                        # os.remove(file_path)
                         st.success(
-                            f"ETL pipeline completed successfully for {tab_name}!"
+                            f"ETL-Pipeline erfolgreich abgeschlossen für {tab_name}!"
                         )
-                        st.session_state.uploaded_files[tab_name]["status"] = "Success"
-                        st.session_state.uploaded_files[tab_name]["output"] = etl_output
+
+                        with st.expander(label=f"Ergebnisse..", expanded=False):
+                            editable_df = st.data_editor(
+                                sanitized_output,
+                                key=f"editor_update_{tab_name}",
+                                num_rows="dynamic",  # Allow adding/removing rows
+                            )
+
+                            # Download Button
+                            st.download_button(
+                                type="primary",
+                                label="Excel Herunterladen",
+                                data=convert_to_excel(sanitized_output),
+                                file_name=f"{tab_name}_updated.xlsx",
+                                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                key=f"download_button_{tab_name}",
+                                # on_click=set_download_state(tab_name)
+                            )
+
                     else:
-                        st.error(
-                            f"ETL pipeline failed for {tab_name}. Check the errors below."
-                        )
-                        st.session_state.uploaded_files[tab_name]["status"] = "Failed"
-                        st.session_state.uploaded_files[tab_name]["output"] = etl_errors
-
-                # Expandable Output Section
-                with st.expander("Processed Output", expanded=True):
-                    output_data = st.session_state.uploaded_files[tab_name]["output"]
-
-                    if isinstance(output_data, pd.DataFrame):
-                        st.write("Processed Output Table")
-                        st.dataframe(output_data)
-
-                        # Export to CSV
-                        csv_output = output_data.to_csv(index=False)
-                        st.download_button(
-                            label="Download CSV",
-                            data=csv_output,
-                            file_name=f"{tab_name}_output.csv",
-                            mime="text/csv",
-                        )
-                    elif output_data:
-                        st.error("Errors during ETL processing:")
-                        for error in output_data:
-                            st.error(error)
-                    else:
-                        st.warning(
-                            "No output available yet. Please run the ETL pipeline."
-                        )
-
-                # Collapsible Graph Section
-                with st.expander("Visualize Output Data", expanded=False):
-                    if isinstance(output_data, pd.DataFrame):
-                        st.write("Graph View")
-                        st.bar_chart(output_data.select_dtypes(include=["number"]))
-                    else:
-                        st.info("No data to visualize yet.")
-
-elif selected_menu == "ETL Logs":
-    st.title("ETL Logs")
-    st.write("View and manage ETL logs here.")
-
-elif selected_menu == "Settings":
-    st.title("Settings")
-    st.write("Configure application settings here.")
+                        st.session_state.uploaded_files[tab_name][
+                            "status"
+                        ] = "Fehlgeschlagen"
+                        st.error(f"ETL-Pipeline fehlgeschlagen für {tab_name}.")
+                        st.error(f"{etl_errors}")

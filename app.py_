@@ -1,0 +1,250 @@
+import streamlit as st
+import pandas as pd
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
+from streamlit_option_menu import option_menu
+from emw_convertor.pipeline.pipeline_manager import pipeline_run
+from emw_convertor.getters.data_getter import load_excel_file
+import os
+import shutil
+import uuid
+from io import BytesIO
+from emw_convertor.pipeline.transformation import (
+    standardize_missing_values,
+    drop_rows_with_missing_values,
+)
+
+# Initialize Streamlit App
+st.set_page_config(
+    page_title="Excel-Verarbeitungssystem",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+# Initialize session-based folder
+if "session_folder" not in st.session_state or not st.session_state.get("session_folder"):
+    session_id = str(uuid.uuid4())  # Generate a unique session ID
+    session_folder = os.path.join("inputs/tmp", session_id)
+    os.makedirs(session_folder, exist_ok=True)
+    st.session_state["session_folder"] = session_folder
+
+def cleanup_session_folder():
+    """Clean up the session folder when the session ends."""
+    session_folder = st.session_state.get("session_folder")
+    if session_folder and os.path.exists(session_folder):
+        shutil.rmtree(session_folder)
+        st.session_state["session_folder"] = None
+
+def save_uploaded_file(uploaded_file, save_path):
+    """Save an uploaded file to the specified path."""
+    with open(save_path, "wb") as f:
+        f.write(uploaded_file.getbuffer())
+
+def convert_to_excel(df):
+    """Convert a DataFrame to an in-memory Excel file."""
+    buffer = BytesIO()
+    with pd.ExcelWriter(buffer, engine="xlsxwriter") as writer:
+        df.to_excel(writer, index=False, sheet_name="Sheet1")
+    return buffer.getvalue()
+
+def sanitize_dataframe(df):
+    """
+    Sanitize a DataFrame by:
+    - Replacing NaN and pd.NA values with None.
+    - Ensuring column names are unique.
+    - Converting non-serializable types to strings.
+    - Removing columns where all values are NaN or empty.
+    """
+    # Ensure unique column names
+    cols = pd.Series(df.columns)
+    for dup in cols[cols.duplicated()].unique():
+        dup_indices = cols[cols == dup].index
+        cols[dup_indices] = [f"{dup}_{i}" if i > 0 else dup for i in range(len(dup_indices))]
+    df.columns = cols
+
+    # Replace problematic values with None
+    df = df.replace([pd.NA, float('nan'), float('inf'), -float('inf')], None)
+
+    # Ensure all data types are JSON-compatible
+    df = df.astype(object).where(pd.notnull(df), None)
+
+    # Remove columns where all values are NaN or empty
+    df.dropna(axis=1, how="all", inplace=True)
+    return df
+
+# Sidebar menu
+with st.sidebar:
+    col1, col2 = st.columns([1, 1])
+    with col1:
+        st.image("images/emw.jpg", use_container_width=True)
+    with col2:
+        st.image("images/vanilla.png", use_container_width=True)
+    st.title("Firmenname")
+    selected_menu = option_menu(
+        menu_title="Hauptmenü",
+        options=["Dashboard", "Excel-Dateien verarbeiten", "ETL-Protokolle", "Einstellungen"],
+        icons=["grid", "file-earmark-spreadsheet", "book", "gear"],
+        menu_icon="cast",
+        default_index=0,
+    )
+
+if selected_menu == "Dashboard":
+    st.title("Dashboard Übersicht")
+    st.info("Dies ist das Dashboard, um einen Überblick über Ihre Dateien zu erhalten.")
+
+elif selected_menu == "Excel-Dateien verarbeiten":
+    st.title("Excel-Dateiverarbeitung")
+
+    if "uploaded_files" not in st.session_state:
+        st.session_state.uploaded_files = {}
+
+    st.markdown("### Excel-Dateien hochladen")
+    uploaded_files_area = st.file_uploader(
+        "Hier Excel-Dateien hochladen:", accept_multiple_files=True, type=["xlsx"], key="file_uploader"
+    )
+
+    if uploaded_files_area:
+        session_folder = st.session_state.get("session_folder")
+        if not session_folder:
+            st.error("Session folder could not be initialized. Please reload the page.")
+        else:
+            for uploaded_file in uploaded_files_area:
+                if uploaded_file.name not in st.session_state.uploaded_files:
+                    save_path = os.path.join(session_folder, uploaded_file.name)
+                    save_uploaded_file(uploaded_file, save_path)
+                    st.session_state.uploaded_files[uploaded_file.name] = {
+                        "data": drop_rows_with_missing_values(load_excel_file(save_path),threshold=0.7),
+                        "path": save_path,
+                        "status": "Hochgeladen",
+                        "output": None,
+                    }
+
+    if st.button("Alles löschen", key="clear_button"):
+        st.session_state.uploaded_files.clear()
+        cleanup_session_folder()
+
+    if st.session_state.uploaded_files:
+        tab_names = list(st.session_state.uploaded_files.keys())
+        tabs = st.tabs(tab_names)
+
+        for idx, tab_name in enumerate(tab_names):
+
+            grid_key = f"grid_data_{tab_name}"
+
+            with tabs[idx]:
+                st.markdown(f"### Bearbeitung: {tab_name}")
+
+                # Determine which dataframe to display
+                if st.session_state.uploaded_files[tab_name]["output"] is not None:
+                    display_data = st.session_state.uploaded_files[tab_name]["output"]
+                else:
+                    display_data = st.session_state.uploaded_files[tab_name]["data"]
+                    #display_data = drop_rows_with_missing_values(display_data, threshold=0.7)
+
+                # Sanitize DataFrame for AgGrid
+                display_data = sanitize_dataframe(display_data)
+
+                temp_path = st.session_state.uploaded_files[tab_name]["path"]
+
+                st.markdown("### Zusätzliche Einstellungen")
+                col1, col2, col3 = st.columns([3, 3, 2])
+                with col1:
+                    column_names = display_data.columns.tolist()
+                    grade_selection = st.selectbox(
+                        "Wählen Sie die Spalte für Güte:",
+                        options=column_names,
+                        index=0,
+                        key=f"grade_dropdown_{tab_name}",
+                    )
+                with col2:
+                    dimension_selection = st.selectbox(
+                        "Wählen Sie die Spalte für Dimensionen:",
+                        options=column_names,
+                        index=0,
+                        disabled=st.session_state.get(f"same_value_{tab_name}", False),
+                        key=f"dimension_dropdown_{tab_name}",
+                    )
+                with col3:
+                    st.session_state[f"same_value_{tab_name}"] = st.checkbox(
+                        "Sind Güte und Dimension gleich?",
+                        key=f"same_value_checkbox_{tab_name}",
+                    )
+
+                # Custom row styling for "Güte" column
+                cell_style_js = JsCode("""
+                function(params) {
+                    if (!params.data.Güte || params.data.Güte.trim() === '') {
+                        return {
+                            'backgroundColor': '#FFCCCC',
+                            'color': 'black'
+                        }
+                    }
+                    return null;
+                }
+                """)
+
+                # Configure AgGrid options
+                gb = GridOptionsBuilder.from_dataframe(display_data)
+                gb.configure_default_column(editable=True)
+                gb.configure_selection(selection_mode="multiple", use_checkbox=False)
+             #   gb.configure_column("Güte", cellStyle=cell_style_js)
+                gridOptions = gb.build()
+
+                # AgGrid with editable data
+                grid_response = AgGrid(
+                    display_data,
+                    gridOptions=gridOptions,
+                    update_mode=GridUpdateMode.MODEL_CHANGED,
+                    allow_unsafe_jscode=True,
+                    key=f"ag_grid_{tab_name}",  # Same key for reusing the same AgGrid
+                )
+
+                # Get the updated dataframe from the grid response
+                updated_data = pd.DataFrame(grid_response["data"])
+
+                # Analysis Button
+                if st.button(f"Analyse ausführen für {tab_name}", key=f"run_{tab_name}"):
+                    file_path = st.session_state.uploaded_files[tab_name]["path"]
+                    etl_status, etl_output, etl_errors = pipeline_run(
+                        header_names={
+                            "grades": grade_selection,
+                            "dimensions": dimension_selection if not st.session_state.get(f"same_value_{tab_name}", False) else grade_selection,
+                        },
+                        file_path=file_path
+                    )
+
+                    if etl_status:
+                        sanitized_output = sanitize_dataframe(etl_output)
+                        st.session_state.uploaded_files[tab_name]["status"] = "Erfolgreich"
+                        st.session_state.uploaded_files[tab_name]["output"] = sanitized_output
+                        st.session_state[f"grid_data_{tab_name}"] = sanitized_output
+                        sanitized_output.to_excel(file_path, index=False)
+
+                        # AgGrid with editable data
+                        grid_response = AgGrid(
+                            sanitized_output,
+                            gridOptions=gridOptions,
+                            update_mode=GridUpdateMode.MODEL_CHANGED,
+                            allow_unsafe_jscode=True,
+                            key=f"ag_grid_update_{tab_name}",  # Same key for reusing the same AgGrid
+                        )
+
+                        st.success(f"ETL-Pipeline erfolgreich abgeschlossen für {tab_name}!")
+                    else:
+                        st.error(f"ETL-Pipeline fehlgeschlagen für {tab_name}.")
+
+                # Download Button
+                st.download_button(
+                    label="Download Excel",
+                    data=convert_to_excel(updated_data),
+                    file_name=f"{tab_name}_updated.xlsx",
+                    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    key=f"download_button_{tab_name}",
+                )
+
+elif selected_menu == "ETL-Protokolle":
+    st.title("ETL-Protokolle")
+    st.info("Protokolle anzeigen")
+
+elif selected_menu == "Einstellungen":
+    st.title("Einstellungen")
+    st.info("Hier können Sie die Anwendung konfigurieren.")

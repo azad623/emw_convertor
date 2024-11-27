@@ -35,13 +35,11 @@ def drop_rows_with_missing_values(df, threshold):
     Returns:
         None: The function modifies the DataFrame in place.
     """
+
     required_columns = df.columns
 
     # Calculate the number of non-missing required columns needed to keep the row
     min_non_missing = int(len(required_columns) * (1 - threshold))
-
-    # Drop rows where all values in the row are NaN
-    df = df.dropna(axis=0, how="all")  # axis=0 specifies row-wise operation
 
     # Filter rows based on the count of non-missing values in the required columns and drop them in place
     df.drop(
@@ -50,6 +48,13 @@ def drop_rows_with_missing_values(df, threshold):
 
     df.columns = df.iloc[0]
     df = df[1:].reset_index(drop=True)
+
+    # Drop cols where all values in the row are NaN
+    df = df.dropna(axis=1, how="all")  # axis=1 specifies col-wise operation
+
+    # Drop rows where all values in the row are NaN
+    df = df.dropna(axis=0, how="all")  # axis=0 specifies row-wise operation
+
     return df
 
 

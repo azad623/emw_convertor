@@ -19,7 +19,11 @@ from emw_convertor.pipeline.extractor import ExtractorRunner
 from emw_convertor.pipeline.grade_coating_extractor import GradeCoatingExtractor
 from emw_convertor.pipeline.dimension_extractor import DimensionExtractor
 from emw_convertor.pipeline.treatment import TreatmentExtractor
-from emw_convertor.utils.helper import delete_all_files, load_schema_list
+from emw_convertor.utils.helper import (
+    delete_all_files,
+    load_schema_list,
+    validate_output,
+)
 from emw_convertor.config.logging_system import setup_logger
 
 
@@ -37,8 +41,14 @@ def pipeline_run(header_names: Dict, file_path: str) -> pd.DataFrame:
     Raises:
         ValueError: If the file cannot be processed.
     """
-    # Initialize global variables and setup logger
-    global_vars["error_list"] = []
+    global global_vars
+
+    # Ensure global_vars is initialized as a dictionary
+    if not isinstance(global_vars, dict):
+        global_vars = {"error_list": []}
+    else:
+        global_vars["error_list"] = []  # Reset the error list
+
     delete_all_files(os.path.join(local_data_input_path, "interim"))
     delete_all_files(log_output_path)
 
@@ -94,11 +104,13 @@ def pipeline_run(header_names: Dict, file_path: str) -> pd.DataFrame:
 
         # Step 6: Log success
         logger.info(f"File {file_path} processed successfully.")
-        global_vars["error_list"].append(f"File {file_path} processed successfully.")
+        # global_vars["error_list"].append(f"File {file_path} processed successfully.")
 
-        df.to_excel("demo.xlsx", sheet_name="sheet1", index=False)
+        # df.to_excel("demo.xlsx", sheet_name="sheet1", index=False)
 
-        return df
+        status, global_vars = validate_output(df)
+
+        return status, df, global_vars
 
     except ValueError as ve:
         logger.error(f"ValueError: {ve}")
