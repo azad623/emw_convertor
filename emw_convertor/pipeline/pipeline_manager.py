@@ -50,7 +50,7 @@ def pipeline_run(header_names: Dict, file_path: str) -> pd.DataFrame:
         global_vars["error_list"] = []  # Reset the error list
 
     delete_all_files(os.path.join(local_data_input_path, "interim"))
-    delete_all_files(log_output_path)
+    # delete_all_files(log_output_path)
 
     file_name = os.path.basename(file_path)
     logger = setup_logger(file_name, config)

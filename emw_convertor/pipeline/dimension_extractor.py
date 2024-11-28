@@ -32,6 +32,8 @@ class DimensionExtractor:
             tuple: (thickness, width, height) as floats or None if not found.
         """
         try:
+            if description == "CR300LA GI40/40 U 506 X 2,50":
+                print
             # Normalize the description
             description = description.replace(",", ".")  # Convert commas to dots
             # description = re.sub(r"\s+", "", description)  # Remove spaces
@@ -46,16 +48,19 @@ class DimensionExtractor:
 
             description = re.sub(r"\(.*?\)", "", description)
 
-            description = re.sub(r"\s+", "", description)
+            # description = re.sub(r"\s+", "", description)
 
             # Regex to capture numbers around 'x' or '*', ignoring others
-            pattern = re.compile(r"(\d+\.?\d*)[x\*](\d+\.?\d*)(?:[x\*](\d+\.?\d*))?")
+            # pattern = re.compile(r"(\d+\.?\d*)[x\*](\d+\.?\d*)(?:[x\*](\d+\.?\d*))?")
+            pattern = re.compile(
+                r"(\d+\.?\d*)\s*[xX\*]\s*(\d+\.?\d*)(?:\s*[xX\*]\s*(\d+\.?\d*))?"
+            )
 
             match = pattern.search(description)
             if match:
-                thickness = float(match.group(1)) if match.group(1) else None
-                width = float(match.group(2)) if match.group(2) else None
-                height = float(match.group(3)) if match.group(3) else None
+                thickness = float(match.group(1).strip()) if match.group(1) else None
+                width = float(match.group(2).strip()) if match.group(2) else None
+                height = float(match.group(3).strip()) if match.group(3) else None
 
                 # Ensure at least two dimensions exist
                 if thickness and width:

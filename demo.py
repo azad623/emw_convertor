@@ -1,19 +1,18 @@
 import streamlit as st
 import pandas as pd
+import glob
 from streamlit_option_menu import option_menu
 from emw_convertor.pipeline.pipeline_manager import pipeline_run
 import os
 import shutil
-import matplotlib.pyplot as plt
-import uuid
 from io import BytesIO
-from random import randint
+import plotly.express as px
+import plotly.graph_objects as go
+from emw_convertor import log_output_path
 from emw_convertor.getters.data_getter import load_excel_file
 from emw_convertor.pipeline.transformation import (
-    standardize_missing_values,
     drop_rows_with_missing_values,
 )
-
 
 # Initialize Streamlit App
 st.set_page_config(
@@ -21,10 +20,24 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-# def set_download_state(tab_name):
+logs_folder = log_output_path
 
-# Disable the analysis button after download
-#    st.session_state.uploaded_files[tab_name]["analysis_disabled"] = True
+
+def read_log_file(file_path):
+    """
+    Reads the content of a log file.
+
+    Args:
+        file_path (str): Path to the log file.
+
+    Returns:
+        str: Content of the log file as a string.
+    """
+    try:
+        with open(file_path, "r") as file:
+            return file.read()
+    except Exception as e:
+        return f"Fehler beim Lesen der Datei: {e}"
 
 
 def cleanup_session_folder():
@@ -89,10 +102,10 @@ with st.sidebar:
     (
         col1,
         col2,
-    ) = st.columns([2, 1])
+    ) = st.columns([3, 1])
     with col1:
         st.image(
-            "images/emw.png", use_container_width=False, width=100
+            "images/emw.png", use_container_width=False, width=200
         )  # Adjust width as needed
     with col2:
         st.image("images/vanilla.png", use_container_width=False, width=60)
@@ -109,7 +122,6 @@ with st.sidebar:
         menu_icon="cast",
         default_index=0,
     )
-
 
 if selected_menu == "Dashboard":
     # Define columns to analyze
@@ -144,9 +156,23 @@ if selected_menu == "Dashboard":
             if file_info["status"] == "Erfolgreich" and file_info["output"] is not None:
                 df = pd.DataFrame(file_info["output"])
                 filled_counts = {
-                    col: df[col].notna().sum() if col in df.columns else 0
+                    col: (
+                        df[col]
+                        .apply(
+                            lambda x: (
+                                None if isinstance(x, str) and x.strip() == "" else x
+                            )
+                        )  # Replace empty strings with None
+                        .notnull()
+                        .sum()
+                        if col in df.columns
+                        else 0
+                    )
                     for col in columns_to_analyze
                 }
+
+                filled_counts["gesamt"] = df.shape
+
                 processed_files_data.append(
                     {
                         "Dateiname": file_name,
@@ -164,33 +190,72 @@ if selected_menu == "Dashboard":
                 )
 
         # Display statistics table
-        stats_df = pd.DataFrame(processed_files_data)
-        st.markdown("### Status und Statistiken der hochgeladenen Dateien")
-        st.dataframe(stats_df)
+        st.markdown("<br><br>", unsafe_allow_html=True)
+        col1, col2, col3 = st.columns([1, 3, 1])
+        with col2:
 
+            stats_df = pd.DataFrame(processed_files_data)
+            st.markdown(
+                "<div style='text-align: left; font-size: 20px;'> Status und Statistiken der hochgeladenen Dateien </div><br>",
+                unsafe_allow_html=True,
+            )
+            st.dataframe(stats_df)
+
+        st.markdown("----")
         # Create bar chart for filled values
-        col1, col2, col3 = st.columns([3, 3, 1])
+        col1, col2, col3 = st.columns([5, 2, 5])
         with col1:
             total_filled_counts = stats_df[columns_to_analyze].sum()
-            fig, ax = plt.subplots(figsize=(10, 6))
-            total_filled_counts.plot(kind="bar", ax=ax, color="skyblue")
-            ax.set_title("Gesamtanzahl der ausgefüllten Werte (pro Spalte)")
-            ax.set_ylabel("Anzahl der Werte")
-            ax.set_xlabel("Spalten")
-            st.pyplot(fig)
+
+            # Create bar chart using Plotly
+            bar_chart = px.bar(
+                x=total_filled_counts.index,
+                y=total_filled_counts.values,
+                labels={"x": "Spalten", "y": "Anzahl der Werte"},
+                title="Gesamtanzahl der ausgefüllten Werte (pro Spalte)",
+            )
+            bar_chart.update_traces(marker_color="skyblue")
+            bar_chart.update_layout(
+                title={
+                    "text": "Gesamtanzahl der ausgefüllten Werte (pro Spalte)",
+                    "x": 0.5,
+                    "y": 0.96,
+                    "xanchor": "center",
+                    "yanchor": "top",
+                    "font": {"size": 15},
+                },
+            )
+
+            # Display bar chart
+            st.plotly_chart(bar_chart)
 
         # Create pie chart for file status
-        with col2:
-            fig, ax = plt.subplots(figsize=(6, 6))
-            ax.pie(
-                file_status_counts.values(),
-                labels=file_status_counts.keys(),
-                autopct="%1.1f%%",
-                startangle=90,
-                colors=["#FFCCCC", "#CCFFCC", "#CCCCFF"],
+        with col3:
+            # Create pie chart using Plotly
+            pie_chart = go.Figure(
+                data=[
+                    go.Pie(
+                        labels=list(file_status_counts.keys()),
+                        values=list(file_status_counts.values()),
+                        textinfo="percent+label",
+                        marker=dict(colors=["#FFCCCC", "#CCFFCC", "#CCCCFF"]),
+                    )
+                ]
             )
-            ax.set_title("Verteilung des Datei-Status")
-            st.pyplot(fig)
+            pie_chart.update_layout(
+                title={
+                    "text": "Verteilung des Datei-Status",
+                    "x": 0.5,
+                    "y": 0.96,
+                    "xanchor": "center",
+                    "yanchor": "top",
+                    "font": {"size": 15},
+                },
+                margin={"t": 100},
+            )
+
+            # Display pie chart
+            st.plotly_chart(pie_chart)
 
 elif selected_menu == "Excel-Dateien verarbeiten":
     st.title("Excel-Dateiverarbeitung")
@@ -252,32 +317,50 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                 temp_path = st.session_state.uploaded_files[tab_name]["path"]
 
                 st.markdown("### Zusätzliche Einstellungen")
+
+                # Maintain the state of the checkbox and dropdown consistently
+                same_value_key = f"same_value_{tab_name}"
+                dimension_key = f"dimension_dropdown_{tab_name}"
+
+                # Initialize session state for 'same_value'
+                if same_value_key not in st.session_state:
+                    st.session_state[same_value_key] = True
+
+                st.session_state[f"same_value_{tab_name}"] = st.checkbox(
+                    "Die Güte und die Dimension sind gleich.",
+                    value=st.session_state[same_value_key],
+                    key=f"same_value_checkbox_{tab_name}",
+                )
+
                 col1, col2, col3 = st.columns([3, 3, 2])
                 with col1:
                     column_names = display_data.columns.tolist()
+                    column_names.append("None")
+                    default_value = "None"
                     grade_selection = st.selectbox(
                         "Wählen Sie die Spalte für Güte:",
                         options=column_names,
-                        index=0,
+                        index=(
+                            column_names.index(default_value)
+                            if default_value in column_names
+                            else 0
+                        ),
                         key=f"grade_dropdown_{tab_name}",
                     )
                 with col2:
                     dimension_selection = st.selectbox(
                         "Wählen Sie die Spalte für Dimensionen:",
                         options=column_names,
-                        index=0,
-                        disabled=st.session_state.get(f"same_value_{tab_name}", False),
-                        key=f"dimension_dropdown_{tab_name}",
+                        index=(
+                            column_names.index(default_value)
+                            if default_value in column_names
+                            else 0
+                        ),
+                        disabled=st.session_state[same_value_key],
+                        key=dimension_key,
                     )
 
-                st.session_state[f"same_value_{tab_name}"] = st.checkbox(
-                    "Die Güte und die Dimension sind nicht gleich.",
-                    key=f"same_value_checkbox_{tab_name}",
-                )
-
-                # Render DataFrame with styler
-
-                editable_df = st.data_editor(
+                editable_df_1 = st.data_editor(
                     sanitize_dataframe(display_data),
                     key=f"editor_{tab_name}",
                     num_rows="dynamic",  # Allow adding/removing rows
@@ -305,6 +388,22 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                             file_path=file_path,
                         )
 
+                        # Read the corresponding log file
+                        log_file_path = os.path.join(
+                            logs_folder,
+                            f"{os.path.splitext(os.path.basename(tab_name))[0]}.error.log",
+                        )
+                        if os.path.exists(log_file_path):
+                            log_content = read_log_file(log_file_path)
+                            # Store the log content in session state
+                            st.session_state.uploaded_files[tab_name][
+                                "log"
+                            ] = log_content
+                        else:
+                            st.session_state.uploaded_files[tab_name][
+                                "log"
+                            ] = "Keine Protokolldatei gefunden."
+
                     if etl_status:
                         sanitized_output = sanitize_dataframe(etl_output)
                         st.session_state.uploaded_files[tab_name][
@@ -324,8 +423,11 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                             f"ETL-Pipeline erfolgreich abgeschlossen für {tab_name}!"
                         )
 
+                        if etl_errors:
+                            st.error(f"{etl_errors}")
+
                         with st.expander(label=f"Ergebnisse..", expanded=False):
-                            editable_df = st.data_editor(
+                            editable_df_2 = st.data_editor(
                                 sanitized_output,
                                 key=f"editor_update_{tab_name}",
                                 num_rows="dynamic",  # Allow adding/removing rows
@@ -348,3 +450,30 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                         ] = "Fehlgeschlagen"
                         st.error(f"ETL-Pipeline fehlgeschlagen für {tab_name}.")
                         st.error(f"{etl_errors}")
+
+elif selected_menu == "ETL-Protokolle":
+    st.title("ETL-Protokolle")
+    st.info("Dies ist die Protokollübersicht der ETL-Verarbeitung.")
+
+    uploaded_files = st.session_state.get("uploaded_files", {})
+    log_files = [
+        (file_name, file_info.get("log", "Keine Protokolldatei gefunden."))
+        for file_name, file_info in uploaded_files.items()
+        if file_info.get("log")
+    ]
+
+    if not log_files:
+        st.warning(
+            "Keine Protokolldateien vorhanden. Führen Sie die ETL-Pipeline aus, um Protokolle zu generieren."
+        )
+    else:
+        tabs = st.tabs([file_name for file_name, _ in log_files])
+
+        for idx, (file_name, log_content) in enumerate(log_files):
+            with tabs[idx]:
+                st.text_area(
+                    label=f"Protokoll für {file_name}",
+                    value=log_content,
+                    height=300,
+                    key=f"log_file_{idx}",
+                )
