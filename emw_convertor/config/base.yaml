@@ -1,0 +1,25 @@
+etl_pipeline:
+  load_local: True
+  rewrite_log: True
+
+file_types:
+  valid_file_extensions:
+    xls: "application/vnd.ms-excel"
+    xlsx: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+
+column_match_threshold: 90
+row_density_threshold: 0.7
+row_string_density_threshold: 0.5
+
+dtype_map:
+  {
+    "string": "string",
+    "float": "float64",
+    "float64": "float64",
+    "int64": "int64",
+    "object": "object",
+    "int": "int64",
+    "boolean": "bool",
+    "date": "datetime64[ns]",
+    "datetime64[ns]": "datetime64[ns]",
+  }
