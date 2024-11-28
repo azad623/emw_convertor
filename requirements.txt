@@ -38,3 +38,5 @@ matplotlib
 streamlit-navigation-bar
 xlsxwriter
 streamlit-aggrid
+streamlit_option_menu
+plotly
