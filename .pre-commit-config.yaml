@@ -10,13 +10,16 @@ repos:
         name: Fix End of Files
         entry: end-of-file-fixer
         language: python
+        exclude: '\.(png|jpg|jpeg|gif|svg|bmp)$' # Exclude image files
       - id: trailing-whitespace
         name: Trim Trailing Whitespace
         entry: trailing-whitespace-fixer
         language: python
+        exclude: '\.(png|jpg|jpeg|gif|svg|bmp)$' # Exclude image files
 
   - repo: https://github.com/prettier/pre-commit
     rev: v2.1.2
     hooks:
       - id: prettier
         name: Prettier - Code Formatter
+        exclude: '\.(png|jpg|jpeg|gif|svg|bmp)$' # Exclude image files

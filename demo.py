@@ -105,7 +105,7 @@ with st.sidebar:
     ) = st.columns([3, 1])
     with col1:
         st.image(
-            "images/emw.png", use_container_width=False, width=200
+            "images/emw.svg.png", use_container_width=False, width=200
         )  # Adjust width as needed
     with col2:
         st.image("images/vanilla.png", use_container_width=False, width=60)
