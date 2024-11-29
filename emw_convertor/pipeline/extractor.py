@@ -67,9 +67,10 @@ class ExtractorRunner:
                         index,
                         candidate,
                         best_match,
-                        self.grade_coating_extractor.grade_coating_list,
+                        self.grade_coating_extractor.grade_list,
                         self.grade_coating_extractor.coating_list,
                     )
+
                     treatment = self.treatment_extractor.extract_treatment(
                         index,
                         candidate,
