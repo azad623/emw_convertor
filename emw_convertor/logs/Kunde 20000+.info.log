@@ -427,3 +427,648 @@
 2024-11-28 21:56:40,180 - <EMW SLExA ETL> - ERROR - Die Spalten Dimension werden nicht aktualisiert. Bitte wählen Sie den korrekten Spaltennamen
 2024-11-29 10:01:01,289 - <EMW SLExA ETL> - ERROR - Die Spalten „Güt“, „Auflage“ und „Oberfläche“ werden nicht aktualisiert. Bitte wählen Sie den korrekten Spaltennamen
 2024-11-29 10:01:01,289 - <EMW SLExA ETL> - ERROR - Die Spalten Dimension werden nicht aktualisiert. Bitte wählen Sie den korrekten Spaltennamen
+2024-11-29 13:18:59,591 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'DX 52 D+Z 100 MBO   '.
+2024-11-29 13:18:59,591 - <EMW SLExA ETL> - INFO - Candidate 'DX 52 D+Z 100 MBO   ' matched with grade & coating 'DX52D+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,593 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'DX 52 D+Z 100 MBO   '.
+2024-11-29 13:18:59,593 - <EMW SLExA ETL> - INFO - Candidate 'DX 52 D+Z 100 MBO   ' matched with grade & coating 'DX52D+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,595 - <EMW SLExA ETL> - INFO - Candidate 'DX 54 D+TZ 100MBO' matched with grade 'DX54D' and no coating (Score: 1.00).
+2024-11-29 13:18:59,595 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'DX 54 D+TZ 100MBO'.
+2024-11-29 13:18:59,595 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 1 GI 50 /50 U nach MBN 11251'.
+2024-11-29 13:18:59,595 - <EMW SLExA ETL> - INFO - Candidate ' CR 1 GI 50 /50 U nach MBN 11251' matched with grade & coating 'CR1-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,596 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50 /50 U nach MBN 11251'.
+2024-11-29 13:18:59,597 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50 /50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,598 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50 /50 U nach MBN 11251'.
+2024-11-29 13:18:59,598 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50 /50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,599 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50 /50 U nach MBN 11251'.
+2024-11-29 13:18:59,599 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50 /50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,600 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50 /50 U nach MBN 11251'.
+2024-11-29 13:18:59,600 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50 /50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,601 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 5 GI 50 /50 U nach MBN 11251'.
+2024-11-29 13:18:59,601 - <EMW SLExA ETL> - INFO - Candidate ' CR 5 GI 50 /50 U nach MBN 11251' matched with grade & coating 'CR5-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,602 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 5 GI 50 /50 U nach MBN 11251'.
+2024-11-29 13:18:59,602 - <EMW SLExA ETL> - INFO - Candidate ' CR 5 GI 50 /50 U nach MBN 11251' matched with grade & coating 'CR5-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,603 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 240 LA - GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,603 - <EMW SLExA ETL> - INFO - Candidate 'CR 240 LA - GI 40/40 U nach VW 50065' matched with grade & coating 'CR240LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,604 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 240 LA - GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,604 - <EMW SLExA ETL> - INFO - Candidate 'CR 240 LA - GI 40/40 U nach VW 50065' matched with grade & coating 'CR240LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,606 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 240 LA - GI 50/50 U nach BMW GS 93032-3'.
+2024-11-29 13:18:59,606 - <EMW SLExA ETL> - INFO - Candidate 'CR 240 LA - GI 50/50 U nach BMW GS 93032-3' matched with grade & coating 'CR240LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,607 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'HX 260 LAD+Z 100 MBO'.
+2024-11-29 13:18:59,607 - <EMW SLExA ETL> - INFO - Candidate 'HX 260 LAD+Z 100 MBO' matched with grade & coating 'HX260LAD+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,608 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'HX 260 LAD+Z 100 MBO'.
+2024-11-29 13:18:59,608 - <EMW SLExA ETL> - INFO - Candidate 'HX 260 LAD+Z 100 MBO' matched with grade & coating 'HX260LAD+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,609 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'HX 260 LAD+Z 100 MBO'.
+2024-11-29 13:18:59,609 - <EMW SLExA ETL> - INFO - Candidate 'HX 260 LAD+Z 100 MBO' matched with grade & coating 'HX260LAD+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,610 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'HX 260 LAD+Z 100 MBO'.
+2024-11-29 13:18:59,610 - <EMW SLExA ETL> - INFO - Candidate 'HX 260 LAD+Z 100 MBO' matched with grade & coating 'HX260LAD+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,611 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'HX 300 LAD+Z 140 MB O'.
+2024-11-29 13:18:59,611 - <EMW SLExA ETL> - INFO - Candidate 'HX 300 LAD+Z 140 MB O' matched with grade & coating 'HX300LAD+Z' and coating '140' (Score: 1.00).
+2024-11-29 13:18:59,612 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,612 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,613 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,614 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,615 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,615 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,616 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,616 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,617 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,617 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,618 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,618 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,619 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,619 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,620 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA-GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,620 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA-GI 40/40 U nach VW 50065' matched with grade & coating 'CR300LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,622 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DH- GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,622 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DH- GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,623 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DH- GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,623 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DH- GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,624 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DH- GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,624 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DH- GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,625 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,625 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,627 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,627 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,629 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,629 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,630 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,630 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,632 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,632 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,634 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,634 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,636 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251 DH'.
+2024-11-29 13:18:59,636 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T- DP GI 50/50 U nach MBN 11251 DH' matched with grade & coating 'CR330Y590T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,637 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,637 - <EMW SLExA ETL> - INFO - Candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,639 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,639 - <EMW SLExA ETL> - INFO - Candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,641 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,641 - <EMW SLExA ETL> - INFO - Candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,642 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,642 - <EMW SLExA ETL> - INFO - Candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,644 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,644 - <EMW SLExA ETL> - INFO - Candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,645 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,645 - <EMW SLExA ETL> - INFO - Candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,647 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,647 - <EMW SLExA ETL> - INFO - Candidate 'CR330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,648 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,648 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,649 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,649 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,650 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,650 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,651 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,651 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,652 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,652 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,653 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,654 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,655 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,655 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,656 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,656 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,657 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,657 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,658 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,658 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,659 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,659 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,660 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,660 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,661 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,661 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,662 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,662 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,663 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,663 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,664 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,664 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,665 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,666 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,667 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,667 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,668 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,668 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,669 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,669 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,670 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,670 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,671 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+ GI 50/50 U n. MBN 11252'.
+2024-11-29 13:18:59,671 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+ GI 50/50 U n. MBN 11252' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,672 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+GI 50/50 U n. MBN 11251'.
+2024-11-29 13:18:59,672 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+GI 50/50 U n. MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,673 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HC 340 LAD+Z 100 MBO'.
+2024-11-29 13:18:59,673 - <EMW SLExA ETL> - INFO - Candidate 'HC 340 LAD+Z 100 MBO' matched with grade & coating 'HC340LA' and coating 'None' (Score: 1.00).
+2024-11-29 13:18:59,674 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 380LA+GI40/40 U nach VW 50065'.
+2024-11-29 13:18:59,674 - <EMW SLExA ETL> - INFO - Candidate 'CR 380LA+GI40/40 U nach VW 50065' matched with grade & coating 'CR380LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,675 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA - ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,676 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA - ZM 35/35 U O'.
+2024-11-29 13:18:59,677 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA - ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,677 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA - ZM 35/35 U O'.
+2024-11-29 13:18:59,679 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,679 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,681 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,681 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,683 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,683 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,685 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,685 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,687 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,687 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,688 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,688 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,690 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,690 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,692 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,692 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,694 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,694 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,695 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,695 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,697 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,697 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,699 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA-ZM 35/35 U O' matched with grade 'CR380LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,699 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 380 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,700 - <EMW SLExA ETL> - INFO - Treatment 'MB' converted to 'MBO' for candidate 'CR 420 LA GI 50/50 nach MBN 11251'.
+2024-11-29 13:18:59,700 - <EMW SLExA ETL> - INFO - Candidate 'CR 420 LA GI 50/50 nach MBN 11251' matched with grade & coating 'CR420LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,701 - <EMW SLExA ETL> - WARNING - Candidate 'H 420 LAD+Z 100 MBO' at index 83 did not match any reference.
+2024-11-29 13:18:59,702 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -  DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,702 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -  DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,704 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -  DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,704 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -  DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,705 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -  DP GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,705 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -  DP GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,706 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T-DP+GI 40/40 U nch VW 50065'.
+2024-11-29 13:18:59,706 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T-DP+GI 40/40 U nch VW 50065' matched with grade & coating 'CR440Y780T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,707 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T-DP+GI 40/40 U nch VW 50065'.
+2024-11-29 13:18:59,707 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T-DP+GI 40/40 U nch VW 50065' matched with grade & coating 'CR440Y780T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,709 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T-DP+GI 40/40 U nch VW 50065'.
+2024-11-29 13:18:59,709 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T-DP+GI 40/40 U nch VW 50065' matched with grade & coating 'CR440Y780T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,709 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 460 LA+GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,709 - <EMW SLExA ETL> - INFO - Candidate 'CR 460 LA+GI 50/50U nach MBN 11251' matched with grade & coating 'CR460LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,710 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 460 LA+GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,710 - <EMW SLExA ETL> - INFO - Candidate 'CR 460 LA+GI 50/50U nach MBN 11251' matched with grade & coating 'CR460LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,711 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 460 LA+GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,711 - <EMW SLExA ETL> - INFO - Candidate 'CR 460 LA+GI 50/50U nach MBN 11251' matched with grade & coating 'CR460LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,713 - <EMW SLExA ETL> - INFO - Candidate 'CR 460 LA-ZM 35/35 U O' matched with grade 'CR460LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,713 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 460 LA-ZM 35/35 U O'.
+2024-11-29 13:18:59,714 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HCT 600XD+Z 100 MBO nach DBL 9455.10'.
+2024-11-29 13:18:59,714 - <EMW SLExA ETL> - INFO - Candidate 'HCT 600XD+Z 100 MBO nach DBL 9455.10' matched with grade & coating 'HCT600X' and coating 'None' (Score: 1.00).
+2024-11-29 13:18:59,715 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR660Y760T-CP GI 40/40U nach VW 50065'.
+2024-11-29 13:18:59,715 - <EMW SLExA ETL> - INFO - Candidate 'HR660Y760T-CP GI 40/40U nach VW 50065' matched with grade & coating 'HR660Y760T-CP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,716 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR660Y760T-CP GI 40/40U nach VW 50065'.
+2024-11-29 13:18:59,716 - <EMW SLExA ETL> - INFO - Candidate 'HR660Y760T-CP GI 40/40U nach VW 50065' matched with grade & coating 'HR660Y760T-CP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,717 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR660Y760T-CP GI 40/40U nach VW 50065'.
+2024-11-29 13:18:59,717 - <EMW SLExA ETL> - INFO - Candidate 'HR660Y760T-CP GI 40/40U nach VW 50065' matched with grade & coating 'HR660Y760T-CP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,718 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR660Y760T-CP GI 40/40U nach VW 50065'.
+2024-11-29 13:18:59,719 - <EMW SLExA ETL> - INFO - Candidate 'HR660Y760T-CP GI 40/40U nach VW 50065' matched with grade & coating 'HR660Y760T-CP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,720 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR660Y760T-CP GI 40/40U nach VW 50065'.
+2024-11-29 13:18:59,720 - <EMW SLExA ETL> - INFO - Candidate 'HR660Y760T-CP GI 40/40U nach VW 50065' matched with grade & coating 'HR660Y760T-CP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,721 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T - DP GI 40/40U nach VW 50065' at index 100 did not match any reference.
+2024-11-29 13:18:59,722 - <EMW SLExA ETL> - WARNING - Candidate 'Dogal 700 LAD+Z 100 MBO' at index 101 did not match any reference.
+2024-11-29 13:18:59,723 - <EMW SLExA ETL> - WARNING - Candidate 'Dogal H 700 LAD+Z 100 MBO' at index 102 did not match any reference.
+2024-11-29 13:18:59,725 - <EMW SLExA ETL> - WARNING - Candidate 'Ford WSS-M1 A368-A 14 Class 3  /analog DL DP 800,mit Oberfläche n. WSS-M1 P94-A 50G50G GI - Class 3' at index 103 did not match any reference.
+2024-11-29 13:18:59,726 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR 700MC+GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,726 - <EMW SLExA ETL> - INFO - Candidate 'HR 700MC+GI 40/40 U nach VW 50065' matched with grade & coating 'HR700MC-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,727 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR 700MC+GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,727 - <EMW SLExA ETL> - INFO - Candidate 'HR 700MC+GI 40/40 U nach VW 50065' matched with grade & coating 'HR700MC-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,727 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR 700MC+GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,727 - <EMW SLExA ETL> - INFO - Candidate 'HR 700MC+GI 40/40 U nach VW 50065' matched with grade & coating 'HR700MC-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,728 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR 700MC+GI 40/40 U nach VW 50066'.
+2024-11-29 13:18:59,728 - <EMW SLExA ETL> - INFO - Candidate 'HR 700MC+GI 40/40 U nach VW 50066' matched with grade & coating 'HR700MC-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,729 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,729 - <EMW SLExA ETL> - INFO - Candidate 'CR 780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,730 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,730 - <EMW SLExA ETL> - INFO - Candidate 'CR 780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,731 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,731 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,733 - <EMW SLExA ETL> - WARNING - Candidate 'DP 1000 + Z 100 MB O' at index 111 did not match any reference.
+2024-11-29 13:18:59,735 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'DX 54 D+Z 100 MB O'.
+2024-11-29 13:18:59,735 - <EMW SLExA ETL> - INFO - Candidate 'DX 54 D+Z 100 MB O' matched with grade & coating 'DX54D+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,736 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'DX 54 D+Z 100 MB O'.
+2024-11-29 13:18:59,736 - <EMW SLExA ETL> - INFO - Candidate 'DX 54 D+Z 100 MB O' matched with grade & coating 'DX54D+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,737 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'DX 54 D+Z 100 MB O'.
+2024-11-29 13:18:59,737 - <EMW SLExA ETL> - INFO - Candidate 'DX 54 D+Z 100 MB O' matched with grade & coating 'DX54D+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,738 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 2 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,738 - <EMW SLExA ETL> - INFO - Candidate ' CR 2 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR2-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,739 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50 /50 U nach MBN 11251'.
+2024-11-29 13:18:59,739 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50 /50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,740 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,740 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,741 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,741 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,742 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,742 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,743 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,743 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,744 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,744 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,745 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 3 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,745 - <EMW SLExA ETL> - INFO - Candidate ' CR 3 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,746 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 5 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,746 - <EMW SLExA ETL> - INFO - Candidate ' CR 5 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR5-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,747 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate ' CR 5 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,747 - <EMW SLExA ETL> - INFO - Candidate ' CR 5 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR5-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,748 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 3 GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,749 - <EMW SLExA ETL> - INFO - Candidate 'CR 3 GI 40/40 U nach VW 50065' matched with grade & coating 'CR3-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,749 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 3 GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,750 - <EMW SLExA ETL> - INFO - Candidate 'CR 3 GI 40/40 U nach VW 50065' matched with grade & coating 'CR3-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,750 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 3 GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,751 - <EMW SLExA ETL> - INFO - Candidate 'CR 3 GI 40/40 U nach VW 50065' matched with grade & coating 'CR3-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,751 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'CR 3 GI 50/50 BMW 93032-2'.
+2024-11-29 13:18:59,752 - <EMW SLExA ETL> - INFO - Candidate 'CR 3 GI 50/50 BMW 93032-2' matched with grade & coating 'CR3-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,753 - <EMW SLExA ETL> - WARNING - Candidate 'CR 4 GI 40/40 U nach VW Norm 50065' at index 129 did not match any reference.
+2024-11-29 13:18:59,754 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 4 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,754 - <EMW SLExA ETL> - INFO - Candidate 'CR 4 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR4-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,755 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 4 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,755 - <EMW SLExA ETL> - INFO - Candidate 'CR 4 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR4-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,756 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 5 GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,756 - <EMW SLExA ETL> - INFO - Candidate 'CR 5 GI 50/50 U nach MBN 11251' matched with grade & coating 'CR5-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,757 - <EMW SLExA ETL> - INFO - Candidate 'CR 180 BH+Z 100 MBO' matched with grade 'CR1' and no coating (Score: 1.00).
+2024-11-29 13:18:59,757 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'CR 180 BH+Z 100 MBO'.
+2024-11-29 13:18:59,758 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 210 IF GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,758 - <EMW SLExA ETL> - INFO - Candidate 'CR 210 IF GI 50/50 U nach MBN 11251' matched with grade & coating 'CR210IF-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,760 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 210 LA GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,760 - <EMW SLExA ETL> - INFO - Candidate 'CR 210 LA GI 40/40 U nach VW 50065' matched with grade & coating 'CR210LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,760 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 240 IF GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,760 - <EMW SLExA ETL> - INFO - Candidate 'CR 240 IF GI 50/50 U nach MBN 11251' matched with grade & coating 'CR240IF-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,762 - <EMW SLExA ETL> - INFO - Candidate 'CR 240 LAG GI 40/40 U nach VW 50065' matched with grade 'CR240LA' and no coating (Score: 1.00).
+2024-11-29 13:18:59,762 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 240 LAG GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,763 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 240 LA-GI 50/50 U O nach BMW GS93032-3'.
+2024-11-29 13:18:59,763 - <EMW SLExA ETL> - INFO - Candidate 'CR 240 LA-GI 50/50 U O nach BMW GS93032-3' matched with grade & coating 'CR240LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,765 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 240IF-GI50/50U (HX260LAD+Z100MBO)'.
+2024-11-29 13:18:59,765 - <EMW SLExA ETL> - INFO - Candidate 'CR 240IF-GI50/50U (HX260LAD+Z100MBO)' matched with grade & coating 'CR240IF-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,766 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate 'HX 260 LAD+Z 100 MB O'.
+2024-11-29 13:18:59,766 - <EMW SLExA ETL> - INFO - Candidate 'HX 260 LAD+Z 100 MB O' matched with grade & coating 'HX260LAD+Z' and coating '100' (Score: 1.00).
+2024-11-29 13:18:59,767 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300 LA  GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,768 - <EMW SLExA ETL> - INFO - Candidate 'CR 300 LA  GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,769 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300 LA  GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,769 - <EMW SLExA ETL> - INFO - Candidate 'CR 300 LA  GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,770 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA-GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,770 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA-GI 40/40 U nach VW 50065' matched with grade & coating 'CR300LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,771 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA-GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,771 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA-GI 40/40 U nach VW 50065' matched with grade & coating 'CR300LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,772 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300LA-GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,772 - <EMW SLExA ETL> - INFO - Candidate 'CR 300LA-GI 40/40 U nach VW 50065' matched with grade & coating 'CR300LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,774 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 146 did not match any reference.
+2024-11-29 13:18:59,776 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 147 did not match any reference.
+2024-11-29 13:18:59,777 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 148 did not match any reference.
+2024-11-29 13:18:59,778 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T-DH- GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,778 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T-DH- GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,779 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T-DH- GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,780 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T-DH- GI 50/50 U nach MBN 11251' matched with grade & coating 'CR330Y590T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,781 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,781 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA GI 40/40 U nach VW 50065' matched with grade & coating 'CR340LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,782 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LAGI 50/50 U nach BMW Norm 93032-1'.
+2024-11-29 13:18:59,782 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LAGI 50/50 U nach BMW Norm 93032-1' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,783 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,783 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,784 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,784 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,785 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,785 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,787 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,787 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,788 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,788 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,789 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,789 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,790 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,790 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,791 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,791 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,792 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,792 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,793 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,793 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,794 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,794 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,795 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,795 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,796 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,797 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,798 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,798 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,799 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,799 - <EMW SLExA ETL> - INFO - Candidate 'CR 340LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,800 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 380 LA GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,800 - <EMW SLExA ETL> - INFO - Candidate 'CR 380 LA GI 40/40 U nach VW 50065' matched with grade & coating 'CR380LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,801 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 420LA GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,801 - <EMW SLExA ETL> - INFO - Candidate 'CR 420LA GI 40/40 U nach VW 50065' matched with grade & coating 'CR420LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,802 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,802 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,803 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,803 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,804 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,804 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,805 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,805 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,806 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,806 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,807 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,807 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,808 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,808 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T -DH - GI 50/50 U nach MBN 11251' matched with grade & coating 'CR440Y780T-DH-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,809 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T-DP+GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,809 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T-DP+GI 40/40 U nach VW 50065' matched with grade & coating 'CR440Y780T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,810 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T-DP+GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,810 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T-DP+GI 40/40 U nach VW 50065' matched with grade & coating 'CR440Y780T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,811 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 460 LA GI 50/50 U nach VW 50065'.
+2024-11-29 13:18:59,811 - <EMW SLExA ETL> - INFO - Candidate 'CR 460 LA GI 50/50 U nach VW 50065' matched with grade & coating 'CR460LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,812 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HCT 600 XD + Z 100 MBO'.
+2024-11-29 13:18:59,812 - <EMW SLExA ETL> - INFO - Candidate 'HCT 600 XD + Z 100 MBO' matched with grade & coating 'HCT600X' and coating 'None' (Score: 1.00).
+2024-11-29 13:18:59,813 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'HR 660Y760T-CP-Gi 50/50 U'.
+2024-11-29 13:18:59,813 - <EMW SLExA ETL> - INFO - Candidate 'HR 660Y760T-CP-Gi 50/50 U' matched with grade & coating 'HR660Y760T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,815 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 700Y980T-DP-GI 50/50U nach BMW GS 93032-07'.
+2024-11-29 13:18:59,815 - <EMW SLExA ETL> - INFO - Candidate 'CR 700Y980T-DP-GI 50/50U nach BMW GS 93032-07' matched with grade & coating 'CR700Y980T-DP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,816 - <EMW SLExA ETL> - WARNING - Candidate 'HDT 950 C + Z 100 MB O' at index 183 did not match any reference.
+2024-11-29 13:18:59,817 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR660Y780T-CP-GI 50/50 U n. BMW GS-93005-1'.
+2024-11-29 13:18:59,817 - <EMW SLExA ETL> - INFO - Candidate 'CR660Y780T-CP-GI 50/50 U n. BMW GS-93005-1' matched with grade & coating 'CR660Y780T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,818 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 185 did not match any reference.
+2024-11-29 13:18:59,819 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 186 did not match any reference.
+2024-11-29 13:18:59,821 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 187 did not match any reference.
+2024-11-29 13:18:59,822 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 188 did not match any reference.
+2024-11-29 13:18:59,823 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 189 did not match any reference.
+2024-11-29 13:18:59,824 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 190 did not match any reference.
+2024-11-29 13:18:59,826 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 191 did not match any reference.
+2024-11-29 13:18:59,827 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,827 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,828 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T-DP+GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,828 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T-DP+GI 40/40 U nach VW 50065' matched with grade & coating 'CR440Y780T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,829 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T-DP+GI 40/40 U nach VW 50065'.
+2024-11-29 13:18:59,829 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T-DP+GI 40/40 U nach VW 50065' matched with grade & coating 'CR440Y780T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,830 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 700Y980T - DP GI 40/40 U O'.
+2024-11-29 13:18:59,830 - <EMW SLExA ETL> - INFO - Candidate 'CR 700Y980T - DP GI 40/40 U O' matched with grade & coating 'CR700Y980T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,832 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,832 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,833 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,833 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,834 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,834 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,834 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,834 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,835 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,835 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,836 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,836 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,837 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,837 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,838 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251'.
+2024-11-29 13:18:59,838 - <EMW SLExA ETL> - INFO - Candidate 'CR780Y980T-CP-GI 50/50U nach MBN 11251' matched with grade & coating 'CR780Y980T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,839 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 210 LA-GI 40/40 UO nach VW 50065'.
+2024-11-29 13:18:59,839 - <EMW SLExA ETL> - INFO - Candidate 'CR 210 LA-GI 40/40 UO nach VW 50065' matched with grade & coating 'CR210LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,841 - <EMW SLExA ETL> - INFO - Treatment 'uo' found in candidate 'CR 210 LA-GI 40/40 UO nach VW 50065'.
+2024-11-29 13:18:59,841 - <EMW SLExA ETL> - INFO - Candidate 'CR 210 LA-GI 40/40 UO nach VW 50065' matched with grade & coating 'CR210LA-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,842 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 270 LA GI 50/50 U nach BMW GS 93032-3'.
+2024-11-29 13:18:59,842 - <EMW SLExA ETL> - INFO - Candidate 'CR 270 LA GI 50/50 U nach BMW GS 93032-3' matched with grade & coating 'CR270LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,843 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 270 LA GI 50/50 U nach BMW GS 93032-3'.
+2024-11-29 13:18:59,843 - <EMW SLExA ETL> - INFO - Candidate 'CR 270 LA GI 50/50 U nach BMW GS 93032-3' matched with grade & coating 'CR270LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,843 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 270 LA GI 50/50 U nach BMW GS 93032-3'.
+2024-11-29 13:18:59,844 - <EMW SLExA ETL> - INFO - Candidate 'CR 270 LA GI 50/50 U nach BMW GS 93032-3' matched with grade & coating 'CR270LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,845 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 300 LA GI 50/50 U nach MBN 11251'.
+2024-11-29 13:18:59,845 - <EMW SLExA ETL> - INFO - Candidate 'CR 300 LA GI 50/50 U nach MBN 11251' matched with grade & coating 'CR300LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,846 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,846 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,848 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,848 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,850 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 330Y590T-DP-GI-40/40 U nach VW 50065'.
+2024-11-29 13:18:59,850 - <EMW SLExA ETL> - INFO - Candidate 'CR 330Y590T-DP-GI-40/40 U nach VW 50065' matched with grade & coating 'CR330Y590T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,851 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 340 LA+GI 50/50 U n. VW 50065'.
+2024-11-29 13:18:59,851 - <EMW SLExA ETL> - INFO - Candidate 'CR 340 LA+GI 50/50 U n. VW 50065' matched with grade & coating 'CR340LA-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,852 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 440Y780T-DP-GI 40/40 U n. VW 50065'.
+2024-11-29 13:18:59,852 - <EMW SLExA ETL> - INFO - Candidate 'CR 440Y780T-DP-GI 40/40 U n. VW 50065' matched with grade & coating 'CR440Y780T-DP-GI' and coating '40/40' (Score: 1.00).
+2024-11-29 13:18:59,853 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8'.
+2024-11-29 13:18:59,853 - <EMW SLExA ETL> - INFO - Candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8' matched with grade & coating 'CR570Y780T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,854 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8'.
+2024-11-29 13:18:59,854 - <EMW SLExA ETL> - INFO - Candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8' matched with grade & coating 'CR570Y780T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,855 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8'.
+2024-11-29 13:18:59,855 - <EMW SLExA ETL> - INFO - Candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8' matched with grade & coating 'CR570Y780T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,856 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8'.
+2024-11-29 13:18:59,856 - <EMW SLExA ETL> - INFO - Candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8' matched with grade & coating 'CR570Y780T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,857 - <EMW SLExA ETL> - INFO - Treatment 'U' converted to 'UO' for candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8'.
+2024-11-29 13:18:59,857 - <EMW SLExA ETL> - INFO - Candidate 'CR 570Y780T-CP-GI 50/50 U n. BMW GS 93032-8' matched with grade & coating 'CR570Y780T-CP-GI' and coating '50/50' (Score: 1.00).
+2024-11-29 13:18:59,858 - <EMW SLExA ETL> - WARNING - Candidate 'HXT 600 XD+Z 100 MB O' at index 220 did not match any reference.
+2024-11-29 13:18:59,860 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 221 did not match any reference.
+2024-11-29 13:18:59,860 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00  x 299 ' split into (4.0, 299.0, None)
+2024-11-29 13:18:59,860 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70   x  73 ' split into (0.7, 73.0, None)
+2024-11-29 13:18:59,860 - <EMW SLExA ETL> - INFO - Candidate dimension '0.60  x 60  ' split into (0.6, 60.0, None)
+2024-11-29 13:18:59,860 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 488 ' split into (1.0, 488.0, None)
+2024-11-29 13:18:59,861 - <EMW SLExA ETL> - INFO - Candidate dimension '0.85  x 542 ' split into (0.85, 542.0, None)
+2024-11-29 13:18:59,861 - <EMW SLExA ETL> - INFO - Candidate dimension '0.85  x 580 ' split into (0.85, 580.0, None)
+2024-11-29 13:18:59,861 - <EMW SLExA ETL> - INFO - Candidate dimension '0.85   x 545 ' split into (0.85, 545.0, None)
+2024-11-29 13:18:59,861 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00   x 540 ' split into (1.0, 540.0, None)
+2024-11-29 13:18:59,861 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 51.5 ' split into (1.0, 51.5, None)
+2024-11-29 13:18:59,861 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 400 ' split into (1.25, 400.0, None)
+2024-11-29 13:18:59,861 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90  x 420 ' split into (0.9, 420.0, None)
+2024-11-29 13:18:59,862 - <EMW SLExA ETL> - INFO - Candidate dimension '0.60  x 300 ' split into (0.6, 300.0, None)
+2024-11-29 13:18:59,862 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00   x 248  ' split into (2.0, 248.0, None)
+2024-11-29 13:18:59,862 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50   x  302 ' split into (1.5, 302.0, None)
+2024-11-29 13:18:59,862 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 207 ' split into (1.5, 207.0, None)
+2024-11-29 13:18:59,862 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 109 ' split into (1.5, 109.0, None)
+2024-11-29 13:18:59,862 - <EMW SLExA ETL> - INFO - Candidate dimension '1.80  x 374 ' split into (1.8, 374.0, None)
+2024-11-29 13:18:59,862 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00   x 375' split into (2.0, 375.0, None)
+2024-11-29 13:18:59,862 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 440 ' split into (1.25, 440.0, None)
+2024-11-29 13:18:59,863 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25   x  436 ' split into (1.25, 436.0, None)
+2024-11-29 13:18:59,863 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 255 ' split into (1.25, 255.0, None)
+2024-11-29 13:18:59,863 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 281 ' split into (1.5, 281.0, None)
+2024-11-29 13:18:59,863 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 236 ' split into (1.25, 236.0, None)
+2024-11-29 13:18:59,863 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25   x 460 ' split into (1.25, 460.0, None)
+2024-11-29 13:18:59,863 - <EMW SLExA ETL> - INFO - Candidate dimension '1.75   x 732 ' split into (1.75, 732.0, None)
+2024-11-29 13:18:59,863 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 650 ' split into (1.5, 650.0, None)
+2024-11-29 13:18:59,863 - <EMW SLExA ETL> - INFO - Candidate dimension '1.75 x 471 ' split into (1.75, 471.0, None)
+2024-11-29 13:18:59,864 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 418 ' split into (1.0, 418.0, None)
+2024-11-29 13:18:59,864 - <EMW SLExA ETL> - INFO - Candidate dimension '1.75  x 717 ' split into (1.75, 717.0, None)
+2024-11-29 13:18:59,864 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70  x 363 ' split into (0.7, 363.0, None)
+2024-11-29 13:18:59,864 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 244 ' split into (1.5, 244.0, None)
+2024-11-29 13:18:59,864 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 615 ' split into (1.5, 615.0, None)
+2024-11-29 13:18:59,864 - <EMW SLExA ETL> - INFO - Candidate dimension '2.25  x 297 ' split into (2.25, 297.0, None)
+2024-11-29 13:18:59,864 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 615 ' split into (1.5, 615.0, None)
+2024-11-29 13:18:59,865 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50   x  734 ' split into (1.5, 734.0, None)
+2024-11-29 13:18:59,865 - <EMW SLExA ETL> - INFO - Candidate dimension '1.75  x 577 ' split into (1.75, 577.0, None)
+2024-11-29 13:18:59,865 - <EMW SLExA ETL> - INFO - Candidate dimension '0.95   x  163 ' split into (0.95, 163.0, None)
+2024-11-29 13:18:59,865 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90   x 163 ' split into (0.9, 163.0, None)
+2024-11-29 13:18:59,865 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 910 ' split into (2.0, 910.0, None)
+2024-11-29 13:18:59,865 - <EMW SLExA ETL> - INFO - Candidate dimension '2.10   x 983 ' split into (2.1, 983.0, None)
+2024-11-29 13:18:59,865 - <EMW SLExA ETL> - INFO - Candidate dimension '2.30  x 280 ' split into (2.3, 280.0, None)
+2024-11-29 13:18:59,865 - <EMW SLExA ETL> - INFO - Candidate dimension '2.30  x 334.5 ' split into (2.3, 334.5, None)
+2024-11-29 13:18:59,866 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50 x 333 ' split into (1.5, 333.0, None)
+2024-11-29 13:18:59,866 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 358 ' split into (1.25, 358.0, None)
+2024-11-29 13:18:59,866 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 185 ' split into (1.0, 185.0, None)
+2024-11-29 13:18:59,866 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 782 ' split into (1.25, 782.0, None)
+2024-11-29 13:18:59,866 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 490 ' split into (1.0, 490.0, None)
+2024-11-29 13:18:59,866 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 505 ' split into (1.0, 505.0, None)
+2024-11-29 13:18:59,866 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 271 ' split into (1.25, 271.0, None)
+2024-11-29 13:18:59,866 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 510 ' split into (1.5, 510.0, None)
+2024-11-29 13:18:59,867 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70  x 436 ' split into (0.7, 436.0, None)
+2024-11-29 13:18:59,867 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 597 ' split into (1.0, 597.0, None)
+2024-11-29 13:18:59,867 - <EMW SLExA ETL> - INFO - Candidate dimension '1.15  x 396 ' split into (1.15, 396.0, None)
+2024-11-29 13:18:59,867 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 384 ' split into (1.5, 384.0, None)
+2024-11-29 13:18:59,867 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00 x 753 ' split into (1.0, 753.0, None)
+2024-11-29 13:18:59,867 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 518 ' split into (1.25, 518.0, None)
+2024-11-29 13:18:59,867 - <EMW SLExA ETL> - INFO - Candidate dimension '1.15 x 800 ' split into (1.15, 800.0, None)
+2024-11-29 13:18:59,867 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50   x  300 ' split into (1.5, 300.0, None)
+2024-11-29 13:18:59,868 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 510 ' split into (1.0, 510.0, None)
+2024-11-29 13:18:59,868 - <EMW SLExA ETL> - INFO - Candidate dimension '2 x 515 ' split into (2.0, 515.0, None)
+2024-11-29 13:18:59,868 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00 x  240 ' split into (2.0, 240.0, None)
+2024-11-29 13:18:59,868 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25 x 515 ' split into (1.25, 515.0, None)
+2024-11-29 13:18:59,868 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 536 ' split into (1.5, 536.0, None)
+2024-11-29 13:18:59,868 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50 x 823 ' split into (1.5, 823.0, None)
+2024-11-29 13:18:59,868 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35 x 474 ' split into (1.35, 474.0, None)
+2024-11-29 13:18:59,868 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00 x 535 ' split into (1.0, 535.0, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '1.20  x 711 ' split into (1.2, 711.0, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '1.40  x 177.5 ' split into (1.4, 177.5, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 400 ' split into (1.5, 400.0, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 407 ' split into (2.0, 407.0, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '1.80  x 530 ' split into (1.8, 530.0, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80  x 523 ' split into (0.8, 523.0, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '1.60  x 593 ' split into (1.6, 593.0, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '1.80  x 787 ' split into (1.8, 787.0, None)
+2024-11-29 13:18:59,869 - <EMW SLExA ETL> - INFO - Candidate dimension '1.60  x 343 ' split into (1.6, 343.0, None)
+2024-11-29 13:18:59,870 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x  770' split into (1.0, 770.0, None)
+2024-11-29 13:18:59,870 - <EMW SLExA ETL> - INFO - Candidate dimension '1.60  x 397 ' split into (1.6, 397.0, None)
+2024-11-29 13:18:59,870 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80  x 787 ' split into (0.8, 787.0, None)
+2024-11-29 13:18:59,870 - <EMW SLExA ETL> - INFO - Candidate dimension '1.60  x 880 ' split into (1.6, 880.0, None)
+2024-11-29 13:18:59,870 - <EMW SLExA ETL> - INFO - Candidate dimension '1.80  x 400 ' split into (1.8, 400.0, None)
+2024-11-29 13:18:59,870 - <EMW SLExA ETL> - INFO - Candidate dimension '2.20  x 787 ' split into (2.2, 787.0, None)
+2024-11-29 13:18:59,870 - <EMW SLExA ETL> - INFO - Candidate dimension '1.80  x 426 ' split into (1.8, 426.0, None)
+2024-11-29 13:18:59,871 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 360 ' split into (1.5, 360.0, None)
+2024-11-29 13:18:59,871 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50  x 200 ' split into (2.5, 200.0, None)
+2024-11-29 13:18:59,871 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  X 430 ' split into (1.0, 430.0, None)
+2024-11-29 13:18:59,871 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 460 ' split into (1.25, 460.0, None)
+2024-11-29 13:18:59,871 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25   x  415 ' split into (1.25, 415.0, None)
+2024-11-29 13:18:59,871 - <EMW SLExA ETL> - INFO - Candidate dimension '1.60 x 93 ' split into (1.6, 93.0, None)
+2024-11-29 13:18:59,871 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00 x 87.3 ' split into (3.0, 87.3, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35  x 278 ' split into (1.35, 278.0, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 306 ' split into (1.5, 306.0, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35  x 740 ' split into (1.35, 740.0, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '1.20  x 745 ' split into (1.2, 745.0, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 152 ' split into (1.5, 152.0, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '2.45 x 635 ' split into (2.45, 635.0, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '2.84  x 97 ' split into (2.84, 97.0, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '2.10 x 109.9 ' split into (2.1, 109.9, None)
+2024-11-29 13:18:59,872 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 107 ' split into (2.0, 107.0, None)
+2024-11-29 13:18:59,873 - <EMW SLExA ETL> - INFO - Candidate dimension '3.32   x  104 ' split into (3.32, 104.0, None)
+2024-11-29 13:18:59,873 - <EMW SLExA ETL> - INFO - Candidate dimension '0.97   x 101.5 ' split into (0.97, 101.5, None)
+2024-11-29 13:18:59,873 - <EMW SLExA ETL> - INFO - Candidate dimension '2.375  x 98 ' split into (2.375, 98.0, None)
+2024-11-29 13:18:59,873 - <EMW SLExA ETL> - INFO - Candidate dimension '2.375 x 95.9 ' split into (2.375, 95.9, None)
+2024-11-29 13:18:59,873 - <EMW SLExA ETL> - INFO - Candidate dimension '1.20  x 102 ' split into (1.2, 102.0, None)
+2024-11-29 13:18:59,873 - <EMW SLExA ETL> - INFO - Candidate dimension '2.35  x 105.3 ' split into (2.35, 105.3, None)
+2024-11-29 13:18:59,873 - <EMW SLExA ETL> - INFO - Candidate dimension '2.84   x  104.7 ' split into (2.84, 104.7, None)
+2024-11-29 13:18:59,873 - <EMW SLExA ETL> - INFO - Candidate dimension '2.35  x 105.3 ' split into (2.35, 105.3, None)
+2024-11-29 13:18:59,874 - <EMW SLExA ETL> - INFO - Candidate dimension '2.84  x 92.5 ' split into (2.84, 92.5, None)
+2024-11-29 13:18:59,874 - <EMW SLExA ETL> - INFO - Candidate dimension '1.15 x 508 ' split into (1.15, 508.0, None)
+2024-11-29 13:18:59,874 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 257.5 ' split into (1.5, 257.5, None)
+2024-11-29 13:18:59,874 - <EMW SLExA ETL> - INFO - Candidate dimension '1.12  x 536 ' split into (1.12, 536.0, None)
+2024-11-29 13:18:59,874 - <EMW SLExA ETL> - INFO - Candidate dimension '0.94  x 105.2 ' split into (0.94, 105.2, None)
+2024-11-29 13:18:59,874 - <EMW SLExA ETL> - INFO - Candidate dimension '1.20  x 1180 ' split into (1.2, 1180.0, None)
+2024-11-29 13:18:59,874 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90  x 1277 ' split into (0.9, 1277.0, None)
+2024-11-29 13:18:59,874 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90  x 1212 /' split into (0.9, 1212.0, None)
+2024-11-29 13:18:59,875 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 1781 ' split into (1.0, 1781.0, None)
+2024-11-29 13:18:59,875 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 1675 ' split into (1.0, 1675.0, None)
+2024-11-29 13:18:59,875 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 720 ' split into (1.5, 720.0, None)
+2024-11-29 13:18:59,875 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90  x  1460 ' split into (0.9, 1460.0, None)
+2024-11-29 13:18:59,875 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70  x 1468 ' split into (0.7, 1468.0, None)
+2024-11-29 13:18:59,875 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80   x 1698 ' split into (0.8, 1698.0, None)
+2024-11-29 13:18:59,875 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80   x 1160 ' split into (0.8, 1160.0, None)
+2024-11-29 13:18:59,876 - <EMW SLExA ETL> - INFO - Candidate dimension '1.15  x 1700 ' split into (1.15, 1700.0, None)
+2024-11-29 13:18:59,876 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70  x 1297 ' split into (0.7, 1297.0, None)
+2024-11-29 13:18:59,876 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90   x 1420 ' split into (0.9, 1420.0, None)
+2024-11-29 13:18:59,876 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70   x 1177 ' split into (0.7, 1177.0, None)
+2024-11-29 13:18:59,876 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70   x  1147 ' split into (0.7, 1147.0, None)
+2024-11-29 13:18:59,876 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70   x  1207 ' split into (0.7, 1207.0, None)
+2024-11-29 13:18:59,876 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80  x 840 ' split into (0.8, 840.0, None)
+2024-11-29 13:18:59,876 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70  x 972 ' split into (0.7, 972.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '0.85  x 474 ' split into (0.85, 474.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '0.85  x 537 ' split into (0.85, 537.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x  820 ' split into (1.0, 820.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '1.40  x 510 ' split into (1.4, 510.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90  x 1230 ' split into (0.9, 1230.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '0.65  x 1600 ' split into (0.65, 1600.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 1657 ' split into (1.25, 1657.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 1128 ' split into (1.0, 1128.0, None)
+2024-11-29 13:18:59,877 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00   x  310 ' split into (2.0, 310.0, None)
+2024-11-29 13:18:59,878 - <EMW SLExA ETL> - INFO - Candidate dimension '1.40  x 470 ' split into (1.4, 470.0, None)
+2024-11-29 13:18:59,878 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80   x  1000 ' split into (0.8, 1000.0, None)
+2024-11-29 13:18:59,878 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 490 ' split into (1.25, 490.0, None)
+2024-11-29 13:18:59,878 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00   x  1042 ' split into (1.0, 1042.0, None)
+2024-11-29 13:18:59,878 - <EMW SLExA ETL> - INFO - Candidate dimension '1.30   x 960 ' split into (1.3, 960.0, None)
+2024-11-29 13:18:59,878 - <EMW SLExA ETL> - INFO - Candidate dimension '1.20   x 818 ' split into (1.2, 818.0, None)
+2024-11-29 13:18:59,878 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50   x  550 ' split into (2.5, 550.0, None)
+2024-11-29 13:18:59,878 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 745 ' split into (1.0, 745.0, None)
+2024-11-29 13:18:59,879 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 605 ' split into (1.0, 605.0, None)
+2024-11-29 13:18:59,879 - <EMW SLExA ETL> - INFO - Candidate dimension '2.10  x 705 ' split into (2.1, 705.0, None)
+2024-11-29 13:18:59,879 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 1250 ' split into (1.5, 1250.0, None)
+2024-11-29 13:18:59,879 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 1180 ' split into (1.5, 1180.0, None)
+2024-11-29 13:18:59,879 - <EMW SLExA ETL> - INFO - Candidate dimension '1.10 x 962 ' split into (1.1, 962.0, None)
+2024-11-29 13:18:59,879 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 550 ' split into (1.0, 550.0, None)
+2024-11-29 13:18:59,879 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 185 ' split into (1.0, 185.0, None)
+2024-11-29 13:18:59,880 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 454 ' split into (1.5, 454.0, None)
+2024-11-29 13:18:59,880 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80  x 865 ' split into (0.8, 865.0, None)
+2024-11-29 13:18:59,880 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35  x 490 ' split into (1.35, 490.0, None)
+2024-11-29 13:18:59,880 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35  x 625 ' split into (1.35, 625.0, None)
+2024-11-29 13:18:59,880 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 583 ' split into (1.5, 583.0, None)
+2024-11-29 13:18:59,880 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00  x 260 ' split into (3.0, 260.0, None)
+2024-11-29 13:18:59,880 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35  x 483 ' split into (1.35, 483.0, None)
+2024-11-29 13:18:59,881 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25 x 585 ' split into (1.25, 585.0, None)
+2024-11-29 13:18:59,881 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 710 ' split into (1.5, 710.0, None)
+2024-11-29 13:18:59,881 - <EMW SLExA ETL> - INFO - Candidate dimension '1.75 x 545 ' split into (1.75, 545.0, None)
+2024-11-29 13:18:59,881 - <EMW SLExA ETL> - INFO - Candidate dimension '1.75 x 490 ' split into (1.75, 490.0, None)
+2024-11-29 13:18:59,881 - <EMW SLExA ETL> - INFO - Candidate dimension '1.75  x 799 ' split into (1.75, 799.0, None)
+2024-11-29 13:18:59,881 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35 x 520 ' split into (1.35, 520.0, None)
+2024-11-29 13:18:59,881 - <EMW SLExA ETL> - INFO - Candidate dimension '1.15  x 1598 ' split into (1.15, 1598.0, None)
+2024-11-29 13:18:59,881 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50   x 690 ' split into (1.5, 690.0, None)
+2024-11-29 13:18:59,882 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35  x 650' split into (1.35, 650.0, None)
+2024-11-29 13:18:59,882 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 674 ' split into (1.25, 674.0, None)
+2024-11-29 13:18:59,882 - <EMW SLExA ETL> - INFO - Candidate dimension '1.20  x 755 ' split into (1.2, 755.0, None)
+2024-11-29 13:18:59,882 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25  x 820 ' split into (1.25, 820.0, None)
+2024-11-29 13:18:59,882 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 1252 ' split into (1.5, 1252.0, None)
+2024-11-29 13:18:59,882 - <EMW SLExA ETL> - INFO - Candidate dimension '1.15  x 1325 ' split into (1.15, 1325.0, None)
+2024-11-29 13:18:59,882 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 835 ' split into (1.5, 835.0, None)
+2024-11-29 13:18:59,882 - <EMW SLExA ETL> - INFO - Candidate dimension '1.25 x 1243.8 ' split into (1.25, 1243.8, None)
+2024-11-29 13:18:59,883 - <EMW SLExA ETL> - INFO - Candidate dimension '0.87  x 570 /' split into (0.87, 570.0, None)
+2024-11-29 13:18:59,883 - <EMW SLExA ETL> - INFO - Candidate dimension '1.62 x 905 ' split into (1.62, 905.0, None)
+2024-11-29 13:18:59,883 - <EMW SLExA ETL> - INFO - Candidate dimension '2.44  x 837 ' split into (2.44, 837.0, None)
+2024-11-29 13:18:59,883 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 1079 ' split into (2.0, 1079.0, None)
+2024-11-29 13:18:59,883 - <EMW SLExA ETL> - INFO - Candidate dimension '2.25 x 1047 ' split into (2.25, 1047.0, None)
+2024-11-29 13:18:59,883 - <EMW SLExA ETL> - INFO - Candidate dimension '1.20  x 1342 ' split into (1.2, 1342.0, None)
+2024-11-29 13:18:59,883 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50   x  858 ' split into (2.5, 858.0, None)
+2024-11-29 13:18:59,884 - <EMW SLExA ETL> - INFO - Candidate dimension '1.60  x 343.8 ' split into (1.6, 343.8, None)
+2024-11-29 13:18:59,884 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80  x 277.4 ' split into (0.8, 277.4, None)
+2024-11-29 13:18:59,884 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 274.5 ' split into (1.5, 274.5, None)
+2024-11-29 13:18:59,884 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00   x 430 ' split into (1.0, 430.0, None)
+2024-11-29 13:18:59,884 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90  x 428 ' split into (0.9, 428.0, None)
+2024-11-29 13:18:59,884 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50 x 223.6 ' split into (1.5, 223.6, None)
+2024-11-29 13:18:59,884 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35   x 341.50 ' split into (1.35, 341.5, None)
+2024-11-29 13:18:59,884 - <EMW SLExA ETL> - INFO - Candidate dimension '1.10  x 351.5 ' split into (1.1, 351.5, None)
+2024-11-29 13:18:59,885 - <EMW SLExA ETL> - INFO - Candidate dimension '1.15  x 341.5 ' split into (1.15, 341.5, None)
+2024-11-29 13:18:59,885 - <EMW SLExA ETL> - INFO - Candidate dimension '2    x 309.20  ' split into (2.0, 309.2, None)
+2024-11-29 13:18:59,885 - <EMW SLExA ETL> - INFO - Candidate dimension '2   x 395.70  ' split into (2.0, 395.7, None)
+2024-11-29 13:18:59,885 - <EMW SLExA ETL> - INFO - Candidate dimension '2   x 294.40  ' split into (2.0, 294.4, None)
+2024-11-29 13:18:59,885 - <EMW SLExA ETL> - INFO - Candidate dimension '1.20  x 340.2 ' split into (1.2, 340.2, None)
+2024-11-29 13:18:59,885 - <EMW SLExA ETL> - INFO - Candidate dimension '1.75 x 185.2 ' split into (1.75, 185.2, None)
+2024-11-29 13:18:59,885 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 340.2 ' split into (1.0, 340.2, None)
+2024-11-29 13:18:59,886 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 349.5 ' split into (1.5, 349.5, None)
+2024-11-29 13:18:59,886 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35  x 371.3 ' split into (1.35, 371.3, None)
+2024-11-29 13:18:59,886 - <EMW SLExA ETL> - INFO - Candidate dimension '1.35  x 341.5 ' split into (1.35, 341.5, None)
+2024-11-29 13:18:59,886 - <EMW SLExA ETL> - INFO - Candidate dimension '1.15  x 341.5 ' split into (1.15, 341.5, None)
+2024-11-29 13:18:59,886 - <EMW SLExA ETL> - INFO - Candidate dimension '0.70   x 560 ' split into (0.7, 560.0, None)
+2024-11-29 13:18:59,886 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50  x 472 ' split into (1.5, 472.0, None)
+2024-11-29 13:18:59,886 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00  x 265 ' split into (3.0, 265.0, None)
+2024-11-29 13:18:59,886 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00  x 340 ' split into (3.0, 340.0, None)
+2024-11-29 13:18:59,887 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00  x 608 ' split into (3.0, 608.0, None)
+2024-11-29 13:18:59,887 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00  x 230 ' split into (1.0, 230.0, None)
+2024-11-29 13:18:59,887 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00   x 157 ' split into (2.0, 157.0, None)
+2024-11-29 13:18:59,887 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00   x 154 ' split into (2.0, 154.0, None)
+2024-11-29 13:18:59,887 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 262 ' split into (2.0, 262.0, None)
+2024-11-29 13:18:59,887 - <EMW SLExA ETL> - INFO - Candidate dimension '2.75  x 440 ' split into (2.75, 440.0, None)
+2024-11-29 13:18:59,887 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00 x 605 ' split into (2.0, 605.0, None)
+2024-11-29 13:18:59,887 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00   x  368 ' split into (2.0, 368.0, None)
+2024-11-29 13:18:59,888 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 340 ' split into (2.0, 340.0, None)
+2024-11-29 13:18:59,888 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 365 ' split into (2.0, 365.0, None)
+2024-11-29 13:18:59,888 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 198 ' split into (2.0, 198.0, None)
+2024-11-29 13:18:59,888 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00  x 306 ' split into (2.0, 306.0, None)
+2024-11-29 13:18:59,888 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50 x 310 ' split into (1.5, 310.0, None)
+2024-11-29 13:18:59,888 - <EMW SLExA ETL> - INFO - Candidate dimension '1.10  x 351.5 ' split into (1.1, 351.5, None)
+2024-11-29 13:18:59,901 - <EMW SLExA ETL> - INFO - Dimensions extracted successfully for column 'Abmessung/mm'.
