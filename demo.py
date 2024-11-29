@@ -368,7 +368,7 @@ if selected_menu == "Dashboard":
                                     df,
                                     x="Dicke_",
                                     nbins=10,
-                                    labels={"Dicke_": "Dicke_", "Anzahl": "Anzahl"},
+                                    labels={"Dicke_": "Dicke_", "count": "Anzahl"},
                                 )
                                 fig_dicke.update_layout(
                                     height=300, width=200
@@ -382,7 +382,7 @@ if selected_menu == "Dashboard":
                                     df,
                                     x="Länge_",
                                     nbins=10,
-                                    labels={"Länge_": "Länge_", "Anzahl": "Anzahl"},
+                                    labels={"Länge_": "Länge_", "count": "Anzahl"},
                                 )
                                 fig_laenge.update_layout(
                                     height=300, width=200

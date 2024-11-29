@@ -127,7 +127,7 @@ class GradeCoatingExtractor:
                 # Remove the shared substring from the coating
                 coating_code = normalized_coating.replace(shared_value, "").strip()
 
-                return coating_code.upper() if coating_code else None
+                return coating_code.upper() if coating_code.strip() else None
 
         except Exception as e:
             # Log or raise the error
