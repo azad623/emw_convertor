@@ -1,24 +1,24 @@
-2024-11-29 13:18:59,673 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HC 340 LAD+Z 100 MBO'.
-2024-11-29 13:18:59,701 - <EMW SLExA ETL> - WARNING - Candidate 'H 420 LAD+Z 100 MBO' at index 83 did not match any reference.
-2024-11-29 13:18:59,714 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HCT 600XD+Z 100 MBO nach DBL 9455.10'.
-2024-11-29 13:18:59,721 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T - DP GI 40/40U nach VW 50065' at index 100 did not match any reference.
-2024-11-29 13:18:59,722 - <EMW SLExA ETL> - WARNING - Candidate 'Dogal 700 LAD+Z 100 MBO' at index 101 did not match any reference.
-2024-11-29 13:18:59,723 - <EMW SLExA ETL> - WARNING - Candidate 'Dogal H 700 LAD+Z 100 MBO' at index 102 did not match any reference.
-2024-11-29 13:18:59,725 - <EMW SLExA ETL> - WARNING - Candidate 'Ford WSS-M1 A368-A 14 Class 3  /analog DL DP 800,mit Oberfläche n. WSS-M1 P94-A 50G50G GI - Class 3' at index 103 did not match any reference.
-2024-11-29 13:18:59,733 - <EMW SLExA ETL> - WARNING - Candidate 'DP 1000 + Z 100 MB O' at index 111 did not match any reference.
-2024-11-29 13:18:59,751 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'CR 3 GI 50/50 BMW 93032-2'.
-2024-11-29 13:18:59,753 - <EMW SLExA ETL> - WARNING - Candidate 'CR 4 GI 40/40 U nach VW Norm 50065' at index 129 did not match any reference.
-2024-11-29 13:18:59,774 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 146 did not match any reference.
-2024-11-29 13:18:59,776 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 147 did not match any reference.
-2024-11-29 13:18:59,777 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 148 did not match any reference.
-2024-11-29 13:18:59,812 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HCT 600 XD + Z 100 MBO'.
-2024-11-29 13:18:59,816 - <EMW SLExA ETL> - WARNING - Candidate 'HDT 950 C + Z 100 MB O' at index 183 did not match any reference.
-2024-11-29 13:18:59,818 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 185 did not match any reference.
-2024-11-29 13:18:59,819 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 186 did not match any reference.
-2024-11-29 13:18:59,821 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 187 did not match any reference.
-2024-11-29 13:18:59,822 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 188 did not match any reference.
-2024-11-29 13:18:59,823 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 189 did not match any reference.
-2024-11-29 13:18:59,824 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 190 did not match any reference.
-2024-11-29 13:18:59,826 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 191 did not match any reference.
-2024-11-29 13:18:59,858 - <EMW SLExA ETL> - WARNING - Candidate 'HXT 600 XD+Z 100 MB O' at index 220 did not match any reference.
-2024-11-29 13:18:59,860 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 221 did not match any reference.
+2024-11-29 14:43:39,253 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HC 340 LAD+Z 100 MBO'.
+2024-11-29 14:43:39,282 - <EMW SLExA ETL> - WARNING - Candidate 'H 420 LAD+Z 100 MBO' at index 83 did not match any reference.
+2024-11-29 14:43:39,295 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HCT 600XD+Z 100 MBO nach DBL 9455.10'.
+2024-11-29 14:43:39,302 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T - DP GI 40/40U nach VW 50065' at index 100 did not match any reference.
+2024-11-29 14:43:39,303 - <EMW SLExA ETL> - WARNING - Candidate 'Dogal 700 LAD+Z 100 MBO' at index 101 did not match any reference.
+2024-11-29 14:43:39,304 - <EMW SLExA ETL> - WARNING - Candidate 'Dogal H 700 LAD+Z 100 MBO' at index 102 did not match any reference.
+2024-11-29 14:43:39,306 - <EMW SLExA ETL> - WARNING - Candidate 'Ford WSS-M1 A368-A 14 Class 3  /analog DL DP 800,mit Oberfläche n. WSS-M1 P94-A 50G50G GI - Class 3' at index 103 did not match any reference.
+2024-11-29 14:43:39,313 - <EMW SLExA ETL> - WARNING - Candidate 'DP 1000 + Z 100 MB O' at index 111 did not match any reference.
+2024-11-29 14:43:39,331 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'CR 3 GI 50/50 BMW 93032-2'.
+2024-11-29 14:43:39,333 - <EMW SLExA ETL> - WARNING - Candidate 'CR 4 GI 40/40 U nach VW Norm 50065' at index 129 did not match any reference.
+2024-11-29 14:43:39,354 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 146 did not match any reference.
+2024-11-29 14:43:39,355 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 147 did not match any reference.
+2024-11-29 14:43:39,357 - <EMW SLExA ETL> - WARNING - Candidate 'CR 330Y590T GI70/70 U nach MBN 11251' at index 148 did not match any reference.
+2024-11-29 14:43:39,391 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'HCT 600 XD + Z 100 MBO'.
+2024-11-29 14:43:39,395 - <EMW SLExA ETL> - WARNING - Candidate 'HDT 950 C + Z 100 MB O' at index 183 did not match any reference.
+2024-11-29 14:43:39,397 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 185 did not match any reference.
+2024-11-29 14:43:39,398 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 186 did not match any reference.
+2024-11-29 14:43:39,399 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 187 did not match any reference.
+2024-11-29 14:43:39,401 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 188 did not match any reference.
+2024-11-29 14:43:39,402 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 40/40 U nach VW 50065' at index 189 did not match any reference.
+2024-11-29 14:43:39,403 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 190 did not match any reference.
+2024-11-29 14:43:39,404 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 191 did not match any reference.
+2024-11-29 14:43:39,436 - <EMW SLExA ETL> - WARNING - Candidate 'HXT 600 XD+Z 100 MB O' at index 220 did not match any reference.
+2024-11-29 14:43:39,438 - <EMW SLExA ETL> - WARNING - Candidate 'CR700Y/980T-DP-GI 50/50 U nach MBN 11251' at index 221 did not match any reference.
