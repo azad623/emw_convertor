@@ -1,0 +1,916 @@
+2024-11-29 14:44:24,597 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '0.80*815*750 DC 04'.
+2024-11-29 14:44:24,598 - <EMW SLExA ETL> - INFO - Candidate '0.80*815*750 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,598 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '0.80*930*740 DC 04'.
+2024-11-29 14:44:24,599 - <EMW SLExA ETL> - INFO - Candidate '0.80*930*740 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,599 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '0.80*870*740 DC 04'.
+2024-11-29 14:44:24,599 - <EMW SLExA ETL> - INFO - Candidate '0.80*870*740 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,600 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*830*750 DC 04'.
+2024-11-29 14:44:24,600 - <EMW SLExA ETL> - INFO - Candidate '1.00*830*750 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,601 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*890*780 DC 04'.
+2024-11-29 14:44:24,601 - <EMW SLExA ETL> - INFO - Candidate '1.00*890*780 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,602 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*920*750 DC 04'.
+2024-11-29 14:44:24,603 - <EMW SLExA ETL> - INFO - Candidate '1.00*920*750 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,603 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*620*650 DC 04'.
+2024-11-29 14:44:24,604 - <EMW SLExA ETL> - INFO - Candidate '1.00*620*650 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,604 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*700*810 DC 04'.
+2024-11-29 14:44:24,605 - <EMW SLExA ETL> - INFO - Candidate '1.50*700*810 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,605 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*900*430 DC 04'.
+2024-11-29 14:44:24,606 - <EMW SLExA ETL> - INFO - Candidate '2.50*900*430 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,606 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*1150*1030 HC 220 Y'.
+2024-11-29 14:44:24,607 - <EMW SLExA ETL> - INFO - Candidate '1.00*1150*1030 HC 220 Y' matched with grade & coating 'HC220Y' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,607 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*980*880 HC 260 Y'.
+2024-11-29 14:44:24,608 - <EMW SLExA ETL> - INFO - Candidate '1.00*980*880 HC 260 Y' matched with grade & coating 'HC260Y' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,608 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*915*1025 HC 260 Y'.
+2024-11-29 14:44:24,609 - <EMW SLExA ETL> - INFO - Candidate '1.00*915*1025 HC 260 Y' matched with grade & coating 'HC260Y' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,609 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*1000*900 HC 260 Y'.
+2024-11-29 14:44:24,609 - <EMW SLExA ETL> - INFO - Candidate '1.00*1000*900 HC 260 Y' matched with grade & coating 'HC260Y' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,610 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*970*855 HC 260 Y'.
+2024-11-29 14:44:24,610 - <EMW SLExA ETL> - INFO - Candidate '1.00*970*855 HC 260 Y' matched with grade & coating 'HC260Y' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,612 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate '2.00*750*550 DX54D + Z100 MBO'.
+2024-11-29 14:44:24,612 - <EMW SLExA ETL> - INFO - Candidate '2.00*750*550 DX54D + Z100 MBO' matched with grade & coating 'DX54D+Z' and coating '100' (Score: 1.00).
+2024-11-29 14:44:24,614 - <EMW SLExA ETL> - INFO - Treatment 'MB' converted to 'MBO' for candidate '1.00*680*287 DX51D ZM250 MBCO'.
+2024-11-29 14:44:24,615 - <EMW SLExA ETL> - INFO - Candidate '1.00*680*287 DX51D ZM250 MBCO' matched with grade & coating 'DX51D+Z' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,616 - <EMW SLExA ETL> - INFO - Treatment 'MB' converted to 'MBO' for candidate '0.45*865*785 DX54D ZM250 MBCO'.
+2024-11-29 14:44:24,616 - <EMW SLExA ETL> - INFO - Candidate '0.45*865*785 DX54D ZM250 MBCO' matched with grade & coating 'DX54D+Z' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,618 - <EMW SLExA ETL> - INFO - Treatment 'MB' converted to 'MBO' for candidate '1.00*800*700 DX54D ZM250 MBCO'.
+2024-11-29 14:44:24,618 - <EMW SLExA ETL> - INFO - Candidate '1.00*800*700 DX54D ZM250 MBCO' matched with grade & coating 'DX54D+Z' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,620 - <EMW SLExA ETL> - INFO - Treatment 'MB' converted to 'MBO' for candidate '1.00*870*802 DX54D ZM250 MBCO'.
+2024-11-29 14:44:24,620 - <EMW SLExA ETL> - INFO - Candidate '1.00*870*802 DX54D ZM250 MBCO' matched with grade & coating 'DX54D+Z' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,621 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*710*570 DD 14 Geb.'.
+2024-11-29 14:44:24,621 - <EMW SLExA ETL> - INFO - Candidate '2.50*710*570 DD 14 Geb.' matched with grade & coating 'DD14' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,622 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*770*650 DD14 Geb.'.
+2024-11-29 14:44:24,622 - <EMW SLExA ETL> - INFO - Candidate '3.00*770*650 DD14 Geb.' matched with grade & coating 'DD14' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,623 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*670*580 DD14 Geb.'.
+2024-11-29 14:44:24,623 - <EMW SLExA ETL> - INFO - Candidate '3.00*670*580 DD14 Geb.' matched with grade & coating 'DD14' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,623 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*1540*520 S235 JR Geb.'.
+2024-11-29 14:44:24,623 - <EMW SLExA ETL> - INFO - Candidate '3.00*1540*520 S235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,624 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*2500*1250 S 355 MC Geb.'.
+2024-11-29 14:44:24,624 - <EMW SLExA ETL> - INFO - Candidate '1.50*2500*1250 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,625 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*2500*1250 S 355 MC Geb.'.
+2024-11-29 14:44:24,626 - <EMW SLExA ETL> - INFO - Candidate '1.50*2500*1250 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,626 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*1500*330 S 355 MC Geb.'.
+2024-11-29 14:44:24,627 - <EMW SLExA ETL> - INFO - Candidate '2.00*1500*330 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,627 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*280*470 S 355 MC Geb.'.
+2024-11-29 14:44:24,628 - <EMW SLExA ETL> - INFO - Candidate '3.00*280*470 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,628 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*380*255 S 355 MC Geb.'.
+2024-11-29 14:44:24,629 - <EMW SLExA ETL> - INFO - Candidate '3.00*380*255 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,629 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*430*370 S 315 MC Geb.'.
+2024-11-29 14:44:24,629 - <EMW SLExA ETL> - INFO - Candidate '3.00*430*370 S 315 MC Geb.' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,630 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*820*650 S 315 MC Geb.'.
+2024-11-29 14:44:24,630 - <EMW SLExA ETL> - INFO - Candidate '3.00*820*650 S 315 MC Geb.' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,631 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*862*193 S 315 MC Geb.'.
+2024-11-29 14:44:24,631 - <EMW SLExA ETL> - INFO - Candidate '4.00*862*193 S 315 MC Geb.' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,632 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*1500*3000 S 500 MC Geb.'.
+2024-11-29 14:44:24,635 - <EMW SLExA ETL> - INFO - Candidate '2.00*1500*3000 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,635 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*650.0 HC 340 LA'.
+2024-11-29 14:44:24,636 - <EMW SLExA ETL> - INFO - Candidate '1.50*650.0 HC 340 LA' matched with grade & coating 'HC340LA' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,636 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*258.0  HC 340 LA'.
+2024-11-29 14:44:24,637 - <EMW SLExA ETL> - INFO - Candidate '1.50*258.0  HC 340 LA' matched with grade & coating 'HC340LA' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,637 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*137.0 DD 11 Geb.'.
+2024-11-29 14:44:24,637 - <EMW SLExA ETL> - INFO - Candidate '2.00*137.0 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,638 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*268.0 DD 11 Geb.'.
+2024-11-29 14:44:24,638 - <EMW SLExA ETL> - INFO - Candidate '2.00*268.0 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,639 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*160.0 DD 11 Geb.'.
+2024-11-29 14:44:24,639 - <EMW SLExA ETL> - INFO - Candidate '2.00*160.0 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,640 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*422.0 DD 11 Geb.'.
+2024-11-29 14:44:24,640 - <EMW SLExA ETL> - INFO - Candidate '2.50*422.0 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,641 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*200.0 DD 11 Geb.'.
+2024-11-29 14:44:24,641 - <EMW SLExA ETL> - INFO - Candidate '3.00*200.0 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,642 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*188.0 DD 11 Geb.'.
+2024-11-29 14:44:24,642 - <EMW SLExA ETL> - INFO - Candidate '3.00*188.0 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,642 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*375.0 DD 11 Geb.'.
+2024-11-29 14:44:24,643 - <EMW SLExA ETL> - INFO - Candidate '3.00*375.0 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,643 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*155.0 DD 11 Geb.'.
+2024-11-29 14:44:24,643 - <EMW SLExA ETL> - INFO - Candidate '3.00*155.0 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,644 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*82.00 DD 11 Geb.'.
+2024-11-29 14:44:24,644 - <EMW SLExA ETL> - INFO - Candidate '4.00*82.00 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,645 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*147.00 DD 11 Geb.'.
+2024-11-29 14:44:24,645 - <EMW SLExA ETL> - INFO - Candidate '4.00*147.00 DD 11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,646 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*86.0 DD11 Geb.'.
+2024-11-29 14:44:24,646 - <EMW SLExA ETL> - INFO - Candidate '5.00*86.0 DD11 Geb.' matched with grade & coating 'DD11' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,647 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*516.0 DD 14 Geb.'.
+2024-11-29 14:44:24,647 - <EMW SLExA ETL> - INFO - Candidate '2.50*516.0 DD 14 Geb.' matched with grade & coating 'DD14' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,648 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*102.0 DD 14 Geb.'.
+2024-11-29 14:44:24,648 - <EMW SLExA ETL> - INFO - Candidate '3.00*102.0 DD 14 Geb.' matched with grade & coating 'DD14' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,649 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*129.0 DD 14 Geb.'.
+2024-11-29 14:44:24,649 - <EMW SLExA ETL> - INFO - Candidate '4.00*129.0 DD 14 Geb.' matched with grade & coating 'DD14' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,650 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*355.0 DD 14 Geb.'.
+2024-11-29 14:44:24,650 - <EMW SLExA ETL> - INFO - Candidate '4.00*355.0 DD 14 Geb.' matched with grade & coating 'DD14' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,650 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*181.5 S 235 JR Geb.'.
+2024-11-29 14:44:24,651 - <EMW SLExA ETL> - INFO - Candidate '1.50*181.5 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,651 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*440.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,651 - <EMW SLExA ETL> - INFO - Candidate '1.50*440.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,652 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*84.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,652 - <EMW SLExA ETL> - INFO - Candidate '2.00*84.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,653 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*186.4 S 235 JR Geb.'.
+2024-11-29 14:44:24,653 - <EMW SLExA ETL> - INFO - Candidate '2.00*186.4 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,654 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*160.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,654 - <EMW SLExA ETL> - INFO - Candidate '3.00*160.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,655 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*194.5 S 235 JR Geb.'.
+2024-11-29 14:44:24,655 - <EMW SLExA ETL> - INFO - Candidate '3.00*194.5 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,656 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*337.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,656 - <EMW SLExA ETL> - INFO - Candidate '3.00*337.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,657 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*235.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,657 - <EMW SLExA ETL> - INFO - Candidate '3.00*235.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,657 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*220.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,658 - <EMW SLExA ETL> - INFO - Candidate '3.00*220.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,658 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*291.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,658 - <EMW SLExA ETL> - INFO - Candidate '3.00*291.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,659 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*40.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,659 - <EMW SLExA ETL> - INFO - Candidate '4.00*40.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,660 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*46.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,660 - <EMW SLExA ETL> - INFO - Candidate '4.00*46.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,661 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*172.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,661 - <EMW SLExA ETL> - INFO - Candidate '4.00*172.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,662 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*222.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,662 - <EMW SLExA ETL> - INFO - Candidate '4.00*222.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,663 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.98*308.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,663 - <EMW SLExA ETL> - INFO - Candidate '4.98*308.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,664 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*404.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,664 - <EMW SLExA ETL> - INFO - Candidate '5.00*404.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,664 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*380.5 S 235 JR Geb.'.
+2024-11-29 14:44:24,665 - <EMW SLExA ETL> - INFO - Candidate '5.00*380.5 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,665 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '6.00*95.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,665 - <EMW SLExA ETL> - INFO - Candidate '6.00*95.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,666 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*110.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,666 - <EMW SLExA ETL> - INFO - Candidate '8.00*110.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,667 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*230.0 S 235 JR Geb.'.
+2024-11-29 14:44:24,667 - <EMW SLExA ETL> - INFO - Candidate '8.00*230.0 S 235 JR Geb.' matched with grade & coating 'S235JR' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,668 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*40.0 S 315 MC Geb.'.
+2024-11-29 14:44:24,668 - <EMW SLExA ETL> - INFO - Candidate '2.00*40.0 S 315 MC Geb.' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,669 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*112.0 S315mc'.
+2024-11-29 14:44:24,669 - <EMW SLExA ETL> - INFO - Candidate '2.50*112.0 S315mc' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,670 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*84.0 S 315 MC Geb.'.
+2024-11-29 14:44:24,670 - <EMW SLExA ETL> - INFO - Candidate '3.00*84.0 S 315 MC Geb.' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,671 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*210.0 S 315 MC Geb.'.
+2024-11-29 14:44:24,671 - <EMW SLExA ETL> - INFO - Candidate '4.00*210.0 S 315 MC Geb.' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,672 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*130.0 S315 MC'.
+2024-11-29 14:44:24,672 - <EMW SLExA ETL> - INFO - Candidate '4.00*130.0 S315 MC' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,673 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00* 55.0 S315 MC'.
+2024-11-29 14:44:24,673 - <EMW SLExA ETL> - INFO - Candidate '4.00* 55.0 S315 MC' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,673 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*65.0 S315 MC'.
+2024-11-29 14:44:24,673 - <EMW SLExA ETL> - INFO - Candidate '4.00*65.0 S315 MC' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,674 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*45.00 S315 MC GEB'.
+2024-11-29 14:44:24,674 - <EMW SLExA ETL> - INFO - Candidate '4.00*45.00 S315 MC GEB' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,675 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*77.00 S315 MC GEB'.
+2024-11-29 14:44:24,675 - <EMW SLExA ETL> - INFO - Candidate '4.00*77.00 S315 MC GEB' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,676 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*75.0 S315 MC'.
+2024-11-29 14:44:24,676 - <EMW SLExA ETL> - INFO - Candidate '5.00*75.0 S315 MC' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,677 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*92.00 S315 MC GEB'.
+2024-11-29 14:44:24,677 - <EMW SLExA ETL> - INFO - Candidate '5.00*92.00 S315 MC GEB' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,678 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*65.00 S315 MC GEB'.
+2024-11-29 14:44:24,678 - <EMW SLExA ETL> - INFO - Candidate '5.00*65.00 S315 MC GEB' matched with grade & coating 'S315MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,679 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*61.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,679 - <EMW SLExA ETL> - INFO - Candidate '1.50*61.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,680 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*563.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,680 - <EMW SLExA ETL> - INFO - Candidate '1.50*563.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,681 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '10.0*90.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,681 - <EMW SLExA ETL> - INFO - Candidate '10.0*90.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,682 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '10.0*80.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,682 - <EMW SLExA ETL> - INFO - Candidate '10.0*80.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,683 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*57.1 S 355 MC Geb.'.
+2024-11-29 14:44:24,683 - <EMW SLExA ETL> - INFO - Candidate '2.00*57.1 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,684 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*129.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,684 - <EMW SLExA ETL> - INFO - Candidate '2.00*129.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,685 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*165.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,685 - <EMW SLExA ETL> - INFO - Candidate '2.00*165.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,686 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*123.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,686 - <EMW SLExA ETL> - INFO - Candidate '2.00*123.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,687 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*92.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,687 - <EMW SLExA ETL> - INFO - Candidate '2.00*92.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,688 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*318.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,688 - <EMW SLExA ETL> - INFO - Candidate '2.00*318.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,689 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*234.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,689 - <EMW SLExA ETL> - INFO - Candidate '2.00*234.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,690 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*716.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,690 - <EMW SLExA ETL> - INFO - Candidate '2.00*716.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,691 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*195.0  S 355 Mc'.
+2024-11-29 14:44:24,691 - <EMW SLExA ETL> - INFO - Candidate '2.00*195.0  S 355 Mc' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,692 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00 *  42.0 S355mc      27260'.
+2024-11-29 14:44:24,692 - <EMW SLExA ETL> - INFO - Candidate '2.00 *  42.0 S355mc      27260' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,693 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*60.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,693 - <EMW SLExA ETL> - INFO - Candidate '2.50*60.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,694 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*184.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,694 - <EMW SLExA ETL> - INFO - Candidate '2.50*184.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,695 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*214.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,695 - <EMW SLExA ETL> - INFO - Candidate '2.50*214.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,696 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*230.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,696 - <EMW SLExA ETL> - INFO - Candidate '3.00*230.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,697 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*355.8 S 355 MC Geb.'.
+2024-11-29 14:44:24,697 - <EMW SLExA ETL> - INFO - Candidate '3.00*355.8 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,698 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*48.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,698 - <EMW SLExA ETL> - INFO - Candidate '3.00*48.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,699 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*139.5 S 355 MC Geb.'.
+2024-11-29 14:44:24,699 - <EMW SLExA ETL> - INFO - Candidate '3.00*139.5 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,700 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*320.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,700 - <EMW SLExA ETL> - INFO - Candidate '3.00*320.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,701 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*119.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,701 - <EMW SLExA ETL> - INFO - Candidate '3.00*119.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,702 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*193.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,702 - <EMW SLExA ETL> - INFO - Candidate '3.00*193.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,703 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*179.0 S 355 MC Geb. (50596)'.
+2024-11-29 14:44:24,703 - <EMW SLExA ETL> - INFO - Candidate '3.00*179.0 S 355 MC Geb. (50596)' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,704 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*115.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,704 - <EMW SLExA ETL> - INFO - Candidate '3.00*115.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,705 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*240.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,705 - <EMW SLExA ETL> - INFO - Candidate '3.00*240.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,706 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*600.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,706 - <EMW SLExA ETL> - INFO - Candidate '3.00*600.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,707 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*357.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,707 - <EMW SLExA ETL> - INFO - Candidate '3.00*357.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,708 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*158.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,708 - <EMW SLExA ETL> - INFO - Candidate '3.00*158.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,709 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*360.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,709 - <EMW SLExA ETL> - INFO - Candidate '3.00*360.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,710 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*166.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,710 - <EMW SLExA ETL> - INFO - Candidate '3.00*166.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,711 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*328.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,711 - <EMW SLExA ETL> - INFO - Candidate '3.00*328.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,712 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*348.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,712 - <EMW SLExA ETL> - INFO - Candidate '3.00*348.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,713 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*430.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,713 - <EMW SLExA ETL> - INFO - Candidate '3.00*430.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,714 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*415.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,714 - <EMW SLExA ETL> - INFO - Candidate '3.00*415.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,715 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*246.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,715 - <EMW SLExA ETL> - INFO - Candidate '3.00*246.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,716 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*182.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,716 - <EMW SLExA ETL> - INFO - Candidate '3.00*182.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,717 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*218.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,717 - <EMW SLExA ETL> - INFO - Candidate '3.00*218.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,718 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*225.0 S355 MC Geb.'.
+2024-11-29 14:44:24,718 - <EMW SLExA ETL> - INFO - Candidate '3.00*225.0 S355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,719 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*392.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,719 - <EMW SLExA ETL> - INFO - Candidate '3.00*392.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,720 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*380.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,720 - <EMW SLExA ETL> - INFO - Candidate '3.00*380.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,721 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*90.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,721 - <EMW SLExA ETL> - INFO - Candidate '3.00*90.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,722 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*150.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,722 - <EMW SLExA ETL> - INFO - Candidate '3.00*150.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,723 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*334.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,723 - <EMW SLExA ETL> - INFO - Candidate '3.00*334.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,723 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*470.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,724 - <EMW SLExA ETL> - INFO - Candidate '3.00*470.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,724 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*504.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,725 - <EMW SLExA ETL> - INFO - Candidate '3.00*504.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,725 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*574.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,726 - <EMW SLExA ETL> - INFO - Candidate '3.00*574.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,726 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*228.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,727 - <EMW SLExA ETL> - INFO - Candidate '3.00*228.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,727 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*245.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,727 - <EMW SLExA ETL> - INFO - Candidate '3.00*245.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,728 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*362.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,728 - <EMW SLExA ETL> - INFO - Candidate '3.00*362.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,729 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*218.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,729 - <EMW SLExA ETL> - INFO - Candidate '3.00*218.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,730 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*454.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,730 - <EMW SLExA ETL> - INFO - Candidate '3.00*454.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,731 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*310.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,731 - <EMW SLExA ETL> - INFO - Candidate '3.00*310.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,732 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*202.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,732 - <EMW SLExA ETL> - INFO - Candidate '3.00*202.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,733 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*280.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,734 - <EMW SLExA ETL> - INFO - Candidate '3.00*280.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,735 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*53.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,735 - <EMW SLExA ETL> - INFO - Candidate '3.00*53.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,736 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*222.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,736 - <EMW SLExA ETL> - INFO - Candidate '3.00*222.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,737 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*197.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,737 - <EMW SLExA ETL> - INFO - Candidate '3.00*197.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,738 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*82.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,738 - <EMW SLExA ETL> - INFO - Candidate '3.00*82.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,739 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*292.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,739 - <EMW SLExA ETL> - INFO - Candidate '3.00*292.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,740 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00 *  50.0 S355mc      25050'.
+2024-11-29 14:44:24,741 - <EMW SLExA ETL> - INFO - Candidate '3.00 *  50.0 S355mc      25050' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,742 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00 * 154.5 S355mc      25312'.
+2024-11-29 14:44:24,742 - <EMW SLExA ETL> - INFO - Candidate '3.00 * 154.5 S355mc      25312' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,743 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*53.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,743 - <EMW SLExA ETL> - INFO - Candidate '3.00*53.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,744 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00 *  62.0 S355mc      25242'.
+2024-11-29 14:44:24,744 - <EMW SLExA ETL> - INFO - Candidate '3.00 *  62.0 S355mc      25242' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,745 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*58.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,745 - <EMW SLExA ETL> - INFO - Candidate '3.00*58.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,746 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.50*139.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,746 - <EMW SLExA ETL> - INFO - Candidate '3.50*139.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,747 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*584.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,747 - <EMW SLExA ETL> - INFO - Candidate '4.00*584.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,748 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*38.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,748 - <EMW SLExA ETL> - INFO - Candidate '4.00*38.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,749 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*390.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,749 - <EMW SLExA ETL> - INFO - Candidate '4.00*390.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,750 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*78.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,750 - <EMW SLExA ETL> - INFO - Candidate '4.00*78.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,751 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*225.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,752 - <EMW SLExA ETL> - INFO - Candidate '4.00*225.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,752 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*250.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,753 - <EMW SLExA ETL> - INFO - Candidate '4.00*250.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,753 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*94.5 S 355 MC Geb.'.
+2024-11-29 14:44:24,754 - <EMW SLExA ETL> - INFO - Candidate '4.00*94.5 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,754 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*252.2 S 355 MC Geb.'.
+2024-11-29 14:44:24,755 - <EMW SLExA ETL> - INFO - Candidate '4.00*252.2 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,755 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*398.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,756 - <EMW SLExA ETL> - INFO - Candidate '4.00*398.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,756 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*315.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,756 - <EMW SLExA ETL> - INFO - Candidate '4.00*315.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,757 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*490.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,757 - <EMW SLExA ETL> - INFO - Candidate '4.00*490.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,758 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*200.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,759 - <EMW SLExA ETL> - INFO - Candidate '4.00*200.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,759 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*98.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,760 - <EMW SLExA ETL> - INFO - Candidate '4.00*98.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,760 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*373.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,761 - <EMW SLExA ETL> - INFO - Candidate '4.00*373.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,761 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*190.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,761 - <EMW SLExA ETL> - INFO - Candidate '4.00*190.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,763 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*258.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,763 - <EMW SLExA ETL> - INFO - Candidate '4.00*258.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,764 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*230.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,764 - <EMW SLExA ETL> - INFO - Candidate '4.00*230.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,765 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*552.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,765 - <EMW SLExA ETL> - INFO - Candidate '4.00*552.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,766 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*250.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,766 - <EMW SLExA ETL> - INFO - Candidate '4.00*250.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,767 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*335.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,767 - <EMW SLExA ETL> - INFO - Candidate '4.00*335.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,768 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00 *  53.0 S355mc      24937'.
+2024-11-29 14:44:24,768 - <EMW SLExA ETL> - INFO - Candidate '4.00 *  53.0 S355mc      24937' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,769 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*150.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,769 - <EMW SLExA ETL> - INFO - Candidate '4.00*150.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,770 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*153.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,770 - <EMW SLExA ETL> - INFO - Candidate '4.00*153.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,770 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*223.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,771 - <EMW SLExA ETL> - INFO - Candidate '5.00*223.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,772 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*475.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,772 - <EMW SLExA ETL> - INFO - Candidate '5.00*475.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,772 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*302.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,773 - <EMW SLExA ETL> - INFO - Candidate '5.00*302.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,774 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*429.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,774 - <EMW SLExA ETL> - INFO - Candidate '5.00*429.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,774 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*295.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,775 - <EMW SLExA ETL> - INFO - Candidate '5.00*295.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,775 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*150.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,776 - <EMW SLExA ETL> - INFO - Candidate '5.00*150.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,776 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*271.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,777 - <EMW SLExA ETL> - INFO - Candidate '5.00*271.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,777 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*131.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,777 - <EMW SLExA ETL> - INFO - Candidate '5.00*131.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,778 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '5.00*125.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,779 - <EMW SLExA ETL> - INFO - Candidate '5.00*125.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,779 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '6.00*380.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,780 - <EMW SLExA ETL> - INFO - Candidate '6.00*380.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,780 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '6.00*134.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,780 - <EMW SLExA ETL> - INFO - Candidate '6.00*134.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,781 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '6.00*45.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,781 - <EMW SLExA ETL> - INFO - Candidate '6.00*45.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,782 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '6.00*90.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,782 - <EMW SLExA ETL> - INFO - Candidate '6.00*90.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,783 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '6.00*236.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,783 - <EMW SLExA ETL> - INFO - Candidate '6.00*236.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,784 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '6.00*375.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,784 - <EMW SLExA ETL> - INFO - Candidate '6.00*375.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,785 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '7.00*235.2 S 355 MC Geb.'.
+2024-11-29 14:44:24,785 - <EMW SLExA ETL> - INFO - Candidate '7.00*235.2 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,786 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '7.00*353.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,786 - <EMW SLExA ETL> - INFO - Candidate '7.00*353.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,787 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '7.85*167.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,787 - <EMW SLExA ETL> - INFO - Candidate '7.85*167.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,788 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '7.85*234.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,788 - <EMW SLExA ETL> - INFO - Candidate '7.85*234.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,789 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*134.5 S 355 MC Geb.'.
+2024-11-29 14:44:24,789 - <EMW SLExA ETL> - INFO - Candidate '8.00*134.5 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,790 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*206.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,790 - <EMW SLExA ETL> - INFO - Candidate '8.00*206.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,791 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*89.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,791 - <EMW SLExA ETL> - INFO - Candidate '8.00*89.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,792 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*122.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,792 - <EMW SLExA ETL> - INFO - Candidate '8.00*122.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,793 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*190.0 S 355 MC Geb.'.
+2024-11-29 14:44:24,793 - <EMW SLExA ETL> - INFO - Candidate '8.00*190.0 S 355 MC Geb.' matched with grade & coating 'S355MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,794 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*600.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,794 - <EMW SLExA ETL> - INFO - Candidate '2.00*600.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,795 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*164.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,795 - <EMW SLExA ETL> - INFO - Candidate '2.00*164.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,796 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*588.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,796 - <EMW SLExA ETL> - INFO - Candidate '2.00*588.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,797 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*800.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,798 - <EMW SLExA ETL> - INFO - Candidate '2.00*800.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,798 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*76.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,799 - <EMW SLExA ETL> - INFO - Candidate '2.00*76.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,799 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*59.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,800 - <EMW SLExA ETL> - INFO - Candidate '2.00*59.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,800 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*149.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,801 - <EMW SLExA ETL> - INFO - Candidate '2.00*149.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,802 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*131.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,802 - <EMW SLExA ETL> - INFO - Candidate '2.00*131.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,803 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*800.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,803 - <EMW SLExA ETL> - INFO - Candidate '2.50*800.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,804 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*132.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,804 - <EMW SLExA ETL> - INFO - Candidate '3.00*132.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,805 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*249.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,805 - <EMW SLExA ETL> - INFO - Candidate '3.00*249.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,806 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*498.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,806 - <EMW SLExA ETL> - INFO - Candidate '3.00*498.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,807 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*193.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,807 - <EMW SLExA ETL> - INFO - Candidate '3.00*193.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,808 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*282.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,808 - <EMW SLExA ETL> - INFO - Candidate '3.00*282.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,809 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*104.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,809 - <EMW SLExA ETL> - INFO - Candidate '3.00*104.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,810 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*800.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,810 - <EMW SLExA ETL> - INFO - Candidate '3.00*800.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,811 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*80.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,812 - <EMW SLExA ETL> - INFO - Candidate '3.00*80.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,812 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.50*397.5 S 420 MC Geb.'.
+2024-11-29 14:44:24,813 - <EMW SLExA ETL> - INFO - Candidate '3.50*397.5 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,813 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.50*442.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,814 - <EMW SLExA ETL> - INFO - Candidate '3.50*442.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,815 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.50*582.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,815 - <EMW SLExA ETL> - INFO - Candidate '3.50*582.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,816 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*103.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,816 - <EMW SLExA ETL> - INFO - Candidate '4.00*103.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,817 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*254.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,817 - <EMW SLExA ETL> - INFO - Candidate '4.00*254.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,818 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*400.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,818 - <EMW SLExA ETL> - INFO - Candidate '4.00*400.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,819 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*310.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,819 - <EMW SLExA ETL> - INFO - Candidate '4.00*310.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,820 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*442.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,820 - <EMW SLExA ETL> - INFO - Candidate '4.00*442.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,821 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*400.0 S 420 MC Geb.'.
+2024-11-29 14:44:24,821 - <EMW SLExA ETL> - INFO - Candidate '4.00*400.0 S 420 MC Geb.' matched with grade & coating 'S420MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,821 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*178.0 S 500 MC Geb.'.
+2024-11-29 14:44:24,822 - <EMW SLExA ETL> - INFO - Candidate '2.00*178.0 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,823 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*393.0 S 500 MC Geb.'.
+2024-11-29 14:44:24,823 - <EMW SLExA ETL> - INFO - Candidate '2.00*393.0 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,824 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*56.0 S 500 MC Geb.'.
+2024-11-29 14:44:24,824 - <EMW SLExA ETL> - INFO - Candidate '2.50*56.0 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,825 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*520.0 S 500 MC Geb.'.
+2024-11-29 14:44:24,825 - <EMW SLExA ETL> - INFO - Candidate '2.50*520.0 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,826 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*235.0 S 500 MC Geb.'.
+2024-11-29 14:44:24,826 - <EMW SLExA ETL> - INFO - Candidate '3.00*235.0 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,827 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*607.0 S 500 MC Geb.'.
+2024-11-29 14:44:24,827 - <EMW SLExA ETL> - INFO - Candidate '4.00*607.0 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,828 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '6.00*123.0 S 500 MC Geb.'.
+2024-11-29 14:44:24,828 - <EMW SLExA ETL> - INFO - Candidate '6.00*123.0 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,828 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*90.0 S 500 MC Geb.'.
+2024-11-29 14:44:24,829 - <EMW SLExA ETL> - INFO - Candidate '8.00*90.0 S 500 MC Geb.' matched with grade & coating 'S500MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,829 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*119.0 S 550 MC Geb.'.
+2024-11-29 14:44:24,829 - <EMW SLExA ETL> - INFO - Candidate '4.00*119.0 S 550 MC Geb.' matched with grade & coating 'S550MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,830 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '4.00*254.0 S 550 MC Geb.'.
+2024-11-29 14:44:24,830 - <EMW SLExA ETL> - INFO - Candidate '4.00*254.0 S 550 MC Geb.' matched with grade & coating 'S550MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,831 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*68.0 S 550 MC Geb.'.
+2024-11-29 14:44:24,831 - <EMW SLExA ETL> - INFO - Candidate '8.00*68.0 S 550 MC Geb.' matched with grade & coating 'S550MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,832 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*111.0 S 550 MC Geb.'.
+2024-11-29 14:44:24,832 - <EMW SLExA ETL> - INFO - Candidate '8.00*111.0 S 550 MC Geb.' matched with grade & coating 'S550MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,833 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '8.00*58.0 S 550 MC Geb.'.
+2024-11-29 14:44:24,833 - <EMW SLExA ETL> - INFO - Candidate '8.00*58.0 S 550 MC Geb.' matched with grade & coating 'S550MC' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,834 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '0.90* 64.00 DC01 A'.
+2024-11-29 14:44:24,834 - <EMW SLExA ETL> - INFO - Candidate '0.90* 64.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,835 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '0.90* 110.00 DC01 A'.
+2024-11-29 14:44:24,835 - <EMW SLExA ETL> - INFO - Candidate '0.90* 110.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,836 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*318.7 DC 01'.
+2024-11-29 14:44:24,836 - <EMW SLExA ETL> - INFO - Candidate '1.00*318.7 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,837 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*641.0 DC 01'.
+2024-11-29 14:44:24,837 - <EMW SLExA ETL> - INFO - Candidate '1.00*641.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,838 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*631.0 DC 01'.
+2024-11-29 14:44:24,838 - <EMW SLExA ETL> - INFO - Candidate '1.00*631.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,839 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*177.0  DC 01'.
+2024-11-29 14:44:24,839 - <EMW SLExA ETL> - INFO - Candidate '1.00*177.0  DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,840 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*320.0 DC 01'.
+2024-11-29 14:44:24,840 - <EMW SLExA ETL> - INFO - Candidate '1.00*320.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,841 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*85.0 DC 01'.
+2024-11-29 14:44:24,841 - <EMW SLExA ETL> - INFO - Candidate '1.00*85.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,841 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*125.0 DC 01'.
+2024-11-29 14:44:24,842 - <EMW SLExA ETL> - INFO - Candidate '1.50*125.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,842 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*226.0 DC 01'.
+2024-11-29 14:44:24,843 - <EMW SLExA ETL> - INFO - Candidate '1.50*226.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,843 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*113.0 DC 01'.
+2024-11-29 14:44:24,844 - <EMW SLExA ETL> - INFO - Candidate '1.50*113.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,844 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*150.0 DC 01'.
+2024-11-29 14:44:24,844 - <EMW SLExA ETL> - INFO - Candidate '1.50*150.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,845 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*157.0 DC 01'.
+2024-11-29 14:44:24,845 - <EMW SLExA ETL> - INFO - Candidate '1.50*157.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,846 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*172.0 DC 01'.
+2024-11-29 14:44:24,846 - <EMW SLExA ETL> - INFO - Candidate '1.50*172.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,847 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*155.0 DC 01'.
+2024-11-29 14:44:24,847 - <EMW SLExA ETL> - INFO - Candidate '1.50*155.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,848 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50* 85.00 DC01 A'.
+2024-11-29 14:44:24,848 - <EMW SLExA ETL> - INFO - Candidate '1.50* 85.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,849 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50* 105.00 DC01 A'.
+2024-11-29 14:44:24,849 - <EMW SLExA ETL> - INFO - Candidate '1.50* 105.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,858 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*68.0 DC 01'.
+2024-11-29 14:44:24,859 - <EMW SLExA ETL> - INFO - Candidate '2.00*68.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,867 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*430.0 DC 01'.
+2024-11-29 14:44:24,868 - <EMW SLExA ETL> - INFO - Candidate '2.00*430.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,871 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*84.0 DC01
+'.
+2024-11-29 14:44:24,872 - <EMW SLExA ETL> - INFO - Candidate '2.00*84.0 DC01
+' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,876 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*145.0 DC01 A'.
+2024-11-29 14:44:24,877 - <EMW SLExA ETL> - INFO - Candidate '2.00*145.0 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,880 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00* 31.00 DC01A    '.
+2024-11-29 14:44:24,880 - <EMW SLExA ETL> - INFO - Candidate '2.00* 31.00 DC01A    ' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,882 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00* 45.00 DC01 A'.
+2024-11-29 14:44:24,882 - <EMW SLExA ETL> - INFO - Candidate '2.00* 45.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,891 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00* 100.00 DC01 A'.
+2024-11-29 14:44:24,904 - <EMW SLExA ETL> - INFO - Candidate '2.00* 100.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,916 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*460.0 DC 01'.
+2024-11-29 14:44:24,916 - <EMW SLExA ETL> - INFO - Candidate '2.50*460.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,918 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50* 72.00 DC01 A'.
+2024-11-29 14:44:24,918 - <EMW SLExA ETL> - INFO - Candidate '2.50* 72.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,919 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50* 95.00 DC01 A'.
+2024-11-29 14:44:24,919 - <EMW SLExA ETL> - INFO - Candidate '2.50* 95.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,920 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50* 200.00 DC01 A'.
+2024-11-29 14:44:24,920 - <EMW SLExA ETL> - INFO - Candidate '2.50* 200.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,921 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*395.0 DC 01'.
+2024-11-29 14:44:24,921 - <EMW SLExA ETL> - INFO - Candidate '3.00*395.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,922 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*175.0 DC 01'.
+2024-11-29 14:44:24,922 - <EMW SLExA ETL> - INFO - Candidate '3.00*175.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,923 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*85.0 DC 01'.
+2024-11-29 14:44:24,923 - <EMW SLExA ETL> - INFO - Candidate '3.00*85.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,924 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*72.0 DC 01'.
+2024-11-29 14:44:24,924 - <EMW SLExA ETL> - INFO - Candidate '3.00*72.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,925 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*80.0 DC 01'.
+2024-11-29 14:44:24,925 - <EMW SLExA ETL> - INFO - Candidate '3.00*80.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,926 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00*70.0 DC 01'.
+2024-11-29 14:44:24,926 - <EMW SLExA ETL> - INFO - Candidate '3.00*70.0 DC 01' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,927 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00* 70.00 DC01 A'.
+2024-11-29 14:44:24,927 - <EMW SLExA ETL> - INFO - Candidate '3.00* 70.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,928 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00* 78.00 DC01 A'.
+2024-11-29 14:44:24,928 - <EMW SLExA ETL> - INFO - Candidate '3.00* 78.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,929 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00* 116.00 DC01 A'.
+2024-11-29 14:44:24,929 - <EMW SLExA ETL> - INFO - Candidate '3.00* 116.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,930 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '3.00* 226.00 DC01 A'.
+2024-11-29 14:44:24,930 - <EMW SLExA ETL> - INFO - Candidate '3.00* 226.00 DC01 A' matched with grade & coating 'DC01' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,931 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*209.0 DC 04'.
+2024-11-29 14:44:24,931 - <EMW SLExA ETL> - INFO - Candidate '1.00*209.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,932 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*305.0 DC 04'.
+2024-11-29 14:44:24,932 - <EMW SLExA ETL> - INFO - Candidate '1.50*305.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,933 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*380.0 DC 04'.
+2024-11-29 14:44:24,933 - <EMW SLExA ETL> - INFO - Candidate '1.50*380.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,934 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*520.0 DC 04'.
+2024-11-29 14:44:24,934 - <EMW SLExA ETL> - INFO - Candidate '1.50*520.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,935 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*45.0 DC 04'.
+2024-11-29 14:44:24,935 - <EMW SLExA ETL> - INFO - Candidate '1.50*45.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,936 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*725.0 DC 04'.
+2024-11-29 14:44:24,936 - <EMW SLExA ETL> - INFO - Candidate '1.50*725.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,937 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*785.0 DC 04'.
+2024-11-29 14:44:24,937 - <EMW SLExA ETL> - INFO - Candidate '1.50*785.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,938 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*595.0 DC 04'.
+2024-11-29 14:44:24,939 - <EMW SLExA ETL> - INFO - Candidate '1.50*595.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,940 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.50*734.0 DC 04'.
+2024-11-29 14:44:24,941 - <EMW SLExA ETL> - INFO - Candidate '1.50*734.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,941 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*396.3 DC 04'.
+2024-11-29 14:44:24,942 - <EMW SLExA ETL> - INFO - Candidate '2.00*396.3 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,942 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*629.0 DC 04'.
+2024-11-29 14:44:24,943 - <EMW SLExA ETL> - INFO - Candidate '2.00*629.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,943 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*286.0 DC 04'.
+2024-11-29 14:44:24,943 - <EMW SLExA ETL> - INFO - Candidate '2.00*286.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,944 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*650.0 DC 04'.
+2024-11-29 14:44:24,949 - <EMW SLExA ETL> - INFO - Candidate '2.00*650.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,952 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*725.0 DC 04'.
+2024-11-29 14:44:24,954 - <EMW SLExA ETL> - INFO - Candidate '2.00*725.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,956 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*800.0 DC 04'.
+2024-11-29 14:44:24,956 - <EMW SLExA ETL> - INFO - Candidate '2.00*800.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,958 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*115.0 DC 04'.
+2024-11-29 14:44:24,958 - <EMW SLExA ETL> - INFO - Candidate '2.50*115.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,960 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.50*305.0 DC 04'.
+2024-11-29 14:44:24,960 - <EMW SLExA ETL> - INFO - Candidate '2.50*305.0 DC 04' matched with grade & coating 'DC04' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:24,964 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '1.00*169.0 DX51D Z275'.
+2024-11-29 14:44:24,964 - <EMW SLExA ETL> - INFO - Candidate '1.00*169.0 DX51D Z275' matched with grade & coating 'DX51D+Z' and coating '275' (Score: 1.00).
+2024-11-29 14:44:24,974 - <EMW SLExA ETL> - INFO - Treatment 'mac' found in candidate '1.00*78.0 DX51D Z275 MAC'.
+2024-11-29 14:44:24,975 - <EMW SLExA ETL> - INFO - Candidate '1.00*78.0 DX51D Z275 MAC' matched with grade & coating 'DX51D+Z' and coating '275' (Score: 1.00).
+2024-11-29 14:44:24,993 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*244.0 DX51D Z275 NAC'.
+2024-11-29 14:44:25,004 - <EMW SLExA ETL> - INFO - Candidate '2.00*244.0 DX51D Z275 NAC' matched with grade & coating 'DX51D+Z' and coating '275' (Score: 1.00).
+2024-11-29 14:44:25,007 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*610.0 DX51D Z275 NAC'.
+2024-11-29 14:44:25,007 - <EMW SLExA ETL> - INFO - Candidate '2.00*610.0 DX51D Z275 NAC' matched with grade & coating 'DX51D+Z' and coating '275' (Score: 1.00).
+2024-11-29 14:44:25,009 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate '2.00*303.0 DX51D Z275 NAC'.
+2024-11-29 14:44:25,010 - <EMW SLExA ETL> - INFO - Candidate '2.00*303.0 DX51D Z275 NAC' matched with grade & coating 'DX51D+Z' and coating '275' (Score: 1.00).
+2024-11-29 14:44:25,011 - <EMW SLExA ETL> - INFO - Treatment 'mac' found in candidate '1.50*230.0 Dx53d+z140mac 28004'.
+2024-11-29 14:44:25,011 - <EMW SLExA ETL> - INFO - Candidate '1.50*230.0 Dx53d+z140mac 28004' matched with grade & coating 'DX53D+Z' and coating '140' (Score: 1.00).
+2024-11-29 14:44:25,023 - <EMW SLExA ETL> - INFO - Treatment 'mac' found in candidate '1.50*316.0 Dx53d+z140mac 28005'.
+2024-11-29 14:44:25,024 - <EMW SLExA ETL> - INFO - Candidate '1.50*316.0 Dx53d+z140mac 28005' matched with grade & coating 'DX53D+Z' and coating '140' (Score: 1.00).
+2024-11-29 14:44:25,026 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate '1.50*245.0 Dx53d+z140mbo 28658'.
+2024-11-29 14:44:25,026 - <EMW SLExA ETL> - INFO - Candidate '1.50*245.0 Dx53d+z140mbo 28658' matched with grade & coating 'DX53D+Z' and coating '140' (Score: 1.00).
+2024-11-29 14:44:25,028 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate '1.50*337.0 DX53D Z140 MBO'.
+2024-11-29 14:44:25,028 - <EMW SLExA ETL> - INFO - Candidate '1.50*337.0 DX53D Z140 MBO' matched with grade & coating 'DX53D+Z' and coating '140' (Score: 1.00).
+2024-11-29 14:44:25,030 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate '1.50*330.0 DX54D Z275 MBO'.
+2024-11-29 14:44:25,030 - <EMW SLExA ETL> - INFO - Candidate '1.50*330.0 DX54D Z275 MBO' matched with grade & coating 'DX54D+Z' and coating '275' (Score: 1.00).
+2024-11-29 14:44:25,032 - <EMW SLExA ETL> - INFO - Treatment 'MB' converted to 'MBO' for candidate '1.00*530.0 DX51D ZM250 MBCO'.
+2024-11-29 14:44:25,032 - <EMW SLExA ETL> - INFO - Candidate '1.00*530.0 DX51D ZM250 MBCO' matched with grade & coating 'DX51D+Z' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:25,034 - <EMW SLExA ETL> - INFO - Treatment 'MB' converted to 'MBO' for candidate '2.00*445.0 DX51D ZM250 MBCO'.
+2024-11-29 14:44:25,034 - <EMW SLExA ETL> - INFO - Candidate '2.00*445.0 DX51D ZM250 MBCO' matched with grade & coating 'DX51D+Z' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:25,037 - <EMW SLExA ETL> - INFO - Treatment 'MB' converted to 'MBO' for candidate '2.00*598.0 DX51D ZM250 MBCO'.
+2024-11-29 14:44:25,037 - <EMW SLExA ETL> - INFO - Candidate '2.00*598.0 DX51D ZM250 MBCO' matched with grade & coating 'DX51D+Z' and coating 'None' (Score: 1.00).
+2024-11-29 14:44:25,038 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate '1.00*245.0 HX220LAD Z140 MBO'.
+2024-11-29 14:44:25,038 - <EMW SLExA ETL> - INFO - Candidate '1.00*245.0 HX220LAD Z140 MBO' matched with grade & coating 'HX220LAD+Z' and coating '140' (Score: 1.00).
+2024-11-29 14:44:25,039 - <EMW SLExA ETL> - INFO - Treatment 'mbo' found in candidate '2.00*375.0 HX420 LAD Z140 MBO'.
+2024-11-29 14:44:25,039 - <EMW SLExA ETL> - INFO - Candidate '2.00*375.0 HX420 LAD Z140 MBO' matched with grade & coating 'HX420LAD+Z' and coating '140' (Score: 1.00).
+2024-11-29 14:44:25,040 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80*815*750 DC 04' split into (0.8, 815.0, 750.0)
+2024-11-29 14:44:25,040 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80*930*740 DC 04' split into (0.8, 930.0, 740.0)
+2024-11-29 14:44:25,040 - <EMW SLExA ETL> - INFO - Candidate dimension '0.80*870*740 DC 04' split into (0.8, 870.0, 740.0)
+2024-11-29 14:44:25,040 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*830*750 DC 04' split into (1.0, 830.0, 750.0)
+2024-11-29 14:44:25,041 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*890*780 DC 04' split into (1.0, 890.0, 780.0)
+2024-11-29 14:44:25,041 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*920*750 DC 04' split into (1.0, 920.0, 750.0)
+2024-11-29 14:44:25,041 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*620*650 DC 04' split into (1.0, 620.0, 650.0)
+2024-11-29 14:44:25,041 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*700*810 DC 04' split into (1.5, 700.0, 810.0)
+2024-11-29 14:44:25,041 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*900*430 DC 04' split into (2.5, 900.0, 430.0)
+2024-11-29 14:44:25,041 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*1150*1030 HC 220 Y' split into (1.0, 1150.0, 1030.0)
+2024-11-29 14:44:25,041 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*980*880 HC 260 Y' split into (1.0, 980.0, 880.0)
+2024-11-29 14:44:25,041 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*915*1025 HC 260 Y' split into (1.0, 915.0, 1025.0)
+2024-11-29 14:44:25,042 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*1000*900 HC 260 Y' split into (1.0, 1000.0, 900.0)
+2024-11-29 14:44:25,042 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*970*855 HC 260 Y' split into (1.0, 970.0, 855.0)
+2024-11-29 14:44:25,042 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*750*550 DX54D Z100 MBO' split into (2.0, 750.0, 550.0)
+2024-11-29 14:44:25,043 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*680*287 DX51D ZM250 MBCO' split into (1.0, 680.0, 287.0)
+2024-11-29 14:44:25,043 - <EMW SLExA ETL> - INFO - Candidate dimension '0.45*865*785 DX54D ZM250 MBCO' split into (0.45, 865.0, 785.0)
+2024-11-29 14:44:25,043 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*800*700 DX54D ZM250 MBCO' split into (1.0, 800.0, 700.0)
+2024-11-29 14:44:25,043 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*870*802 DX54D ZM250 MBCO' split into (1.0, 870.0, 802.0)
+2024-11-29 14:44:25,043 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*710*570 DD 14 Geb.' split into (2.5, 710.0, 570.0)
+2024-11-29 14:44:25,043 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*770*650 DD14 Geb.' split into (3.0, 770.0, 650.0)
+2024-11-29 14:44:25,043 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*670*580 DD14 Geb.' split into (3.0, 670.0, 580.0)
+2024-11-29 14:44:25,043 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*1540*520 S235 JR Geb.' split into (3.0, 1540.0, 520.0)
+2024-11-29 14:44:25,044 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*2500*1250 S 355 MC Geb.' split into (1.5, 2500.0, 1250.0)
+2024-11-29 14:44:25,044 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*2500*1250 S 355 MC Geb.' split into (1.5, 2500.0, 1250.0)
+2024-11-29 14:44:25,044 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*1500*330 S 355 MC Geb.' split into (2.0, 1500.0, 330.0)
+2024-11-29 14:44:25,044 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*280*470 S 355 MC Geb.' split into (3.0, 280.0, 470.0)
+2024-11-29 14:44:25,044 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*380*255 S 355 MC Geb.' split into (3.0, 380.0, 255.0)
+2024-11-29 14:44:25,044 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*430*370 S 315 MC Geb.' split into (3.0, 430.0, 370.0)
+2024-11-29 14:44:25,044 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*820*650 S 315 MC Geb.' split into (3.0, 820.0, 650.0)
+2024-11-29 14:44:25,044 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*862*193 S 315 MC Geb.' split into (4.0, 862.0, 193.0)
+2024-11-29 14:44:25,045 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*1500*3000 S 500 MC Geb.' split into (2.0, 1500.0, 3000.0)
+2024-11-29 14:44:25,045 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*650.0 HC 340 LA' split into (1.5, 650.0, None)
+2024-11-29 14:44:25,045 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*258.0  HC 340 LA' split into (1.5, 258.0, None)
+2024-11-29 14:44:25,045 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*137.0 DD 11 Geb.' split into (2.0, 137.0, None)
+2024-11-29 14:44:25,045 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*268.0 DD 11 Geb.' split into (2.0, 268.0, None)
+2024-11-29 14:44:25,045 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*160.0 DD 11 Geb.' split into (2.0, 160.0, None)
+2024-11-29 14:44:25,045 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*422.0 DD 11 Geb.' split into (2.5, 422.0, None)
+2024-11-29 14:44:25,045 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*200.0 DD 11 Geb.' split into (3.0, 200.0, None)
+2024-11-29 14:44:25,046 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*188.0 DD 11 Geb.' split into (3.0, 188.0, None)
+2024-11-29 14:44:25,046 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*375.0 DD 11 Geb.' split into (3.0, 375.0, None)
+2024-11-29 14:44:25,046 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*155.0 DD 11 Geb.' split into (3.0, 155.0, None)
+2024-11-29 14:44:25,046 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*82.00 DD 11 Geb.' split into (4.0, 82.0, None)
+2024-11-29 14:44:25,046 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*147.00 DD 11 Geb.' split into (4.0, 147.0, None)
+2024-11-29 14:44:25,046 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*86.0 DD11 Geb.' split into (5.0, 86.0, None)
+2024-11-29 14:44:25,046 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*516.0 DD 14 Geb.' split into (2.5, 516.0, None)
+2024-11-29 14:44:25,046 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*102.0 DD 14 Geb.' split into (3.0, 102.0, None)
+2024-11-29 14:44:25,047 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*129.0 DD 14 Geb.' split into (4.0, 129.0, None)
+2024-11-29 14:44:25,047 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*355.0 DD 14 Geb.' split into (4.0, 355.0, None)
+2024-11-29 14:44:25,047 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*181.5 S 235 JR Geb.' split into (1.5, 181.5, None)
+2024-11-29 14:44:25,047 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*440.0 S 235 JR Geb.' split into (1.5, 440.0, None)
+2024-11-29 14:44:25,047 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*84.0 S 235 JR Geb.' split into (2.0, 84.0, None)
+2024-11-29 14:44:25,047 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*186.4 S 235 JR Geb.' split into (2.0, 186.4, None)
+2024-11-29 14:44:25,047 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*160.0 S 235 JR Geb.' split into (3.0, 160.0, None)
+2024-11-29 14:44:25,047 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*194.5 S 235 JR Geb.' split into (3.0, 194.5, None)
+2024-11-29 14:44:25,048 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*337.0 S 235 JR Geb.' split into (3.0, 337.0, None)
+2024-11-29 14:44:25,048 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*235.0 S 235 JR Geb.' split into (3.0, 235.0, None)
+2024-11-29 14:44:25,048 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*220.0 S 235 JR Geb.' split into (3.0, 220.0, None)
+2024-11-29 14:44:25,048 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*291.0 S 235 JR Geb.' split into (3.0, 291.0, None)
+2024-11-29 14:44:25,048 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*40.0 S 235 JR Geb.' split into (4.0, 40.0, None)
+2024-11-29 14:44:25,048 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*46.0 S 235 JR Geb.' split into (4.0, 46.0, None)
+2024-11-29 14:44:25,048 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*172.0 S 235 JR Geb.' split into (4.0, 172.0, None)
+2024-11-29 14:44:25,048 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*222.0 S 235 JR Geb.' split into (4.0, 222.0, None)
+2024-11-29 14:44:25,049 - <EMW SLExA ETL> - INFO - Candidate dimension '4.98*308.0 S 235 JR Geb.' split into (4.98, 308.0, None)
+2024-11-29 14:44:25,049 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*404.0 S 235 JR Geb.' split into (5.0, 404.0, None)
+2024-11-29 14:44:25,049 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*380.5 S 235 JR Geb.' split into (5.0, 380.5, None)
+2024-11-29 14:44:25,049 - <EMW SLExA ETL> - INFO - Candidate dimension '6.00*95.0 S 235 JR Geb.' split into (6.0, 95.0, None)
+2024-11-29 14:44:25,049 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*110.0 S 235 JR Geb.' split into (8.0, 110.0, None)
+2024-11-29 14:44:25,049 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*230.0 S 235 JR Geb.' split into (8.0, 230.0, None)
+2024-11-29 14:44:25,049 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*40.0 S 315 MC Geb.' split into (2.0, 40.0, None)
+2024-11-29 14:44:25,049 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*112.0 S315mc' split into (2.5, 112.0, None)
+2024-11-29 14:44:25,050 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*84.0 S 315 MC Geb.' split into (3.0, 84.0, None)
+2024-11-29 14:44:25,050 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*210.0 S 315 MC Geb.' split into (4.0, 210.0, None)
+2024-11-29 14:44:25,050 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*130.0 S315 MC' split into (4.0, 130.0, None)
+2024-11-29 14:44:25,050 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00* 55.0 S315 MC' split into (4.0, 55.0, None)
+2024-11-29 14:44:25,050 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*65.0 S315 MC' split into (4.0, 65.0, None)
+2024-11-29 14:44:25,050 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*45.00 S315 MC GEB' split into (4.0, 45.0, None)
+2024-11-29 14:44:25,050 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*77.00 S315 MC GEB' split into (4.0, 77.0, None)
+2024-11-29 14:44:25,050 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*75.0 S315 MC' split into (5.0, 75.0, None)
+2024-11-29 14:44:25,051 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*92.00 S315 MC GEB' split into (5.0, 92.0, None)
+2024-11-29 14:44:25,051 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*65.00 S315 MC GEB' split into (5.0, 65.0, None)
+2024-11-29 14:44:25,051 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*61.0 S 355 MC Geb.' split into (1.5, 61.0, None)
+2024-11-29 14:44:25,051 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*563.0 S 355 MC Geb.' split into (1.5, 563.0, None)
+2024-11-29 14:44:25,051 - <EMW SLExA ETL> - INFO - Candidate dimension '10.0*90.0 S 355 MC Geb.' split into (10.0, 90.0, None)
+2024-11-29 14:44:25,051 - <EMW SLExA ETL> - INFO - Candidate dimension '10.0*80.0 S 355 MC Geb.' split into (10.0, 80.0, None)
+2024-11-29 14:44:25,051 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*57.1 S 355 MC Geb.' split into (2.0, 57.1, None)
+2024-11-29 14:44:25,051 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*129.0 S 355 MC Geb.' split into (2.0, 129.0, None)
+2024-11-29 14:44:25,052 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*165.0 S 355 MC Geb.' split into (2.0, 165.0, None)
+2024-11-29 14:44:25,052 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*123.0 S 355 MC Geb.' split into (2.0, 123.0, None)
+2024-11-29 14:44:25,052 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*92.0 S 355 MC Geb.' split into (2.0, 92.0, None)
+2024-11-29 14:44:25,052 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*318.0 S 355 MC Geb.' split into (2.0, 318.0, None)
+2024-11-29 14:44:25,052 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*234.0 S 355 MC Geb.' split into (2.0, 234.0, None)
+2024-11-29 14:44:25,052 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*716.0 S 355 MC Geb.' split into (2.0, 716.0, None)
+2024-11-29 14:44:25,052 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*195.0  S 355 Mc' split into (2.0, 195.0, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00 *  42.0 S355mc      27260' split into (2.0, 42.0, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*60.0 S 355 MC Geb.' split into (2.5, 60.0, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*184.0 S 355 MC Geb.' split into (2.5, 184.0, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*214.0 S 355 MC Geb.' split into (2.5, 214.0, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*230.0 S 355 MC Geb.' split into (3.0, 230.0, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*355.8 S 355 MC Geb.' split into (3.0, 355.8, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*48.0 S 355 MC Geb.' split into (3.0, 48.0, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*139.5 S 355 MC Geb.' split into (3.0, 139.5, None)
+2024-11-29 14:44:25,053 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*320.0 S 355 MC Geb.' split into (3.0, 320.0, None)
+2024-11-29 14:44:25,054 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*119.0 S 355 MC Geb.' split into (3.0, 119.0, None)
+2024-11-29 14:44:25,054 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*193.0 S 355 MC Geb.' split into (3.0, 193.0, None)
+2024-11-29 14:44:25,054 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*179.0 S 355 MC Geb. ' split into (3.0, 179.0, None)
+2024-11-29 14:44:25,054 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*115.0 S 355 MC Geb.' split into (3.0, 115.0, None)
+2024-11-29 14:44:25,054 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*240.0 S 355 MC Geb.' split into (3.0, 240.0, None)
+2024-11-29 14:44:25,054 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*600.0 S 355 MC Geb.' split into (3.0, 600.0, None)
+2024-11-29 14:44:25,054 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*357.0 S 355 MC Geb.' split into (3.0, 357.0, None)
+2024-11-29 14:44:25,054 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*158.0 S 355 MC Geb.' split into (3.0, 158.0, None)
+2024-11-29 14:44:25,055 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*360.0 S 355 MC Geb.' split into (3.0, 360.0, None)
+2024-11-29 14:44:25,055 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*166.0 S 355 MC Geb.' split into (3.0, 166.0, None)
+2024-11-29 14:44:25,055 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*328.0 S 355 MC Geb.' split into (3.0, 328.0, None)
+2024-11-29 14:44:25,055 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*348.0 S 355 MC Geb.' split into (3.0, 348.0, None)
+2024-11-29 14:44:25,055 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*430.0 S 355 MC Geb.' split into (3.0, 430.0, None)
+2024-11-29 14:44:25,055 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*415.0 S 355 MC Geb.' split into (3.0, 415.0, None)
+2024-11-29 14:44:25,055 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*246.0 S 355 MC Geb.' split into (3.0, 246.0, None)
+2024-11-29 14:44:25,055 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*182.0 S 355 MC Geb.' split into (3.0, 182.0, None)
+2024-11-29 14:44:25,056 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*218.0 S 355 MC Geb.' split into (3.0, 218.0, None)
+2024-11-29 14:44:25,056 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*225.0 S355 MC Geb.' split into (3.0, 225.0, None)
+2024-11-29 14:44:25,056 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*392.0 S 355 MC Geb.' split into (3.0, 392.0, None)
+2024-11-29 14:44:25,056 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*380.0 S 355 MC Geb.' split into (3.0, 380.0, None)
+2024-11-29 14:44:25,056 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*90.0 S 355 MC Geb.' split into (3.0, 90.0, None)
+2024-11-29 14:44:25,056 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*150.0 S 355 MC Geb.' split into (3.0, 150.0, None)
+2024-11-29 14:44:25,056 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*334.0 S 355 MC Geb.' split into (3.0, 334.0, None)
+2024-11-29 14:44:25,056 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*470.0 S 355 MC Geb.' split into (3.0, 470.0, None)
+2024-11-29 14:44:25,057 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*504.0 S 355 MC Geb.' split into (3.0, 504.0, None)
+2024-11-29 14:44:25,057 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*574.0 S 355 MC Geb.' split into (3.0, 574.0, None)
+2024-11-29 14:44:25,057 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*228.0 S 355 MC Geb.' split into (3.0, 228.0, None)
+2024-11-29 14:44:25,057 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*245.0 S 355 MC Geb.' split into (3.0, 245.0, None)
+2024-11-29 14:44:25,057 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*362.0 S 355 MC Geb.' split into (3.0, 362.0, None)
+2024-11-29 14:44:25,058 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*218.0 S 355 MC Geb.' split into (3.0, 218.0, None)
+2024-11-29 14:44:25,058 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*454.0 S 355 MC Geb.' split into (3.0, 454.0, None)
+2024-11-29 14:44:25,058 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*310.0 S 355 MC Geb.' split into (3.0, 310.0, None)
+2024-11-29 14:44:25,058 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*202.0 S 355 MC Geb.' split into (3.0, 202.0, None)
+2024-11-29 14:44:25,058 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*280.0 S 355 MC Geb.' split into (3.0, 280.0, None)
+2024-11-29 14:44:25,058 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*53.0 S 355 MC Geb.' split into (3.0, 53.0, None)
+2024-11-29 14:44:25,058 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*222.0 S 355 MC Geb.' split into (3.0, 222.0, None)
+2024-11-29 14:44:25,058 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*197.0 S 355 MC Geb.' split into (3.0, 197.0, None)
+2024-11-29 14:44:25,059 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*82.0 S 355 MC Geb.' split into (3.0, 82.0, None)
+2024-11-29 14:44:25,059 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*292.0 S 355 MC Geb.' split into (3.0, 292.0, None)
+2024-11-29 14:44:25,059 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00 *  50.0 S355mc      25050' split into (3.0, 50.0, None)
+2024-11-29 14:44:25,059 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00 * 154.5 S355mc      25312' split into (3.0, 154.5, None)
+2024-11-29 14:44:25,059 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*53.0 S 355 MC Geb.' split into (3.0, 53.0, None)
+2024-11-29 14:44:25,060 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00 *  62.0 S355mc      25242' split into (3.0, 62.0, None)
+2024-11-29 14:44:25,060 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*58.0 S 355 MC Geb.' split into (3.0, 58.0, None)
+2024-11-29 14:44:25,060 - <EMW SLExA ETL> - INFO - Candidate dimension '3.50*139.0 S 355 MC Geb.' split into (3.5, 139.0, None)
+2024-11-29 14:44:25,061 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*584.0 S 355 MC Geb.' split into (4.0, 584.0, None)
+2024-11-29 14:44:25,061 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*38.0 S 355 MC Geb.' split into (4.0, 38.0, None)
+2024-11-29 14:44:25,061 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*390.0 S 355 MC Geb.' split into (4.0, 390.0, None)
+2024-11-29 14:44:25,061 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*78.0 S 355 MC Geb.' split into (4.0, 78.0, None)
+2024-11-29 14:44:25,061 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*225.0 S 355 MC Geb.' split into (4.0, 225.0, None)
+2024-11-29 14:44:25,061 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*250.0 S 355 MC Geb.' split into (4.0, 250.0, None)
+2024-11-29 14:44:25,061 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*94.5 S 355 MC Geb.' split into (4.0, 94.5, None)
+2024-11-29 14:44:25,061 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*252.2 S 355 MC Geb.' split into (4.0, 252.2, None)
+2024-11-29 14:44:25,062 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*398.0 S 355 MC Geb.' split into (4.0, 398.0, None)
+2024-11-29 14:44:25,062 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*315.0 S 355 MC Geb.' split into (4.0, 315.0, None)
+2024-11-29 14:44:25,062 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*490.0 S 355 MC Geb.' split into (4.0, 490.0, None)
+2024-11-29 14:44:25,062 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*200.0 S 355 MC Geb.' split into (4.0, 200.0, None)
+2024-11-29 14:44:25,062 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*98.0 S 355 MC Geb.' split into (4.0, 98.0, None)
+2024-11-29 14:44:25,063 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*373.0 S 355 MC Geb.' split into (4.0, 373.0, None)
+2024-11-29 14:44:25,063 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*190.0 S 355 MC Geb.' split into (4.0, 190.0, None)
+2024-11-29 14:44:25,063 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*258.0 S 355 MC Geb.' split into (4.0, 258.0, None)
+2024-11-29 14:44:25,063 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*230.0 S 355 MC Geb.' split into (4.0, 230.0, None)
+2024-11-29 14:44:25,063 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*552.0 S 355 MC Geb.' split into (4.0, 552.0, None)
+2024-11-29 14:44:25,063 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*250.0 S 355 MC Geb.' split into (4.0, 250.0, None)
+2024-11-29 14:44:25,063 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*335.0 S 355 MC Geb.' split into (4.0, 335.0, None)
+2024-11-29 14:44:25,064 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00 *  53.0 S355mc      24937' split into (4.0, 53.0, None)
+2024-11-29 14:44:25,064 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*150.0 S 355 MC Geb.' split into (4.0, 150.0, None)
+2024-11-29 14:44:25,064 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*153.0 S 355 MC Geb.' split into (4.0, 153.0, None)
+2024-11-29 14:44:25,064 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*223.0 S 355 MC Geb.' split into (5.0, 223.0, None)
+2024-11-29 14:44:25,064 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*475.0 S 355 MC Geb.' split into (5.0, 475.0, None)
+2024-11-29 14:44:25,064 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*302.0 S 355 MC Geb.' split into (5.0, 302.0, None)
+2024-11-29 14:44:25,064 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*429.0 S 355 MC Geb.' split into (5.0, 429.0, None)
+2024-11-29 14:44:25,064 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*295.0 S 355 MC Geb.' split into (5.0, 295.0, None)
+2024-11-29 14:44:25,065 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*150.0 S 355 MC Geb.' split into (5.0, 150.0, None)
+2024-11-29 14:44:25,065 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*271.0 S 355 MC Geb.' split into (5.0, 271.0, None)
+2024-11-29 14:44:25,065 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*131.0 S 355 MC Geb.' split into (5.0, 131.0, None)
+2024-11-29 14:44:25,065 - <EMW SLExA ETL> - INFO - Candidate dimension '5.00*125.0 S 355 MC Geb.' split into (5.0, 125.0, None)
+2024-11-29 14:44:25,065 - <EMW SLExA ETL> - INFO - Candidate dimension '6.00*380.0 S 355 MC Geb.' split into (6.0, 380.0, None)
+2024-11-29 14:44:25,065 - <EMW SLExA ETL> - INFO - Candidate dimension '6.00*134.0 S 355 MC Geb.' split into (6.0, 134.0, None)
+2024-11-29 14:44:25,065 - <EMW SLExA ETL> - INFO - Candidate dimension '6.00*45.0 S 355 MC Geb.' split into (6.0, 45.0, None)
+2024-11-29 14:44:25,065 - <EMW SLExA ETL> - INFO - Candidate dimension '6.00*90.0 S 355 MC Geb.' split into (6.0, 90.0, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '6.00*236.0 S 355 MC Geb.' split into (6.0, 236.0, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '6.00*375.0 S 355 MC Geb.' split into (6.0, 375.0, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '7.00*235.2 S 355 MC Geb.' split into (7.0, 235.2, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '7.00*353.0 S 355 MC Geb.' split into (7.0, 353.0, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '7.85*167.0 S 355 MC Geb.' split into (7.85, 167.0, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '7.85*234.0 S 355 MC Geb.' split into (7.85, 234.0, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*134.5 S 355 MC Geb.' split into (8.0, 134.5, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*206.0 S 355 MC Geb.' split into (8.0, 206.0, None)
+2024-11-29 14:44:25,066 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*89.0 S 355 MC Geb.' split into (8.0, 89.0, None)
+2024-11-29 14:44:25,067 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*122.0 S 355 MC Geb.' split into (8.0, 122.0, None)
+2024-11-29 14:44:25,067 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*190.0 S 355 MC Geb.' split into (8.0, 190.0, None)
+2024-11-29 14:44:25,067 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*600.0 S 420 MC Geb.' split into (2.0, 600.0, None)
+2024-11-29 14:44:25,067 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*164.0 S 420 MC Geb.' split into (2.0, 164.0, None)
+2024-11-29 14:44:25,067 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*588.0 S 420 MC Geb.' split into (2.0, 588.0, None)
+2024-11-29 14:44:25,067 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*800.0 S 420 MC Geb.' split into (2.0, 800.0, None)
+2024-11-29 14:44:25,067 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*76.0 S 420 MC Geb.' split into (2.0, 76.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*59.0 S 420 MC Geb.' split into (2.0, 59.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*149.0 S 420 MC Geb.' split into (2.0, 149.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*131.0 S 420 MC Geb.' split into (2.0, 131.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*800.0 S 420 MC Geb.' split into (2.5, 800.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*132.0 S 420 MC Geb.' split into (3.0, 132.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*249.0 S 420 MC Geb.' split into (3.0, 249.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*498.0 S 420 MC Geb.' split into (3.0, 498.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*193.0 S 420 MC Geb.' split into (3.0, 193.0, None)
+2024-11-29 14:44:25,068 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*282.0 S 420 MC Geb.' split into (3.0, 282.0, None)
+2024-11-29 14:44:25,069 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*104.0 S 420 MC Geb.' split into (3.0, 104.0, None)
+2024-11-29 14:44:25,069 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*800.0 S 420 MC Geb.' split into (3.0, 800.0, None)
+2024-11-29 14:44:25,069 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*80.0 S 420 MC Geb.' split into (3.0, 80.0, None)
+2024-11-29 14:44:25,069 - <EMW SLExA ETL> - INFO - Candidate dimension '3.50*397.5 S 420 MC Geb.' split into (3.5, 397.5, None)
+2024-11-29 14:44:25,069 - <EMW SLExA ETL> - INFO - Candidate dimension '3.50*442.0 S 420 MC Geb.' split into (3.5, 442.0, None)
+2024-11-29 14:44:25,069 - <EMW SLExA ETL> - INFO - Candidate dimension '3.50*582.0 S 420 MC Geb.' split into (3.5, 582.0, None)
+2024-11-29 14:44:25,069 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*103.0 S 420 MC Geb.' split into (4.0, 103.0, None)
+2024-11-29 14:44:25,069 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*254.0 S 420 MC Geb.' split into (4.0, 254.0, None)
+2024-11-29 14:44:25,070 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*400.0 S 420 MC Geb.' split into (4.0, 400.0, None)
+2024-11-29 14:44:25,070 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*310.0 S 420 MC Geb.' split into (4.0, 310.0, None)
+2024-11-29 14:44:25,070 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*442.0 S 420 MC Geb.' split into (4.0, 442.0, None)
+2024-11-29 14:44:25,070 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*400.0 S 420 MC Geb.' split into (4.0, 400.0, None)
+2024-11-29 14:44:25,070 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*178.0 S 500 MC Geb.' split into (2.0, 178.0, None)
+2024-11-29 14:44:25,070 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*393.0 S 500 MC Geb.' split into (2.0, 393.0, None)
+2024-11-29 14:44:25,070 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*56.0 S 500 MC Geb.' split into (2.5, 56.0, None)
+2024-11-29 14:44:25,070 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*520.0 S 500 MC Geb.' split into (2.5, 520.0, None)
+2024-11-29 14:44:25,071 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*235.0 S 500 MC Geb.' split into (3.0, 235.0, None)
+2024-11-29 14:44:25,071 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*607.0 S 500 MC Geb.' split into (4.0, 607.0, None)
+2024-11-29 14:44:25,071 - <EMW SLExA ETL> - INFO - Candidate dimension '6.00*123.0 S 500 MC Geb.' split into (6.0, 123.0, None)
+2024-11-29 14:44:25,071 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*90.0 S 500 MC Geb.' split into (8.0, 90.0, None)
+2024-11-29 14:44:25,071 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*119.0 S 550 MC Geb.' split into (4.0, 119.0, None)
+2024-11-29 14:44:25,071 - <EMW SLExA ETL> - INFO - Candidate dimension '4.00*254.0 S 550 MC Geb.' split into (4.0, 254.0, None)
+2024-11-29 14:44:25,071 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*68.0 S 550 MC Geb.' split into (8.0, 68.0, None)
+2024-11-29 14:44:25,071 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*111.0 S 550 MC Geb.' split into (8.0, 111.0, None)
+2024-11-29 14:44:25,072 - <EMW SLExA ETL> - INFO - Candidate dimension '8.00*58.0 S 550 MC Geb.' split into (8.0, 58.0, None)
+2024-11-29 14:44:25,072 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90* 64.00 DC01 A' split into (0.9, 64.0, None)
+2024-11-29 14:44:25,072 - <EMW SLExA ETL> - INFO - Candidate dimension '0.90* 110.00 DC01 A' split into (0.9, 110.0, None)
+2024-11-29 14:44:25,072 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*318.7 DC 01' split into (1.0, 318.7, None)
+2024-11-29 14:44:25,072 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*641.0 DC 01' split into (1.0, 641.0, None)
+2024-11-29 14:44:25,072 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*631.0 DC 01' split into (1.0, 631.0, None)
+2024-11-29 14:44:25,072 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*177.0  DC 01' split into (1.0, 177.0, None)
+2024-11-29 14:44:25,072 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*320.0 DC 01' split into (1.0, 320.0, None)
+2024-11-29 14:44:25,073 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*85.0 DC 01' split into (1.0, 85.0, None)
+2024-11-29 14:44:25,073 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*125.0 DC 01' split into (1.5, 125.0, None)
+2024-11-29 14:44:25,073 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*226.0 DC 01' split into (1.5, 226.0, None)
+2024-11-29 14:44:25,073 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*113.0 DC 01' split into (1.5, 113.0, None)
+2024-11-29 14:44:25,073 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*150.0 DC 01' split into (1.5, 150.0, None)
+2024-11-29 14:44:25,073 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*157.0 DC 01' split into (1.5, 157.0, None)
+2024-11-29 14:44:25,073 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*172.0 DC 01' split into (1.5, 172.0, None)
+2024-11-29 14:44:25,073 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*155.0 DC 01' split into (1.5, 155.0, None)
+2024-11-29 14:44:25,074 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50* 85.00 DC01 A' split into (1.5, 85.0, None)
+2024-11-29 14:44:25,074 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50* 105.00 DC01 A' split into (1.5, 105.0, None)
+2024-11-29 14:44:25,074 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*68.0 DC 01' split into (2.0, 68.0, None)
+2024-11-29 14:44:25,074 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*430.0 DC 01' split into (2.0, 430.0, None)
+2024-11-29 14:44:25,074 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*84.0 DC01
+' split into (2.0, 84.0, None)
+2024-11-29 14:44:25,074 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*145.0 DC01 A' split into (2.0, 145.0, None)
+2024-11-29 14:44:25,074 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00* 31.00 DC01A    ' split into (2.0, 31.0, None)
+2024-11-29 14:44:25,074 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00* 45.00 DC01 A' split into (2.0, 45.0, None)
+2024-11-29 14:44:25,075 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00* 100.00 DC01 A' split into (2.0, 100.0, None)
+2024-11-29 14:44:25,075 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*460.0 DC 01' split into (2.5, 460.0, None)
+2024-11-29 14:44:25,075 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50* 72.00 DC01 A' split into (2.5, 72.0, None)
+2024-11-29 14:44:25,075 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50* 95.00 DC01 A' split into (2.5, 95.0, None)
+2024-11-29 14:44:25,075 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50* 200.00 DC01 A' split into (2.5, 200.0, None)
+2024-11-29 14:44:25,075 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*395.0 DC 01' split into (3.0, 395.0, None)
+2024-11-29 14:44:25,075 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*175.0 DC 01' split into (3.0, 175.0, None)
+2024-11-29 14:44:25,075 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*85.0 DC 01' split into (3.0, 85.0, None)
+2024-11-29 14:44:25,076 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*72.0 DC 01' split into (3.0, 72.0, None)
+2024-11-29 14:44:25,076 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*80.0 DC 01' split into (3.0, 80.0, None)
+2024-11-29 14:44:25,076 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00*70.0 DC 01' split into (3.0, 70.0, None)
+2024-11-29 14:44:25,076 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00* 70.00 DC01 A' split into (3.0, 70.0, None)
+2024-11-29 14:44:25,076 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00* 78.00 DC01 A' split into (3.0, 78.0, None)
+2024-11-29 14:44:25,076 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00* 116.00 DC01 A' split into (3.0, 116.0, None)
+2024-11-29 14:44:25,076 - <EMW SLExA ETL> - INFO - Candidate dimension '3.00* 226.00 DC01 A' split into (3.0, 226.0, None)
+2024-11-29 14:44:25,076 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*209.0 DC 04' split into (1.0, 209.0, None)
+2024-11-29 14:44:25,077 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*305.0 DC 04' split into (1.5, 305.0, None)
+2024-11-29 14:44:25,077 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*380.0 DC 04' split into (1.5, 380.0, None)
+2024-11-29 14:44:25,077 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*520.0 DC 04' split into (1.5, 520.0, None)
+2024-11-29 14:44:25,077 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*45.0 DC 04' split into (1.5, 45.0, None)
+2024-11-29 14:44:25,077 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*725.0 DC 04' split into (1.5, 725.0, None)
+2024-11-29 14:44:25,077 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*785.0 DC 04' split into (1.5, 785.0, None)
+2024-11-29 14:44:25,077 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*595.0 DC 04' split into (1.5, 595.0, None)
+2024-11-29 14:44:25,077 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*734.0 DC 04' split into (1.5, 734.0, None)
+2024-11-29 14:44:25,078 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*396.3 DC 04' split into (2.0, 396.3, None)
+2024-11-29 14:44:25,078 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*629.0 DC 04' split into (2.0, 629.0, None)
+2024-11-29 14:44:25,078 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*286.0 DC 04' split into (2.0, 286.0, None)
+2024-11-29 14:44:25,078 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*650.0 DC 04' split into (2.0, 650.0, None)
+2024-11-29 14:44:25,078 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*725.0 DC 04' split into (2.0, 725.0, None)
+2024-11-29 14:44:25,078 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*800.0 DC 04' split into (2.0, 800.0, None)
+2024-11-29 14:44:25,078 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*115.0 DC 04' split into (2.5, 115.0, None)
+2024-11-29 14:44:25,078 - <EMW SLExA ETL> - INFO - Candidate dimension '2.50*305.0 DC 04' split into (2.5, 305.0, None)
+2024-11-29 14:44:25,079 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*169.0 DX51D Z275' split into (1.0, 169.0, None)
+2024-11-29 14:44:25,079 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*78.0 DX51D Z275 MAC' split into (1.0, 78.0, None)
+2024-11-29 14:44:25,079 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*244.0 DX51D Z275 NAC' split into (2.0, 244.0, None)
+2024-11-29 14:44:25,079 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*610.0 DX51D Z275 NAC' split into (2.0, 610.0, None)
+2024-11-29 14:44:25,079 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*303.0 DX51D Z275 NAC' split into (2.0, 303.0, None)
+2024-11-29 14:44:25,079 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*230.0 Dx53dz140mac 28004' split into (1.5, 230.0, None)
+2024-11-29 14:44:25,079 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*316.0 Dx53dz140mac 28005' split into (1.5, 316.0, None)
+2024-11-29 14:44:25,079 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*245.0 Dx53dz140mbo 28658' split into (1.5, 245.0, None)
+2024-11-29 14:44:25,080 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*337.0 DX53D Z140 MBO' split into (1.5, 337.0, None)
+2024-11-29 14:44:25,080 - <EMW SLExA ETL> - INFO - Candidate dimension '1.50*330.0 DX54D Z275 MBO' split into (1.5, 330.0, None)
+2024-11-29 14:44:25,080 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*530.0 DX51D ZM250 MBCO' split into (1.0, 530.0, None)
+2024-11-29 14:44:25,080 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*445.0 DX51D ZM250 MBCO' split into (2.0, 445.0, None)
+2024-11-29 14:44:25,080 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*598.0 DX51D ZM250 MBCO' split into (2.0, 598.0, None)
+2024-11-29 14:44:25,080 - <EMW SLExA ETL> - INFO - Candidate dimension '1.00*245.0 HX220LAD Z140 MBO' split into (1.0, 245.0, None)
+2024-11-29 14:44:25,080 - <EMW SLExA ETL> - INFO - Candidate dimension '2.00*375.0 HX420 LAD Z140 MBO' split into (2.0, 375.0, None)
+2024-11-29 14:44:25,098 - <EMW SLExA ETL> - INFO - Dimensions extracted successfully for column 'Dimension'.

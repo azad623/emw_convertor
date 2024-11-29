@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from datetime import datetime
 import glob
 from streamlit_option_menu import option_menu
 from emw_convertor.pipeline.pipeline_manager import pipeline_run
@@ -104,14 +105,15 @@ with st.sidebar:
     (
         col1,
         col2,
-    ) = st.columns([3, 1])
+        col3,
+    ) = st.columns([3, 1, 1])
     with col1:
         st.image(
             "images/emw.svg.png", use_container_width=False, width=200
         )  # Adjust width as needed
     with col2:
         st.image("images/vanilla.png", use_container_width=False, width=60)
-    st.title("EMW/Vanilla Steel")
+    # st.title("EMW/Vanilla Steel")
     selected_menu = option_menu(
         menu_title="Hauptmenü",
         options=[
@@ -125,6 +127,32 @@ with st.sidebar:
         default_index=0,
     )
 
+current_year = datetime.now().year
+st.markdown(
+    f"""
+    <style>
+        .main-footer {{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 12px;
+            color: gray;
+        }}
+        .css-1v3fvcr {{
+            padding-bottom: 50px; /* Adjust to accommodate footer */
+        }}
+    </style>
+    <div class="main-footer">
+        © {current_year} Vanillasteel. All Rights Reserved.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 if selected_menu == "Dashboard":
     # Define columns to analyze
     columns_to_analyze = [
@@ -135,7 +163,11 @@ if selected_menu == "Dashboard":
         "Länge_",
         "Breit_",
     ]
-    st.title("Dashboard Übersicht")
+    st.markdown(
+        "<h2 style='color: #003eff; font-family: 'Times New Roman', Times, serif;'>Dashboard Übersicht</h2>",
+        unsafe_allow_html=True,
+    )
+
     # File status summary
     # Check if any file is processed
     has_processed_files = any(
@@ -259,13 +291,128 @@ if selected_menu == "Dashboard":
             # Display pie chart
             st.plotly_chart(pie_chart)
 
+    with st.expander("Detaillierte Analyse für hochgeladene Dateien", expanded=True):
+        if has_processed_files:
+
+            # Define columns to analyze
+            columns_to_analyze = [
+                "Güte_",
+                "Auflage_",
+                "Oberfläche_",
+                "Dicke_",
+                "Länge_",
+                "Breit_",
+            ]
+
+            for file_name, file_info in st.session_state["uploaded_files"].items():
+                if file_info["status"] == "Erfolgreich":
+                    df = file_info["output"]
+
+                    st.markdown(f"#### Analyse für Datei: {file_name}")
+                    row = st.container()  # Container for horizontal alignment
+
+                    # Create horizontal layout for the charts
+                    with row:
+                        col1, col2, col3, col4, col5, col6 = st.columns(6)
+
+                        # Chart for "Güte_" - Top 10 most frequent values
+                        with col1:
+                            if "Güte_" in df.columns:
+                                top_10_gute = df["Güte_"].value_counts().head(10)
+                                fig_gute = px.bar(
+                                    x=top_10_gute.index,
+                                    y=top_10_gute.values,
+                                    labels={"x": "Güte_", "y": "Anzahl"},
+                                )
+                                fig_gute.update_layout(
+                                    height=300, width=200
+                                )  # Smaller plot size
+                                st.plotly_chart(fig_gute, use_container_width=True)
+
+                        # Chart for "Auflage_" - Top 10 most frequent values
+                        with col2:
+                            if "Auflage_" in df.columns:
+                                top_10_auflage = df["Auflage_"].value_counts().head(10)
+                                fig_auflage = px.bar(
+                                    x=top_10_auflage.index,
+                                    y=top_10_auflage.values,
+                                    labels={"x": "Auflage_", "y": "Anzahl"},
+                                )
+                                fig_auflage.update_layout(
+                                    height=300, width=200
+                                )  # Smaller plot size
+                                st.plotly_chart(fig_auflage, use_container_width=True)
+
+                        # Chart for "Oberfläche_" - Top 10 most frequent values
+                        with col3:
+                            if "Oberfläche_" in df.columns:
+                                top_10_oberflaeche = (
+                                    df["Oberfläche_"].value_counts().head(10)
+                                )
+                                fig_oberflaeche = px.bar(
+                                    x=top_10_oberflaeche.index,
+                                    y=top_10_oberflaeche.values,
+                                    labels={"x": "Oberfläche_", "y": "Anzahl"},
+                                )
+                                fig_oberflaeche.update_layout(
+                                    height=300, width=200
+                                )  # Smaller plot size
+                                st.plotly_chart(
+                                    fig_oberflaeche, use_container_width=True
+                                )
+
+                        # Chart for "Dicke_" - Bin count
+                        with col4:
+                            if "Dicke_" in df.columns:
+                                fig_dicke = px.histogram(
+                                    df,
+                                    x="Dicke_",
+                                    nbins=10,
+                                    labels={"Dicke_": "Dicke_", "Anzahl": "Anzahl"},
+                                )
+                                fig_dicke.update_layout(
+                                    height=300, width=200
+                                )  # Smaller plot size
+                                st.plotly_chart(fig_dicke, use_container_width=True)
+
+                        # Chart for "Länge_" - Bin count
+                        with col5:
+                            if "Länge_" in df.columns:
+                                fig_laenge = px.histogram(
+                                    df,
+                                    x="Länge_",
+                                    nbins=10,
+                                    labels={"Länge_": "Länge_", "Anzahl": "Anzahl"},
+                                )
+                                fig_laenge.update_layout(
+                                    height=300, width=200
+                                )  # Smaller plot size
+                                st.plotly_chart(fig_laenge, use_container_width=True)
+
+                        # Chart for "Breit_" - Bin count
+                        with col6:
+                            if "Breit_" in df.columns:
+                                fig_breit = px.histogram(
+                                    df,
+                                    x="Breit_",
+                                    nbins=10,
+                                    labels={"Breit_": "Breit_", "Anzahl": "Anzahl"},
+                                )
+                                fig_breit.update_layout(
+                                    height=300, width=200
+                                )  # Smaller plot size
+                                st.plotly_chart(fig_breit, use_container_width=True)
+
+
 elif selected_menu == "Excel-Dateien verarbeiten":
-    st.title("Excel-Dateiverarbeitung")
+    st.markdown(
+        "<h2 style='color: #003eff; font-family: 'Times New Roman', Times, serif;'>SLExA® Datenprozessorsystem</h2>",
+        unsafe_allow_html=True,
+    )
 
     if "uploaded_files" not in st.session_state:
         st.session_state.uploaded_files = {}
 
-    st.markdown("### Excel-Dateien hochladen")
     uploaded_files_area = st.file_uploader(
         "Hier Excel-Dateien hochladen:",
         accept_multiple_files=True,
@@ -454,7 +601,11 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                         st.error(f"{etl_errors}")
 
 elif selected_menu == "ETL-Protokolle":
-    st.title("ETL-Protokolle")
+    st.markdown(
+        "<h2 style='color: #003eff;font-family: 'Times New Roman', Times, serif;'>ETL-Protokolle</h2>",
+        unsafe_allow_html=True,
+    )
+
     st.info("Dies ist die Protokollübersicht der ETL-Verarbeitung.")
 
     uploaded_files = st.session_state.get("uploaded_files", {})
@@ -481,7 +632,10 @@ elif selected_menu == "ETL-Protokolle":
                 )
 
 elif selected_menu == "Einstellungen":
-    st.title("Konfigurationsseite")
+    st.markdown(
+        "<h2 style='color: #003eff;font-family: 'Times New Roman', Times, serif;'>Konfigurationsseite</h2>",
+        unsafe_allow_html=True,
+    )
     st.subheader("Verwalten Sie Ihre Anwendungseinstellungen")
 
     # Abschnitte mit Expandern erstellen für eine übersichtliche Darstellung
