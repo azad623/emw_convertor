@@ -53,12 +53,12 @@ def pipeline_run(header_names: Dict, file_path: str) -> pd.DataFrame:
     print(f"{os.path.splitext(os.path.basename(file_path))[0]}.error.log")
     # delete_all_files(os.path.join(local_data_input_path, "interim"))
     # delete_all_files(log_output_path)
-    delete_file(
-        os.path.join(
-            log_output_path,
-            f"{os.path.splitext(os.path.basename(file_path))[0]}.error.log",
-        )
+    file_path_log = os.path.join(
+        log_output_path,
+        f"{os.path.splitext(os.path.basename(file_path))[0]}.error.log",
     )
+    if os.path.exists(file_path_log):
+        delete_file(file_path_log)
 
     file_name = os.path.basename(file_path)
     logger = setup_logger(file_name, config)
