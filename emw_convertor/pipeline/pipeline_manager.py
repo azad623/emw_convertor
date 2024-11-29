@@ -23,6 +23,7 @@ from emw_convertor.utils.helper import (
     delete_all_files,
     load_schema_list,
     validate_output,
+    delete_file,
 )
 from emw_convertor.config.logging_system import setup_logger
 
@@ -49,8 +50,15 @@ def pipeline_run(header_names: Dict, file_path: str) -> pd.DataFrame:
     else:
         global_vars["error_list"] = []  # Reset the error list
 
-    delete_all_files(os.path.join(local_data_input_path, "interim"))
+    print(f"{os.path.splitext(os.path.basename(file_path))[0]}.error.log")
+    # delete_all_files(os.path.join(local_data_input_path, "interim"))
     # delete_all_files(log_output_path)
+    delete_file(
+        os.path.join(
+            log_output_path,
+            f"{os.path.splitext(os.path.basename(file_path))[0]}.error.log",
+        )
+    )
 
     file_name = os.path.basename(file_path)
     logger = setup_logger(file_name, config)

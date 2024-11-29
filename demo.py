@@ -13,10 +13,12 @@ from emw_convertor.getters.data_getter import load_excel_file
 from emw_convertor.pipeline.transformation import (
     drop_rows_with_missing_values,
 )
+from streamlit_navigation_bar import st_navbar
 
 # Initialize Streamlit App
 st.set_page_config(
     page_title="Excel-Verarbeitungssystem",
+    page_icon="images/vanilla.png",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -191,7 +193,7 @@ if selected_menu == "Dashboard":
 
         # Display statistics table
         st.markdown("<br><br>", unsafe_allow_html=True)
-        col1, col2, col3 = st.columns([1, 3, 1])
+        col1, col2, col3 = st.columns([1, 7, 1])
         with col2:
 
             stats_df = pd.DataFrame(processed_files_data)
@@ -477,3 +479,64 @@ elif selected_menu == "ETL-Protokolle":
                     height=300,
                     key=f"log_file_{idx}",
                 )
+
+elif selected_menu == "Einstellungen":
+    st.title("Konfigurationsseite")
+    st.subheader("Verwalten Sie Ihre Anwendungseinstellungen")
+
+    # Abschnitte mit Expandern erstellen für eine übersichtliche Darstellung
+    with st.expander("Ordnerverwaltung", expanded=True):
+        st.write("Verwalten Sie unten die Ordner Ihrer Anwendung.")
+
+        # Vorhandene Ordner auflisten
+        folder_path = "inputs"  # Ersetzen Sie dies mit Ihrem Ordnerpfad
+        if os.path.exists(folder_path):
+            folders = [
+                f
+                for f in os.listdir(folder_path)
+                if os.path.isdir(os.path.join(folder_path, f))
+            ]
+            if folders:
+                selected_folder = st.selectbox(
+                    "Wählen Sie einen Ordner zum Löschen aus:",
+                    folders,
+                    key="folder_select",
+                )
+                if st.button("Ausgewählten Ordner löschen", key="delete_folder"):
+                    folder_to_delete = os.path.join(folder_path, selected_folder)
+                    try:
+                        shutil.rmtree(folder_to_delete)
+                        st.success(
+                            f"Der Ordner '{selected_folder}' wurde erfolgreich gelöscht."
+                        )
+                        os.makedirs(
+                            os.path.join(folder_path, selected_folder), exist_ok=True
+                        )
+                    except Exception as e:
+                        st.error(f"Fehler beim Löschen des Ordners: {e}")
+            else:
+                st.info("Es sind keine Ordner zum Löschen verfügbar.")
+        else:
+            st.warning(f"Der Ordnerpfad '{folder_path}' existiert nicht.")
+
+    with st.expander("Weitere Einstellungen", expanded=False):
+        st.write("Konfigurieren Sie unten zusätzliche Anwendungseinstellungen.")
+
+        # Beispiel für Schalter und Schieberegler
+        enable_feature = st.checkbox("Erweiterte Funktionen aktivieren", value=True)
+        slider_value = st.slider(
+            "Verarbeitungsschwelle festlegen:", min_value=0, max_value=100, value=50
+        )
+
+        # Einstellungen übernehmen
+        if st.button("Einstellungen übernehmen", key="apply_settings"):
+            st.success("Die Einstellungen wurden erfolgreich aktualisiert.")
+            st.write(f"Erweiterte Funktionen aktiviert: {enable_feature}")
+            st.write(f"Verarbeitungsschwelle: {slider_value}")
+
+    with st.expander("Systeminformationen", expanded=False):
+        st.write("Sehen Sie sich Systeminformationen an.")
+
+        # Beispiel für Systeminformationen
+        st.text(f"Aktuelles Arbeitsverzeichnis: {os.getcwd()}")
+        st.text(f"Python-Version: {os.sys.version}")

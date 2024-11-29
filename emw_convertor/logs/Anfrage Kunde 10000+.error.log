@@ -1,0 +1,662 @@
+2024-11-29 12:17:11,754 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x152 DC04-AM'.
+2024-11-29 12:17:11,756 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x135 DC04-AM'.
+2024-11-29 12:17:11,758 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x310 DC04-AM'.
+2024-11-29 12:17:11,759 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x67 DC04-A'.
+2024-11-29 12:17:11,761 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x172 DC04-A'.
+2024-11-29 12:17:11,762 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x204 DC04-AM'.
+2024-11-29 12:17:11,764 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 6.0x1250x2500 DD11'.
+2024-11-29 12:17:11,765 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 5.0x1250x2500 S500MC'.
+2024-11-29 12:17:11,767 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 8.0x1250x2500 S500MC'.
+2024-11-29 12:17:11,769 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 3.0x1250x2500 S355MC'.
+2024-11-29 12:17:11,770 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 4.0x1250x2500 S355MC'.
+2024-11-29 12:17:11,772 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 3.0x1250x2500 S260MC DBL8492.30'.
+2024-11-29 12:17:11,774 - <EMW SLExA ETL> - WARNING - Candidate 'B 1.05x150x1500 C75S' at index 12 did not match any reference.
+2024-11-29 12:17:11,775 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 2.0x1250x2500 DC04'.
+2024-11-29 12:17:11,777 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 2.5x1250x2500 DC04'.
+2024-11-29 12:17:11,778 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 3.0x1250x2500 DC04'.
+2024-11-29 12:17:11,779 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x250 DC04-AM'.
+2024-11-29 12:17:11,781 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x220 DC04-A'.
+2024-11-29 12:17:11,782 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 5.0x1250x2500 DD13'.
+2024-11-29 12:17:11,784 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x90 DC04-AM'.
+2024-11-29 12:17:11,785 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x450 DC04-AM'.
+2024-11-29 12:17:11,787 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 3.0x1250x2500 DD13'.
+2024-11-29 12:17:11,789 - <EMW SLExA ETL> - WARNING - Candidate 'B 1.1x150x1500 C75S' at index 22 did not match any reference.
+2024-11-29 12:17:11,790 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x105 1.4509 2B' at index 23 did not match any reference.
+2024-11-29 12:17:11,792 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x90 1.4509 2B' at index 24 did not match any reference.
+2024-11-29 12:17:11,794 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x126 1.4512 2B' at index 25 did not match any reference.
+2024-11-29 12:17:11,797 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x494 DC04-AM'.
+2024-11-29 12:17:11,799 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x518 S420MC'.
+2024-11-29 12:17:11,800 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x105 HC420-LA'.
+2024-11-29 12:17:11,802 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x66 HC420-LA'.
+2024-11-29 12:17:11,803 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x102 HC420-LA'.
+2024-11-29 12:17:11,805 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x331 HC380-LA'.
+2024-11-29 12:17:11,806 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x514 DC04-AM'.
+2024-11-29 12:17:11,808 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.5x1250x2500 DC01'.
+2024-11-29 12:17:11,809 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x340 DD13'.
+2024-11-29 12:17:11,817 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x680 HC260-LA'.
+2024-11-29 12:17:11,818 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x220 DC01-AM'.
+2024-11-29 12:17:11,819 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x279 DC04-AM'.
+2024-11-29 12:17:11,821 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x565 S420MC'.
+2024-11-29 12:17:11,822 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x135 S460MC'.
+2024-11-29 12:17:11,826 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x274 C45E UNGEHÄRTET' at index 45 did not match any reference.
+2024-11-29 12:17:11,827 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x275 DC04-AM'.
+2024-11-29 12:17:11,829 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 3.0x1250x2500 S500MC'.
+2024-11-29 12:17:11,831 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.54x360 DC06-A BONDAL CPT' at index 48 did not match any reference.
+2024-11-29 12:17:11,833 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x408 DC06-AM'.
+2024-11-29 12:17:11,834 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x157 DD13'.
+2024-11-29 12:17:11,836 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x207 DC04 ZE75/75'.
+2024-11-29 12:17:11,837 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x517 DC04-AM'.
+2024-11-29 12:17:11,847 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x124 DC04-AM'.
+2024-11-29 12:17:11,851 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x110 DD11'.
+2024-11-29 12:17:11,852 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x576 DC04-AM'.
+2024-11-29 12:17:11,855 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x1020 S355MC'.
+2024-11-29 12:17:11,856 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x210 S420MC'.
+2024-11-29 12:17:11,860 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.5x400 H240 YMAGINE' at index 66 did not match any reference.
+2024-11-29 12:17:11,862 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x480 1.4301 2R/2B' at index 67 did not match any reference.
+2024-11-29 12:17:11,868 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x38 DX51 Z200NA' at index 70 did not match any reference.
+2024-11-29 12:17:11,870 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x79 DX51D Z200NA'.
+2024-11-29 12:17:11,872 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.525x210 DC04 LC GK MB'.
+2024-11-29 12:17:11,873 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.5x230 1.4301 2R/2B' at index 73 did not match any reference.
+2024-11-29 12:17:11,875 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x177 S235JR DBL.8492.30'.
+2024-11-29 12:17:11,879 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x370 DX52D AS120BCO'.
+2024-11-29 12:17:11,882 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x265 S500MC'.
+2024-11-29 12:17:11,884 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x520 1.4301 2B' at index 79 did not match any reference.
+2024-11-29 12:17:11,886 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x80 S420MC'.
+2024-11-29 12:17:11,887 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x152 DC04-A-LC-MA'.
+2024-11-29 12:17:11,888 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x167 DC04'.
+2024-11-29 12:17:11,890 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x280 DC03-AM'.
+2024-11-29 12:17:11,892 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x150 1.4301 2B' at index 84 did not match any reference.
+2024-11-29 12:17:11,894 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x150 1.4301 2B' at index 85 did not match any reference.
+2024-11-29 12:17:11,895 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x90.5 DC01-AM'.
+2024-11-29 12:17:11,897 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x117.5 DC01-AM'.
+2024-11-29 12:17:11,898 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x142 DD13'.
+2024-11-29 12:17:11,900 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x305 1.4301 2B' at index 89 did not match any reference.
+2024-11-29 12:17:11,902 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x305 1.4301 2B' at index 90 did not match any reference.
+2024-11-29 12:17:11,903 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x235 S500MC'.
+2024-11-29 12:17:11,905 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x595 S355MC'.
+2024-11-29 12:17:11,906 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x89 S355MC'.
+2024-11-29 12:17:11,907 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x368 S500MC'.
+2024-11-29 12:17:11,909 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x65 TL1550-220 Z100MB'.
+2024-11-29 12:17:11,910 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x615 S420MC DBL8492.30'.
+2024-11-29 12:17:11,912 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x106 S500MC'.
+2024-11-29 12:17:11,913 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x633 DC04-AM'.
+2024-11-29 12:17:11,916 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.75x615 DX52D AS120BCO'.
+2024-11-29 12:17:11,917 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x290 DD13'.
+2024-11-29 12:17:11,919 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x310 1.4301 2B' at index 101 did not match any reference.
+2024-11-29 12:17:11,921 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x310 1.4301 2B' at index 102 did not match any reference.
+2024-11-29 12:17:11,922 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x440 DC06-AM'.
+2024-11-29 12:17:11,924 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x254 DD13'.
+2024-11-29 12:17:11,927 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x190 S500MC DBL8492.30'.
+2024-11-29 12:17:11,929 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.5x128 DX52D Z140MA'.
+2024-11-29 12:17:11,931 - <EMW SLExA ETL> - WARNING - Candidate 'B 0.5x435x2175 C60E' at index 108 did not match any reference.
+2024-11-29 12:17:11,932 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x25.7 DC04-A'.
+2024-11-29 12:17:11,934 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x175 S355MC'.
+2024-11-29 12:17:11,935 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 8.0x210 DD11'.
+2024-11-29 12:17:11,936 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x56 DC04-A'.
+2024-11-29 12:17:11,938 - <EMW SLExA ETL> - WARNING - Candidate 'B 0.5x413x2478 C60E' at index 113 did not match any reference.
+2024-11-29 12:17:11,940 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x110 DD11'.
+2024-11-29 12:17:11,941 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 7.0x395 S500MC'.
+2024-11-29 12:17:11,942 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x190 S700MC'.
+2024-11-29 12:17:11,945 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x156 DX52D'.
+2024-11-29 12:17:11,946 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x190 S355MC'.
+2024-11-29 12:17:11,947 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x168 DC03-AM'.
+2024-11-29 12:17:11,949 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x530 DC04-AM'.
+2024-11-29 12:17:11,950 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 8.0x1250x2500 S420MC'.
+2024-11-29 12:17:11,954 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x360 S700MC'.
+2024-11-29 12:17:11,955 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x175 DC04-AM'.
+2024-11-29 12:17:11,956 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x625 DC01-AM'.
+2024-11-29 12:17:11,958 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 3.0x1225x2500 HC380-LA'.
+2024-11-29 12:17:11,959 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x150 DX56D Z140NAO'.
+2024-11-29 12:17:11,961 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x140 S355MC'.
+2024-11-29 12:17:11,962 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x168 DC04-AM'.
+2024-11-29 12:17:11,965 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.3x220 HC300-LA-MB-RL-GK'.
+2024-11-29 12:17:11,967 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x415 S355MC'.
+2024-11-29 12:17:11,969 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x285 DX53D AS100ACO'.
+2024-11-29 12:17:11,971 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x655 DX54D Z140NA'.
+2024-11-29 12:17:11,976 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x494 S500MC'.
+2024-11-29 12:17:11,981 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 6.0x532 S500MC'.
+2024-11-29 12:17:11,983 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x130 C75S-LC' at index 141 did not match any reference.
+2024-11-29 12:17:11,984 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.9x112 C75S' at index 142 did not match any reference.
+2024-11-29 12:17:11,986 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x94 S355MC'.
+2024-11-29 12:17:11,988 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.0x1535 PHS-ULTRAFORM HT1500PS' at index 144 did not match any reference.
+2024-11-29 12:17:11,990 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.15x1510 PHS-ULTRAFORM HT490PS' at index 145 did not match any reference.
+2024-11-29 12:17:11,991 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x970 HC420-LA'.
+2024-11-29 12:17:11,993 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x342 DX53D Z200NA'.
+2024-11-29 12:17:11,996 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.75x365 DX52D AS120BCO'.
+2024-11-29 12:17:11,997 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x282 HC420-LA'.
+2024-11-29 12:17:11,998 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.8x638 S420MC'.
+2024-11-29 12:17:12,002 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.15x1395 PHS-ULTRAFORM HT1500PS' at index 152 did not match any reference.
+2024-11-29 12:17:12,006 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x129 S500MC'.
+2024-11-29 12:17:12,008 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x703 PHS-ULTRAFORM HT1500PS' at index 155 did not match any reference.
+2024-11-29 12:17:12,009 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x934 PHS-ULTRAFORM HT1500PS' at index 156 did not match any reference.
+2024-11-29 12:17:12,011 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.3x1126 PHS-ULTRAFORM HT1500PS' at index 157 did not match any reference.
+2024-11-29 12:17:12,015 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x600 DC04-AM'.
+2024-11-29 12:17:12,016 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x934 DC04-BG'.
+2024-11-29 12:17:12,018 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x796 DC04-BG'.
+2024-11-29 12:17:12,019 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x160 DD11'.
+2024-11-29 12:17:12,020 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x92 DC04-AM'.
+2024-11-29 12:17:12,022 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x158 S500MC'.
+2024-11-29 12:17:12,023 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x358 DC04-AM'.
+2024-11-29 12:17:12,025 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x436 S420MC'.
+2024-11-29 12:17:12,027 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x274 S235JR'.
+2024-11-29 12:17:12,029 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x200 DC04-AM/CR3'.
+2024-11-29 12:17:12,030 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x240 DC04-AM/CR3'.
+2024-11-29 12:17:12,035 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x333 DC03-AM'.
+2024-11-29 12:17:12,037 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x222 S420MC'.
+2024-11-29 12:17:12,038 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x90 HC420-LA'.
+2024-11-29 12:17:12,040 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x180 HC420-LA'.
+2024-11-29 12:17:12,045 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x58 DC01'.
+2024-11-29 12:17:12,047 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x130 DC03-AM'.
+2024-11-29 12:17:12,048 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x106 S355MC'.
+2024-11-29 12:17:12,049 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x70 S355MC'.
+2024-11-29 12:17:12,054 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x151 DD11'.
+2024-11-29 12:17:12,056 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x590 HC420-LA'.
+2024-11-29 12:17:12,058 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.5x564 1.4404 2B' at index 188 did not match any reference.
+2024-11-29 12:17:12,059 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x210 S500MC'.
+2024-11-29 12:17:12,061 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x252 S500MC'.
+2024-11-29 12:17:12,062 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x300 S355MC DBL8492.30'.
+2024-11-29 12:17:12,066 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x540 S420MC YMAGINE'.
+2024-11-29 12:17:12,068 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x550 S500MC'.
+2024-11-29 12:17:12,069 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x240 S500MC'.
+2024-11-29 12:17:12,071 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x477 S420MC'.
+2024-11-29 12:17:12,072 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x596 S460MC'.
+2024-11-29 12:17:12,073 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x430 HC420-LA'.
+2024-11-29 12:17:12,075 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x427 S355MC'.
+2024-11-29 12:17:12,076 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x175 S550MC'.
+2024-11-29 12:17:12,078 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x125 S550MC'.
+2024-11-29 12:17:12,079 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x520 S550MC'.
+2024-11-29 12:17:12,081 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.0x412 1.4301 2B' at index 203 did not match any reference.
+2024-11-29 12:17:12,086 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x166 DC01 ZE25/25'.
+2024-11-29 12:17:12,087 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x594 S500MC'.
+2024-11-29 12:17:12,089 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x540 S500MC'.
+2024-11-29 12:17:12,093 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x120 DC04-AM/CR3'.
+2024-11-29 12:17:12,094 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x124 S355MC'.
+2024-11-29 12:17:12,097 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x134 S420MC'.
+2024-11-29 12:17:12,099 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x140 DC01-AM/CR1'.
+2024-11-29 12:17:12,100 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x140 DC01-AM/CR1'.
+2024-11-29 12:17:12,102 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x152 S420MC'.
+2024-11-29 12:17:12,103 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x174 S355MC'.
+2024-11-29 12:17:12,105 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x174 S355MC'.
+2024-11-29 12:17:12,106 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x180 HC340-LA'.
+2024-11-29 12:17:12,109 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x184 S355MC'.
+2024-11-29 12:17:12,113 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x190 H260-LAD Z100MB' at index 223 did not match any reference.
+2024-11-29 12:17:12,116 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x196 S315MC'.
+2024-11-29 12:17:12,118 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x218 HC260-LA'.
+2024-11-29 12:17:12,119 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x218 S420MC'.
+2024-11-29 12:17:12,126 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x225 S315MC'.
+2024-11-29 12:17:12,129 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x226 S315MC'.
+2024-11-29 12:17:12,131 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.5x230 S420MC'.
+2024-11-29 12:17:12,136 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x240 S355MC YMAGINE'.
+2024-11-29 12:17:12,137 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x240 S355MC YMAGINE'.
+2024-11-29 12:17:12,143 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x246 S235JR'.
+2024-11-29 12:17:12,145 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x250 S355MC'.
+2024-11-29 12:17:12,148 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x256 DC04-AM/CR3'.
+2024-11-29 12:17:12,149 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.2x258 DC04-AM/CR3'.
+2024-11-29 12:17:12,151 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.2x258 DC04-AM/CR3'.
+2024-11-29 12:17:12,152 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x258 S315MC'.
+2024-11-29 12:17:12,154 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x264 S355MC'.
+2024-11-29 12:17:12,155 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x264 S315MC'.
+2024-11-29 12:17:12,157 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x268 S355MC'.
+2024-11-29 12:17:12,165 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.5x300 S420MC'.
+2024-11-29 12:17:12,167 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x320 S355MC'.
+2024-11-29 12:17:12,168 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x320 DD11'.
+2024-11-29 12:17:12,171 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x328 HC340-LA'.
+2024-11-29 12:17:12,173 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x335 HC420-LA'.
+2024-11-29 12:17:12,174 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x335 HC420-LA'.
+2024-11-29 12:17:12,180 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x350 HC420-LA'.
+2024-11-29 12:17:12,191 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x368 S355MC'.
+2024-11-29 12:17:12,192 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x369 HC420-LA'.
+2024-11-29 12:17:12,194 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x375 HC420-LA'.
+2024-11-29 12:17:12,195 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x384 HC300-LA'.
+2024-11-29 12:17:12,197 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x384 HC420-LA'.
+2024-11-29 12:17:12,200 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x404 S315MC'.
+2024-11-29 12:17:12,202 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.5x425 HC240-LA' at index 276 did not match any reference.
+2024-11-29 12:17:12,207 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x436 DX54D'.
+2024-11-29 12:17:12,209 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.8x440 DX54D'.
+2024-11-29 12:17:12,220 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x520 HC300-LA'.
+2024-11-29 12:17:12,227 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x620 CR210-LA'.
+2024-11-29 12:17:12,231 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x78 S420MC'.
+2024-11-29 12:17:12,235 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x840 HC340-LA'.
+2024-11-29 12:17:12,236 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x266 DC04-A'.
+2024-11-29 12:17:12,238 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x182 DC04-A'.
+2024-11-29 12:17:12,241 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x840 HC340-LA'.
+2024-11-29 12:17:12,243 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x230 DD11'.
+2024-11-29 12:17:12,246 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.8x1120 H220-BD Z100MB' at index 299 did not match any reference.
+2024-11-29 12:17:12,248 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x247 DC04-AM'.
+2024-11-29 12:17:12,249 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x380 DC04-AM'.
+2024-11-29 12:17:12,251 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 8.00x115 S420MC'.
+2024-11-29 12:17:12,255 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x102 HX420-LA Z140MB' at index 304 did not match any reference.
+2024-11-29 12:17:12,256 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x95 S420MC'.
+2024-11-29 12:17:12,257 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.75x615 DC04-AM'.
+2024-11-29 12:17:12,260 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x334 HC460-LA'.
+2024-11-29 12:17:12,262 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x250 HC380-LA'.
+2024-11-29 12:17:12,263 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x450 S355MC'.
+2024-11-29 12:17:12,265 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x116 S355MC'.
+2024-11-29 12:17:12,266 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x190 S355MC'.
+2024-11-29 12:17:12,268 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x144 S355MC'.
+2024-11-29 12:17:12,272 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x214 S315MC'.
+2024-11-29 12:17:12,278 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x224 S315MC'.
+2024-11-29 12:17:12,280 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x560 S420MC YMAGINE'.
+2024-11-29 12:17:12,289 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x227 DC03-AM'.
+2024-11-29 12:17:12,294 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x224 DC03-AM'.
+2024-11-29 12:17:12,299 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.2x151x318 DC01'.
+2024-11-29 12:17:12,332 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x340 IFC210Y350T GI50/50-U' at index 321 did not match any reference.
+2024-11-29 12:17:12,359 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.0x254 1.4301 2B' at index 324 did not match any reference.
+2024-11-29 12:17:12,371 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x440 DC04-AM'.
+2024-11-29 12:17:12,379 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x310 DC01-AM'.
+2024-11-29 12:17:12,401 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x335 S355MC DBL8492.30'.
+2024-11-29 12:17:12,404 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x160 S355MC DBL8492.30'.
+2024-11-29 12:17:12,405 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x197 S355MC DBL8492.30'.
+2024-11-29 12:17:12,407 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x146 S500MC DBL8492.30'.
+2024-11-29 12:17:12,416 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x160 S260MC'.
+2024-11-29 12:17:12,419 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x446 S500MC DBL8492.30'.
+2024-11-29 12:17:12,420 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x318 S355MC DBL8492.30'.
+2024-11-29 12:17:12,422 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x322 S420MC DBL8492.30'.
+2024-11-29 12:17:12,424 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x330 S260MC'.
+2024-11-29 12:17:12,425 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x450 S420MC DBL8492.30'.
+2024-11-29 12:17:12,427 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x532 DC05-AM'.
+2024-11-29 12:17:12,428 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x582 DC05-AM'.
+2024-11-29 12:17:12,437 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x560 DC01-AM'.
+2024-11-29 12:17:12,446 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x182 S500MC'.
+2024-11-29 12:17:12,450 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x137 S355MC DBL8492.30'.
+2024-11-29 12:17:12,452 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x173 S500MC'.
+2024-11-29 12:17:12,455 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x230 DC01-AM'.
+2024-11-29 12:17:12,457 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x450 S355MC DBL8492.30'.
+2024-11-29 12:17:12,458 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x315 S500MC DBL8492.30'.
+2024-11-29 12:17:12,460 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x260 S500MC DBL8492.30'.
+2024-11-29 12:17:12,461 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x100 S260MC'.
+2024-11-29 12:17:12,463 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x278 S500MC DBL8492.30'.
+2024-11-29 12:17:12,464 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x280 HC340-LA'.
+2024-11-29 12:17:12,465 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x290 HC340-LA'.
+2024-11-29 12:17:12,467 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x217 HC340-LA'.
+2024-11-29 12:17:12,468 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x228 HC340-LA'.
+2024-11-29 12:17:12,476 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x430 S260MC'.
+2024-11-29 12:17:12,478 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x285 S355MC DBL8492.30'.
+2024-11-29 12:17:12,479 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x80 DD12'.
+2024-11-29 12:17:12,480 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x280 S420MC DBL8492.30'.
+2024-11-29 12:17:12,483 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x218 S355MC'.
+2024-11-29 12:17:12,485 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x112 DD12'.
+2024-11-29 12:17:12,488 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x137 DC04-AM'.
+2024-11-29 12:17:12,490 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x370 DC01 ZE75/75'.
+2024-11-29 12:17:12,492 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x340 DC01 ZE75/75'.
+2024-11-29 12:17:12,493 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x366 DC01 ZE75/75'.
+2024-11-29 12:17:12,496 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x156 DC01 ZE75/75'.
+2024-11-29 12:17:12,497 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x362 DC01-AM/CR1'.
+2024-11-29 12:17:12,499 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x200 DC01-AM/CR1'.
+2024-11-29 12:17:12,504 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.75x1180 CR340-LA'.
+2024-11-29 12:17:12,508 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x535 DC06-AM'.
+2024-11-29 12:17:12,509 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 2.5x135x220 HC260-LA'.
+2024-11-29 12:17:12,511 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x434 DC04'.
+2024-11-29 12:17:12,512 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x300 DC04'.
+2024-11-29 12:17:12,514 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x411 HC260-LA'.
+2024-11-29 12:17:12,515 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x448 S260MC'.
+2024-11-29 12:17:12,516 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x290 S260MC'.
+2024-11-29 12:17:12,518 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x335 S260MC'.
+2024-11-29 12:17:12,520 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x158 S355MC DBL8492.30'.
+2024-11-29 12:17:12,521 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x230 S260MC'.
+2024-11-29 12:17:12,522 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x381 DC01-AM'.
+2024-11-29 12:17:12,524 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x130 S500MC DBL8492.30'.
+2024-11-29 12:17:12,526 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x270 HR340MC'.
+2024-11-29 12:17:12,528 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x110 DC04 ZE75/75'.
+2024-11-29 12:17:12,529 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x104 HC380-LA'.
+2024-11-29 12:17:12,531 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x280 S355MC DBL8492.30'.
+2024-11-29 12:17:12,532 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x116 DC04-AM/CR3'.
+2024-11-29 12:17:12,534 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x180 HR340MC'.
+2024-11-29 12:17:12,536 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x300 HR340MC'.
+2024-11-29 12:17:12,538 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x212 DC04-AM'.
+2024-11-29 12:17:12,541 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x580 CR300LA GI40/40'.
+2024-11-29 12:17:12,545 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x194 S500MC'.
+2024-11-29 12:17:12,549 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x78 S500MC'.
+2024-11-29 12:17:12,554 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.55x438 DC06 BONDAL CPT' at index 413 did not match any reference.
+2024-11-29 12:17:12,556 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x98 CUFE2P' at index 414 did not match any reference.
+2024-11-29 12:17:12,557 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x203 DC01-AM/CR1'.
+2024-11-29 12:17:12,558 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x287 S500MC DBL8492.30'.
+2024-11-29 12:17:12,560 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x180 S260MC'.
+2024-11-29 12:17:12,561 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x256 S260MC'.
+2024-11-29 12:17:12,562 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x390 S260MC'.
+2024-11-29 12:17:12,564 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x262 DC04-AM'.
+2024-11-29 12:17:12,565 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x446 S355MC DBL8492.30'.
+2024-11-29 12:17:12,568 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x70 CU-ETP CW004A-R250' at index 422 did not match any reference.
+2024-11-29 12:17:12,569 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x440 S500MC DBL8492.30'.
+2024-11-29 12:17:12,571 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x378 S500MC DBL8492.30'.
+2024-11-29 12:17:12,573 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x290 S355MC DBL8492.30'.
+2024-11-29 12:17:12,578 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x100 S380MC DBL8492.30'.
+2024-11-29 12:17:12,579 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x320 S355MC'.
+2024-11-29 12:17:12,582 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x372 S500MC'.
+2024-11-29 12:17:12,584 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x140 S500MC DBL8492.30'.
+2024-11-29 12:17:12,603 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x500 CR3 ZM35/35-U' at index 439 did not match any reference.
+2024-11-29 12:17:12,605 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.8x820 CR3 ZM35/35-U' at index 440 did not match any reference.
+2024-11-29 12:17:12,609 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x188 S355MC'.
+2024-11-29 12:17:12,611 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.7x142 1.4301 2B' at index 443 did not match any reference.
+2024-11-29 12:17:12,613 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x605 1.4509 2B' at index 444 did not match any reference.
+2024-11-29 12:17:12,616 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x303 S260MC'.
+2024-11-29 12:17:12,618 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x446 S500MC'.
+2024-11-29 12:17:12,619 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x232 S500MC'.
+2024-11-29 12:17:12,620 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x440 S500MC'.
+2024-11-29 12:17:12,625 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.75x410 CR3 ZM35/35-U' at index 451 did not match any reference.
+2024-11-29 12:17:12,627 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.3x945 CR4 Z100MB' at index 452 did not match any reference.
+2024-11-29 12:17:12,629 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x350 S355MC'.
+2024-11-29 12:17:12,631 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.45x28 CUFE2P R470' at index 454 did not match any reference.
+2024-11-29 12:17:12,632 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x250 S260MC'.
+2024-11-29 12:17:12,633 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x180 S260MC'.
+2024-11-29 12:17:12,635 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x110 S380MC DBL8492.30'.
+2024-11-29 12:17:12,636 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x415 S380MC DBL8492.30'.
+2024-11-29 12:17:12,638 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x350 S380MC DBL8492.30'.
+2024-11-29 12:17:12,641 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x320 S380MC DBL8492.30'.
+2024-11-29 12:17:12,642 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x300 S380MC DBL8492.30'.
+2024-11-29 12:17:12,644 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x160 DX56D Z140MA'.
+2024-11-29 12:17:12,645 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x350 S355MC'.
+2024-11-29 12:17:12,650 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x210 S420MC DBL8492.30'.
+2024-11-29 12:17:12,652 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x235 S420MC DBL8492.30'.
+2024-11-29 12:17:12,653 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x290 S500MC DBL8492.30'.
+2024-11-29 12:17:12,655 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x446 S500MC DBL8492.30'.
+2024-11-29 12:17:12,656 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x445 S500MC'.
+2024-11-29 12:17:12,658 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x509 S500MC'.
+2024-11-29 12:17:12,662 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x232 S355MC'.
+2024-11-29 12:17:12,664 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x90 S355MC'.
+2024-11-29 12:17:12,665 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.50x80 S355MC'.
+2024-11-29 12:17:12,667 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x94 DC01 ZE75/75'.
+2024-11-29 12:17:12,668 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x140 S355MC'.
+2024-11-29 12:17:12,670 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x142 S355MC'.
+2024-11-29 12:17:12,671 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x206 S260MC'.
+2024-11-29 12:17:12,674 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x165 DX56D'.
+2024-11-29 12:17:12,675 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x94 HC260LA'.
+2024-11-29 12:17:12,680 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x530 S420MC'.
+2024-11-29 12:17:12,682 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x490 S420MC'.
+2024-11-29 12:17:12,683 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x1065 S420MC'.
+2024-11-29 12:17:12,685 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x700 S420MC'.
+2024-11-29 12:17:12,686 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x650 S420MC'.
+2024-11-29 12:17:12,688 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x161 S420MC'.
+2024-11-29 12:17:12,689 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x120 S420MC'.
+2024-11-29 12:17:12,691 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x220 S355MC'.
+2024-11-29 12:17:12,701 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x283 HC420-LA'.
+2024-11-29 12:17:12,703 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x345 HC420-LA'.
+2024-11-29 12:17:12,705 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x30 CU-ETP R290' at index 501 did not match any reference.
+2024-11-29 12:17:12,707 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x420 S260MC'.
+2024-11-29 12:17:12,711 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.6x262 CUFE2P-R370' at index 504 did not match any reference.
+2024-11-29 12:17:12,716 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x302 DC04'.
+2024-11-29 12:17:12,720 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x370 HC420-LA'.
+2024-11-29 12:17:12,733 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x285 HC420-LA'.
+2024-11-29 12:17:12,735 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x355 HC420-LA'.
+2024-11-29 12:17:12,736 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x425 HC420-LA'.
+2024-11-29 12:17:12,742 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.5x412x202 DC01'.
+2024-11-29 12:17:12,743 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.5x270x160 DC01'.
+2024-11-29 12:17:12,746 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x185 HX340-LAD'.
+2024-11-29 12:17:12,755 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.5x146 DC04 ZE25/25'.
+2024-11-29 12:17:12,757 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.35x242 ISOVAC NO 35-22 HS' at index 528 did not match any reference.
+2024-11-29 12:17:12,759 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x218 S260MC'.
+2024-11-29 12:17:12,760 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x122 S355MC'.
+2024-11-29 12:17:12,762 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x150 DC04-AM'.
+2024-11-29 12:17:12,766 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x296 DX53D AS100ACO'.
+2024-11-29 12:17:12,768 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x139 DC04-AM'.
+2024-11-29 12:17:12,770 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x500 HC450X' at index 535 did not match any reference.
+2024-11-29 12:17:12,772 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.2x510 HC450X' at index 536 did not match any reference.
+2024-11-29 12:17:12,775 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x700 HD680C'.
+2024-11-29 12:17:12,776 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x44 1.4301 2B' at index 538 did not match any reference.
+2024-11-29 12:17:12,779 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.70x402 DX52D'.
+2024-11-29 12:17:12,783 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x1070 PHS-ULTRAFORM HT1500PS' at index 541 did not match any reference.
+2024-11-29 12:17:12,784 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x555 S420MC'.
+2024-11-29 12:17:12,786 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x642 S420MC'.
+2024-11-29 12:17:12,788 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x510 S420MC'.
+2024-11-29 12:17:12,789 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x617 S420MC'.
+2024-11-29 12:17:12,791 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x925 S420MC'.
+2024-11-29 12:17:12,793 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x846 LAC340Y410 GI50/50-U' at index 547 did not match any reference.
+2024-11-29 12:17:12,796 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x450 LAC380Y450 GI50/50-U' at index 548 did not match any reference.
+2024-11-29 12:17:12,803 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x145 CR330Y590T-DP'.
+2024-11-29 12:17:12,805 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.3x1370 PHS-ULTRAFORM HT1500PS' at index 552 did not match any reference.
+2024-11-29 12:17:12,807 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x570 PHS-ULTRAFORM HT1500PS' at index 553 did not match any reference.
+2024-11-29 12:17:12,809 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.4x960 PHS-ULTRAFORM HT1500PS' at index 554 did not match any reference.
+2024-11-29 12:17:12,811 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x452 LAC380Y450 GI50/50-U' at index 555 did not match any reference.
+2024-11-29 12:17:12,813 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x400 LAC380Y450 GI50/50-U' at index 556 did not match any reference.
+2024-11-29 12:17:12,815 - <EMW SLExA ETL> - WARNING - Candidate 'B 2.0x300x2000 C75S' at index 557 did not match any reference.
+2024-11-29 12:17:12,816 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x312 DC01-AM/CR1'.
+2024-11-29 12:17:12,827 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x145 HR340MC'.
+2024-11-29 12:17:12,836 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x110 DC04-AM/CR3'.
+2024-11-29 12:17:12,848 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x360 LAC380Y450 GI50/50-U' at index 574 did not match any reference.
+2024-11-29 12:17:12,851 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x296 LAC340Y410T GI50/50-U' at index 575 did not match any reference.
+2024-11-29 12:17:12,855 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.9x154 DC01'.
+2024-11-29 12:17:12,863 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.3x176 HC260-LA'.
+2024-11-29 12:17:12,871 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x215 HC340-LA'.
+2024-11-29 12:17:12,872 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x188 S460MC'.
+2024-11-29 12:17:12,874 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x410 LAC380Y450 GI50/50-U' at index 587 did not match any reference.
+2024-11-29 12:17:12,876 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x286 LAC380Y450T GI50/50-U' at index 588 did not match any reference.
+2024-11-29 12:17:12,878 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x490 1.4301 2B' at index 589 did not match any reference.
+2024-11-29 12:17:12,880 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x130 1.4404 2B' at index 590 did not match any reference.
+2024-11-29 12:17:12,886 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x236 DX53D'.
+2024-11-29 12:17:12,900 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x240 DX54D Z140NA'.
+2024-11-29 12:17:12,902 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x260 DX54D Z140NA'.
+2024-11-29 12:17:12,904 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x265 DX54D Z140NA'.
+2024-11-29 12:17:12,906 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x435 DX54D Z140NA'.
+2024-11-29 12:17:12,908 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x504 DX54D Z140NA'.
+2024-11-29 12:17:12,911 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x235 CR340-LA GI50/50'.
+2024-11-29 12:17:12,928 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x146 S355MC'.
+2024-11-29 12:17:12,929 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x370 DC04-AM'.
+2024-11-29 12:17:12,931 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x250 IFC210Y350T GI50/50-U' at index 618 did not match any reference.
+2024-11-29 12:17:12,965 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.35x157 ISOVAC HP 235-35 A' at index 636 did not match any reference.
+2024-11-29 12:17:12,966 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.95x1278 HCT780X'.
+2024-11-29 12:17:12,969 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x246 HR660Y760TCP GEBEIZT'.
+2024-11-29 12:17:12,970 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x142 DD11'.
+2024-11-29 12:17:12,971 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x480 DD11'.
+2024-11-29 12:17:12,993 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x475 DX54D Z100NAO'.
+2024-11-29 12:17:12,997 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x300 DD11'.
+2024-11-29 12:17:12,999 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x295 DD11'.
+2024-11-29 12:17:13,000 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x332 DD11'.
+2024-11-29 12:17:13,011 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x288 LAC340Y410T GI50/50-U' at index 664 did not match any reference.
+2024-11-29 12:17:13,013 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x108 DC04-AM'.
+2024-11-29 12:17:13,014 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x240 DC04-AM'.
+2024-11-29 12:17:13,015 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x505 DC06-AM'.
+2024-11-29 12:17:13,042 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x110 DX51D Z100NAC'.
+2024-11-29 12:17:13,044 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x75 DX51D Z100NAC'.
+2024-11-29 12:17:13,049 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.54x295 DC06 BONDAL CPT' at index 685 did not match any reference.
+2024-11-29 12:17:13,052 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x615 CR380-LA ZM35/35'.
+2024-11-29 12:17:13,054 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x690 S355MC'.
+2024-11-29 12:17:13,061 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.75x680 DC04-AM'.
+2024-11-29 12:17:13,065 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x296 CR300LA'.
+2024-11-29 12:17:13,069 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x830 CR210-LA'.
+2024-11-29 12:17:13,073 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.1x616 22MNB5 AS150'.
+2024-11-29 12:17:13,075 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.54x334 DC06-A BONDAL CPT' at index 699 did not match any reference.
+2024-11-29 12:17:13,077 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x318 CR210-LA GI40/40'.
+2024-11-29 12:17:13,082 - <EMW SLExA ETL> - WARNING - Candidate 'C 4.0x800 HR500MC' at index 703 did not match any reference.
+2024-11-29 12:17:13,083 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x278 HC380-LA'.
+2024-11-29 12:17:13,085 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x307 HC380LA'.
+2024-11-29 12:17:13,090 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x317 S355MC DBL8492.30'.
+2024-11-29 12:17:13,095 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x82 CUZN37-R300' at index 710 did not match any reference.
+2024-11-29 12:17:13,101 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x665 HR420MC'.
+2024-11-29 12:17:13,103 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x197 HR420MC'.
+2024-11-29 12:17:13,105 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x355 HR420MC'.
+2024-11-29 12:17:13,106 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x282 HR550MC' at index 716 did not match any reference.
+2024-11-29 12:17:13,108 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x194 HR420MC'.
+2024-11-29 12:17:13,110 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x270 HR420MC'.
+2024-11-29 12:17:13,112 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x234 HR420MC'.
+2024-11-29 12:17:13,124 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.2x108 CuZn37 R300' at index 726 did not match any reference.
+2024-11-29 12:17:13,127 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x640 LAC380Y450T GI50/50-U' at index 728 did not match any reference.
+2024-11-29 12:17:13,129 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x646 LAC380Y450T GI50/50-U' at index 729 did not match any reference.
+2024-11-29 12:17:13,131 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.2x68 CUZN37-R300' at index 730 did not match any reference.
+2024-11-29 12:17:13,136 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x212 CR240-LA GI40/40'.
+2024-11-29 12:17:13,139 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.8x190 CR240-LA GI50/50'.
+2024-11-29 12:17:13,140 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x223 DC04'.
+2024-11-29 12:17:13,142 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.6x190 DC01'.
+2024-11-29 12:17:13,144 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x146 C35' at index 738 did not match any reference.
+2024-11-29 12:17:13,145 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x908 CR210-LA GI40/40'.
+2024-11-29 12:17:13,150 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.8x165 CR240-LA GI40/40'.
+2024-11-29 12:17:13,151 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x558 CR240-LA GI40/40'.
+2024-11-29 12:17:13,160 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x74 HC380-LA-LC-MA-RL-GK'.
+2024-11-29 12:17:13,163 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x613 HC380-LA'.
+2024-11-29 12:17:13,166 - <EMW SLExA ETL> - WARNING - Candidate 'B 4.0x390x2400 DC01 C690' at index 751 did not match any reference.
+2024-11-29 12:17:13,170 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x222 DC01-AM'.
+2024-11-29 12:17:13,172 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x266 DC01-AM'.
+2024-11-29 12:17:13,173 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x363 DC04-AM'.
+2024-11-29 12:17:13,174 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x78 DC06A'.
+2024-11-29 12:17:13,180 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x770 DX54D Z140NAC'.
+2024-11-29 12:17:13,185 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x237 DX54D'.
+2024-11-29 12:17:13,187 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x530 CR5 EG29/29-EP'.
+2024-11-29 12:17:13,197 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x436 DC01-AM'.
+2024-11-29 12:17:13,198 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x249 DC04'.
+2024-11-29 12:17:13,209 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x154 DC01-AM'.
+2024-11-29 12:17:13,217 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x446 DD13'.
+2024-11-29 12:17:13,218 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x245 DD13'.
+2024-11-29 12:17:13,232 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x179 DC01'.
+2024-11-29 12:17:13,236 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x358 DC04-AM'.
+2024-11-29 12:17:13,238 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x516 HX260-LAD Z140NAC'.
+2024-11-29 12:17:13,240 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x300 IFC210Y350T GI50/50-U' at index 796 did not match any reference.
+2024-11-29 12:17:13,242 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x408 IFC210Y350T GI50/50-U' at index 797 did not match any reference.
+2024-11-29 12:17:13,253 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 6.0x950x2560 S700MC'.
+2024-11-29 12:17:13,254 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 6.0x950x2330 S700MC'.
+2024-11-29 12:17:13,259 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x635 DC04-AM'.
+2024-11-29 12:17:13,282 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x204 CR210-LA GI60/60'.
+2024-11-29 12:17:13,290 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x260 DC04-A'.
+2024-11-29 12:17:13,291 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x137 S420MC'.
+2024-11-29 12:17:13,294 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x363 DC04-AM'.
+2024-11-29 12:17:13,296 - <EMW SLExA ETL> - WARNING - Candidate 'C 4.0x330 1.43012B 2B' at index 831 did not match any reference.
+2024-11-29 12:17:13,299 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x273 HR420MC'.
+2024-11-29 12:17:13,301 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x262 LAC420Y480T GI50/50' at index 833 did not match any reference.
+2024-11-29 12:17:13,306 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x142 HR340-LA GI40/40'.
+2024-11-29 12:17:13,308 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.25x1530 CR22MNB5-CSPSC950Y1300T G' at index 837 did not match any reference.
+2024-11-29 12:17:13,310 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x120 1.4828 2B' at index 838 did not match any reference.
+2024-11-29 12:17:13,312 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x194 DX54D Z140NA'.
+2024-11-29 12:17:13,316 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x240 DD11'.
+2024-11-29 12:17:13,318 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x172 DD11'.
+2024-11-29 12:17:13,319 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x366 DD11'.
+2024-11-29 12:17:13,320 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x180 DD11'.
+2024-11-29 12:17:13,321 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x258 DD11'.
+2024-11-29 12:17:13,323 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x100 DD11'.
+2024-11-29 12:17:13,332 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x218 HR2'.
+2024-11-29 12:17:13,333 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x152 DC04-A'.
+2024-11-29 12:17:13,335 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x138 CR300-LA'.
+2024-11-29 12:17:13,338 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x340 CR340-LA'.
+2024-11-29 12:17:13,345 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x210 HX340-LAD Z100'.
+2024-11-29 12:17:13,347 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x154 S500MC'.
+2024-11-29 12:17:13,350 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.8x680 HC340-LA'.
+2024-11-29 12:17:13,356 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x188 HR2'.
+2024-11-29 12:17:13,358 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.0x84 1.4307 2B' at index 866 did not match any reference.
+2024-11-29 12:17:13,360 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x418 HX260-LAD'.
+2024-11-29 12:17:13,365 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x191 CR1'.
+2024-11-29 12:17:13,367 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x586 S355MC'.
+2024-11-29 12:17:13,368 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x276 S355MC'.
+2024-11-29 12:17:13,370 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x148 X5CRNI18-102B' at index 873 did not match any reference.
+2024-11-29 12:17:13,372 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x240 S355MC'.
+2024-11-29 12:17:13,373 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x190 DC04-A'.
+2024-11-29 12:17:13,374 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x136 DD13'.
+2024-11-29 12:17:13,377 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x138 HX420-LAD'.
+2024-11-29 12:17:13,379 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.6x1310 PHS-ULTRAFORM HT1500PS' at index 878 did not match any reference.
+2024-11-29 12:17:13,380 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.2x584 PHS-ULTRAFORM HT1500PS' at index 879 did not match any reference.
+2024-11-29 12:17:13,382 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x840 S420MC DBL8492.30'.
+2024-11-29 12:17:13,383 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x188 DC04-A'.
+2024-11-29 12:17:13,386 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x202 CR240-LA'.
+2024-11-29 12:17:13,388 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.8x930 CR330Y590T-DH'.
+2024-11-29 12:17:13,390 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x90 CR240-LA GI60/60'.
+2024-11-29 12:17:13,391 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x138 S600MC'.
+2024-11-29 12:17:13,393 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x105 S600MC'.
+2024-11-29 12:17:13,395 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x599 CR380-LA'.
+2024-11-29 12:17:13,397 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x875 S420MC DBL8492.30'.
+2024-11-29 12:17:13,398 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x792 S420MC DBL8492.30'.
+2024-11-29 12:17:13,400 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x500 S420MC DBL8492.30'.
+2024-11-29 12:17:13,401 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x652 S420MC DBL8492.30'.
+2024-11-29 12:17:13,403 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x396 S420MC DBL8492.30'.
+2024-11-29 12:17:13,404 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x470 S420MC DBL8492.30'.
+2024-11-29 12:17:13,406 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x242 S420MC DBL8492.30'.
+2024-11-29 12:17:13,407 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.5x573 S420MC DBL8492.30'.
+2024-11-29 12:17:13,409 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.5x604 S420MC DBL8492.30'.
+2024-11-29 12:17:13,410 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.5x205 S420MC DBL8492.30'.
+2024-11-29 12:17:13,412 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x364 S420MC DBL8492.30'.
+2024-11-29 12:17:13,413 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x390 S420MC DBL8492.30'.
+2024-11-29 12:17:13,415 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x825 S420MC DBL8492.30'.
+2024-11-29 12:17:13,416 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x585 S420MC DBL8492.30'.
+2024-11-29 12:17:13,418 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.5x200 S420MC DBL8492.30'.
+2024-11-29 12:17:13,419 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x252 S420MC DBL8492.30'.
+2024-11-29 12:17:13,421 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x374 S420MC DBL8492.30'.
+2024-11-29 12:17:13,422 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x294 S420MC DBL8492.30'.
+2024-11-29 12:17:13,424 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x295 S420MC DBL8492.30'.
+2024-11-29 12:17:13,425 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x267 S420MC DBL8492.30'.
+2024-11-29 12:17:13,427 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x140 S420MC DBL8492.30'.
+2024-11-29 12:17:13,428 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x455 S420MC'.
+2024-11-29 12:17:13,430 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x94 S420MC DBL8492.30'.
+2024-11-29 12:17:13,432 - <EMW SLExA ETL> - WARNING - Candidate 'C 4.0x249 1.41022B' at index 911 did not match any reference.
+2024-11-29 12:17:13,433 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x78 S355MC'.
+2024-11-29 12:17:13,439 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x242 CR240-LA'.
+2024-11-29 12:17:13,441 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.7x980 CR5'.
+2024-11-29 12:17:13,447 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.75x420 CR240-LA'.
+2024-11-29 12:17:13,449 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.1x480 CR340-LA'.
+2024-11-29 12:17:13,451 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x300 S420MC'.
+2024-11-29 12:17:13,453 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x330 IFC210Y350T GI50/50-U' at index 922 did not match any reference.
+2024-11-29 12:17:13,455 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x419 CR240-LA'.
+2024-11-29 12:17:13,457 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.6x204 CR300-LA'.
+2024-11-29 12:17:13,459 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x148 HX340-LAD Z100'.
+2024-11-29 12:17:13,461 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.25x1546 PHS-ULTRAFORM HT490PS' at index 926 did not match any reference.
+2024-11-29 12:17:13,463 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.35x1520 PHS-ULTRAFORM HT1500PS' at index 927 did not match any reference.
+2024-11-29 12:17:13,468 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x349 S600MC'.
+2024-11-29 12:17:13,469 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 4.0x334 S600MC'.
+2024-11-29 12:17:13,470 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 5.0x176 S600MC'.
+2024-11-29 12:17:13,473 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.0x1250x2500 CR300-LA'.
+2024-11-29 12:17:13,474 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x222 HC300-LA'.
+2024-11-29 12:17:13,476 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x162 DD11'.
+2024-11-29 12:17:13,478 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.4x1170x2300 CR300-LA'.
+2024-11-29 12:17:13,489 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x452 DC04-A'.
+2024-11-29 12:17:13,492 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.4x1050 CR380-MB GI70/70' at index 944 did not match any reference.
+2024-11-29 12:17:13,494 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.5x935 CR380-MB GI70/70' at index 945 did not match any reference.
+2024-11-29 12:17:13,499 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.2x348 CR380-LA GI50/50'.
+2024-11-29 12:17:13,520 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x1250 CR240-LA GI50/50'.
+2024-11-29 12:17:13,523 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x1200 CR240LA GI50/50'.
+2024-11-29 12:17:13,526 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x218 CR380-LA'.
+2024-11-29 12:17:13,530 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 0.8x291 CR300-LA'.
+2024-11-29 12:17:13,533 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x65 CR300-LA GI50/50'.
+2024-11-29 12:17:13,539 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x86 CR300LA GI50/50'.
+2024-11-29 12:17:13,550 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x175 CR4 GI50/50'.
+2024-11-29 12:17:13,556 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x1320 CR4 EG53/53-E'.
+2024-11-29 12:17:13,558 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.0x1000 CR210-IF GI50/50'.
+2024-11-29 12:17:13,564 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x372 CR300-LA'.
+2024-11-29 12:17:13,567 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.6x920 CR300-LA GI50/50'.
+2024-11-29 12:17:13,569 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x258 CR3'.
+2024-11-29 12:17:13,570 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x375 DC04-A'.
+2024-11-29 12:17:13,572 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 5.0x1500x2540 S500 MC'.
+2024-11-29 12:17:13,573 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x910 CR380-LA EG53/53'.
+2024-11-29 12:17:13,578 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.2x360 CR300LA GI50/50'.
+2024-11-29 12:17:13,582 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x102 DC01-A'.
+2024-11-29 12:17:13,584 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x254 CR300-LA'.
+2024-11-29 12:17:13,590 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.2x924 CR330Y590T-DH'.
+2024-11-29 12:17:13,591 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x198 S355MC DBL8492.30'.
+2024-11-29 12:17:13,594 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 2.0x1250x2500 CR380-LA'.
+2024-11-29 12:17:13,596 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x895 CR440Y780T-DP'.
+2024-11-29 12:17:13,598 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x244 CR3'.
+2024-11-29 12:17:13,600 - <EMW SLExA ETL> - WARNING - Candidate 'B 10.0x70x6000 S460M' at index 1007 did not match any reference.
+2024-11-29 12:17:13,602 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x655 HR420MC'.
+2024-11-29 12:17:13,604 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.0x511 HR550MC' at index 1009 did not match any reference.
+2024-11-29 12:17:13,606 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.5x356 HR600MC' at index 1010 did not match any reference.
+2024-11-29 12:17:13,608 - <EMW SLExA ETL> - WARNING - Candidate 'C 3.5x346 HR600MC' at index 1011 did not match any reference.
+2024-11-29 12:17:13,610 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x157 HR420MC'.
+2024-11-29 12:17:13,612 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.2x1205 PHS-ULTRAFORM HT1500PS' at index 1013 did not match any reference.
+2024-11-29 12:17:13,615 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x640 HR420MC'.
+2024-11-29 12:17:13,621 - <EMW SLExA ETL> - WARNING - Candidate 'C 2.4x1060 PHS-ULTRAFORM HT1500PS' at index 1018 did not match any reference.
+2024-11-29 12:17:13,623 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x184 DX54D'.
+2024-11-29 12:17:13,625 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x222 DC04-A'.
+2024-11-29 12:17:13,626 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.0x84 DC04-A'.
+2024-11-29 12:17:13,631 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.2x1347x2500 CR300-LA'.
+2024-11-29 12:17:13,635 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.5x234 S420MC'.
+2024-11-29 12:17:13,656 - <EMW SLExA ETL> - WARNING - Candidate 'C 0.7x917 CR3 EXPOSED EG53/53' at index 1038 did not match any reference.
+2024-11-29 12:17:13,658 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.0x1520x1070 CR240-LA GI50/50'.
+2024-11-29 12:17:13,659 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 5.0x295x295 DD13'.
+2024-11-29 12:17:13,671 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.35x720x2350 CR340-LA'.
+2024-11-29 12:17:13,673 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x185 S355MC'.
+2024-11-29 12:17:13,678 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.50x202 CR330Y590T-DP'.
+2024-11-29 12:17:13,680 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x305 CR300LA'.
+2024-11-29 12:17:13,683 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x304 CR300LA'.
+2024-11-29 12:17:13,685 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x307 CR440Y780T-DP'.
+2024-11-29 12:17:13,688 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x815 CR210IF'.
+2024-11-29 12:17:13,690 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 1.75x1345x2000 CR440Y780T-DH'.
+2024-11-29 12:17:13,701 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.35x422 CR340 GI50/50-U' at index 1061 did not match any reference.
+2024-11-29 12:17:13,712 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.75x222 CR3-NON-IF EG53/53-U'.
+2024-11-29 12:17:13,735 - <EMW SLExA ETL> - WARNING - Candidate 'B 1.6x364x1868 PHS 1500 Z180MB' at index 1082 did not match any reference.
+2024-11-29 12:17:13,737 - <EMW SLExA ETL> - WARNING - Candidate 'B 2.0x364x1868 PHS 1500 Z180' at index 1083 did not match any reference.
+2024-11-29 12:17:13,739 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x239 DX54D+Z140-N-A'.
+2024-11-29 12:17:13,876 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.15x1530 PHS-ULTRAFORM HT490PS' at index 1113 did not match any reference.
+2024-11-29 12:17:13,878 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.25x560 S420MC YMAGINE'.
+2024-11-29 12:17:13,884 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.0x1510 PSC340Y460T' at index 1117 did not match any reference.
+2024-11-29 12:17:13,889 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.25x1570 CR22MNB5-CSPSC950Y1300T G' at index 1119 did not match any reference.
+2024-11-29 12:17:13,893 - <EMW SLExA ETL> - WARNING - Candidate 'C 1.0x1525 PHS-ULTRAFORM 490 mod' at index 1121 did not match any reference.
+2024-11-29 12:17:13,897 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x473 S500MC DBL8492.30'.
+2024-11-29 12:17:13,899 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x780 S500MC DBL8492.30'.
+2024-11-29 12:17:13,900 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x644 S500MC DBL8492.30'.
+2024-11-29 12:17:13,902 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'B 6.5x1500x3000 S260MC'.
+2024-11-29 12:17:13,909 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 1.5x130 DC04-AM'.
+2024-11-29 12:17:13,918 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 3.0x290 HC380-LA'.
+2024-11-29 12:17:13,923 - <EMW SLExA ETL> - WARNING - Could not find any treatment in candidate 'C 2.5x238 DC04A'.

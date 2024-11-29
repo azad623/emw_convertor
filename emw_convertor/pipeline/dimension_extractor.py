@@ -32,16 +32,29 @@ class DimensionExtractor:
             tuple: (thickness, width, height) as floats or None if not found.
         """
         try:
-            if description == "CR300LA GI40/40 U 506 X 2,50":
-                print
             # Normalize the description
-            description = description.replace(",", ".")  # Convert commas to dots
+            if "." in description and "," in description:
+                description = (
+                    description.replace(".", "")
+                    .replace("mm", "")
+                    .replace("±", "+/-")
+                    .replace(",", ".")
+                )  # Convert commas to dots
+            else:
+                description = (
+                    description.replace("mm", "").replace("±", "+/-").replace(",", ".")
+                )  # Convert commas to dots
             # description = re.sub(r"\s+", "", description)  # Remove spaces
 
-            # Remove tolerances (e.g., "+/- 0.08", "+0/-1")
+            # Remove tolerances (e.g., "+/- 0.08", "+0/-1" , "-0,12")
+            # description = re.sub(
+            #     r"\+/-\s*[\d\.]+", "", description
+            # )  # Remove +/- tolerances
+
             description = re.sub(
-                r"\+/-\s*[\d\.]+", "", description
-            )  # Remove +/- tolerances
+                r"(\+/-|[+-]\d*[.,]?\d*\s*[+-/]?)\s*\d*[.,]?\d*", "", description
+            )
+
             description = re.sub(
                 r"\+[\d\.]+/-[\d\.]+", "", description
             )  # Remove +X/-Y tolerances
