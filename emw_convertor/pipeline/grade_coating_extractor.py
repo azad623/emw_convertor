@@ -159,6 +159,55 @@ class GradeCoatingExtractor:
 
         return base_score
 
+    @staticmethod
+    def calculate_match_score_(candidate: str, reference: str) -> float:
+        """
+        Calculate the match score between a candidate and a reference grade.
+
+        Args:
+            candidate (str): The normalized candidate grade.
+            reference (str): The normalized reference grade.
+
+        Returns:
+            float: The match score based on substring length and penalties.
+        """
+        if not candidate or not reference:
+            return 0.0
+
+        # Calculate the longest common substring length
+        common_length_count, _ = GradeCoatingExtractor.longest_common_substring_length(
+            candidate, reference
+        )
+
+        # Proportion of the common substring length relative to both strings
+        candidate_ratio = common_length_count / len(candidate)
+        reference_ratio = common_length_count / len(reference)
+
+        # Base score as the harmonic mean of the ratios (avoids overweighting one ratio)
+        if candidate_ratio + reference_ratio > 0:
+            score = (2 * candidate_ratio * reference_ratio) / (
+                candidate_ratio + reference_ratio
+            )
+        else:
+            score = 0.0
+
+        # Penalize if the reference is disproportionately short compared to the candidate
+        if len(reference) < len(candidate) * 0.5:
+            score *= 0.5  # Reduce score significantly
+
+        # Penalize if the reference is disproportionately long compared to the candidate
+        if len(reference) > len(candidate) * 2.0:
+            score *= 0.7  # Reduce score moderately
+
+        # Boost score if exact matches or strong substring inclusions
+        if candidate in reference or reference in candidate:
+            score += 0.2
+
+        # Final adjustment to keep score within [0, 1]
+        score = max(0.0, min(score, 1.0))
+
+        return score
+
     def find_best_match(
         self, candidate: str, reference_list: List[str], threshold: float
     ) -> Tuple[Optional[int], Optional[str], bool, float]:
@@ -181,6 +230,8 @@ class GradeCoatingExtractor:
             normalized_reference = self.normalize_string(reference)
 
             # Skip if reference is not in the candidate
+            if normalized_reference == "dc04":
+                print
             if normalized_reference not in normalized_candidate:
                 continue
 

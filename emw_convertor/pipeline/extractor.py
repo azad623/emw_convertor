@@ -52,6 +52,8 @@ class ExtractorRunner:
             df["Oberfläche_"] = None
 
             for idx, candidate in df[self.header_names["grades"]].items():
+                if candidate == "DC 04 A":
+                    print
                 if not isinstance(candidate, str) or not candidate.strip():
                     logger.warning(f"Row {idx}: Candidate is empty or invalid.")
                     continue
