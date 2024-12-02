@@ -5,7 +5,7 @@ from typing import List, Optional, Tuple
 logger = logging.getLogger("<EMW SLExA ETL>")
 
 # Treatment conversion dictionary
-TREATMENT_CONVERSION = {"U": "UO", "AMO": "AO", "MB": "MBO", "AM": "MAO"}
+TREATMENT_CONVERSION = {"-U": "UO", "AMO": "AO", "MB": "MBO", "AM": "MAO"}
 
 
 class TreatmentExtractor:
@@ -29,7 +29,7 @@ class TreatmentExtractor:
         Returns:
             str: The normalized string.
         """
-        return value.replace("-", "").replace(" ", "").replace("+", "").lower()
+        return value.replace(" ", "").replace("+", "").lower()
 
     def extract_treatment(
         self,
