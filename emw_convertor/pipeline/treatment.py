@@ -5,7 +5,7 @@ from typing import List, Optional, Tuple
 logger = logging.getLogger("<EMW SLExA ETL>")
 
 # Treatment conversion dictionary
-TREATMENT_CONVERSION = {"-U": "UO", "AMO": "AO", "MB": "MBO", "AM": "MAO"}
+TREATMENT_CONVERSION = {"-U": "UO", "AMO": "AO", "MB": "MBO", "AM": "MAO", "": "AO"}
 
 
 class TreatmentExtractor:

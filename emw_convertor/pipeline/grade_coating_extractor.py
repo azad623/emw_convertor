@@ -230,8 +230,6 @@ class GradeCoatingExtractor:
             normalized_reference = self.normalize_string(reference)
 
             # Skip if reference is not in the candidate
-            if normalized_reference == "dc04":
-                print
             if normalized_reference not in normalized_candidate:
                 continue
 

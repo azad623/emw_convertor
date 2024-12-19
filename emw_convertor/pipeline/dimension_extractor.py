@@ -21,6 +21,14 @@ class DimensionExtractor:
         """
         self.column_name = column_name
 
+    def convert_str(self, val1, val2, val3):
+        # Convert each value, replacing dots with commas
+        val1_converted = str(val1).strip().replace(".", ",") if val1 else ""
+        val2_converted = str(val2).strip().replace(".", ",") if val2 else ""
+        val3_converted = str(val3).strip().replace(".", ",") if val3 else ""
+
+        return val1_converted, val2_converted, val3_converted
+
     def parse_dimensions(self, description: str) -> tuple:
         """
         Parse dimensions (thickness, width, height) from a material description.
@@ -81,12 +89,14 @@ class DimensionExtractor:
                         logger.info(
                             f"Candidate dimension '{description}' split into ({thickness}, {width}, {height})"
                         )
-                        return thickness, width, height
+
+                        return self.convert_str(thickness, width, height)
                     else:
                         logger.info(
                             f"Candidate dimension '{description}' split into ({width}, {thickness}, {height})"
                         )
-                        return width, thickness, height
+
+                        return self.convert_str(width, thickness, height)
                 else:
                     return None, None, None
 
