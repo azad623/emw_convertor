@@ -7,10 +7,10 @@ from emw_convertor.pipeline.pipeline_manager import pipeline_run
 import os
 import shutil
 from io import BytesIO
-import plotly.express as px
-import plotly.graph_objects as go
 from emw_convertor import log_output_path
+from emw_convertor.pages.dashboard_manager import DashboardManager
 from emw_convertor.getters.data_getter import load_excel_file
+from emw_convertor.pages.dashboard import render_dashboard
 from emw_convertor.pipeline.transformation import (
     drop_rows_with_missing_values,
 )
@@ -154,255 +154,8 @@ st.markdown(
 )
 
 if selected_menu == "Dashboard":
-    # Define columns to analyze
-    columns_to_analyze = [
-        "Güte_",
-        "Auflage_",
-        "Oberfläche_",
-        "Dicke_",
-        "Länge_",
-        "Breit_",
-    ]
-    st.markdown(
-        "<h2 style='color: #003eff; font-family: 'Times New Roman', Times, serif;'>Dashboard Übersicht</h2>",
-        unsafe_allow_html=True,
-    )
-
-    # File status summary
-    # Check if any file is processed
-    has_processed_files = any(
-        file_info["status"] == "Erfolgreich"
-        for file_info in st.session_state.get("uploaded_files", {}).values()
-    )
-
-    if not has_processed_files:
-        st.info(
-            "Es wurden noch keine Dateien verarbeitet. Führen Sie die ETL-Pipeline aus, um Statistiken zu sehen."
-        )
-    else:
-        # File status summary
-        file_status_counts = {"Hochgeladen": 0, "Erfolgreich": 0, "Fehlgeschlagen": 0}
-        processed_files_data = []
-
-        for file_name, file_info in st.session_state.get("uploaded_files", {}).items():
-            file_status_counts[file_info["status"]] += 1
-
-            if file_info["status"] == "Erfolgreich" and file_info["output"] is not None:
-                df = pd.DataFrame(file_info["output"])
-                filled_counts = {
-                    col: (
-                        df[col]
-                        .apply(
-                            lambda x: (
-                                None if isinstance(x, str) and x.strip() == "" else x
-                            )
-                        )  # Replace empty strings with None
-                        .notnull()
-                        .sum()
-                        if col in df.columns
-                        else 0
-                    )
-                    for col in columns_to_analyze
-                }
-
-                filled_counts["gesamt"] = df.shape
-
-                processed_files_data.append(
-                    {
-                        "Dateiname": file_name,
-                        "Status": file_info["status"],
-                        **filled_counts,
-                    }
-                )
-            else:
-                processed_files_data.append(
-                    {
-                        "Dateiname": file_name,
-                        "Status": file_info["status"],
-                        **{col: None for col in columns_to_analyze},
-                    }
-                )
-
-        # Display statistics table
-        st.markdown("<br><br>", unsafe_allow_html=True)
-        col1, col2, col3 = st.columns([1, 7, 1])
-        with col2:
-
-            stats_df = pd.DataFrame(processed_files_data)
-            st.markdown(
-                "<div style='text-align: left; font-size: 20px;'> Status und Statistiken der hochgeladenen Dateien </div><br>",
-                unsafe_allow_html=True,
-            )
-            st.dataframe(stats_df)
-
-        st.markdown("----")
-        # Create bar chart for filled values
-        col1, col2, col3 = st.columns([5, 2, 5])
-        with col1:
-            total_filled_counts = stats_df[columns_to_analyze].sum()
-
-            # Create bar chart using Plotly
-            bar_chart = px.bar(
-                x=total_filled_counts.index,
-                y=total_filled_counts.values,
-                labels={"x": "Spalten", "y": "Anzahl der Werte"},
-                title="Gesamtanzahl der ausgefüllten Werte (pro Spalte)",
-            )
-            bar_chart.update_traces(marker_color="skyblue")
-            bar_chart.update_layout(
-                title={
-                    "text": "Gesamtanzahl der ausgefüllten Werte (pro Spalte)",
-                    "x": 0.5,
-                    "y": 0.96,
-                    "xanchor": "center",
-                    "yanchor": "top",
-                    "font": {"size": 15},
-                },
-            )
-
-            # Display bar chart
-            st.plotly_chart(bar_chart)
-
-        # Create pie chart for file status
-        with col3:
-            # Create pie chart using Plotly
-            pie_chart = go.Figure(
-                data=[
-                    go.Pie(
-                        labels=list(file_status_counts.keys()),
-                        values=list(file_status_counts.values()),
-                        textinfo="percent+label",
-                        marker=dict(colors=["#FFCCCC", "#CCFFCC", "#CCCCFF"]),
-                    )
-                ]
-            )
-            pie_chart.update_layout(
-                title={
-                    "text": "Verteilung des Datei-Status",
-                    "x": 0.5,
-                    "y": 0.96,
-                    "xanchor": "center",
-                    "yanchor": "top",
-                    "font": {"size": 15},
-                },
-                margin={"t": 100},
-            )
-
-            # Display pie chart
-            st.plotly_chart(pie_chart)
-
-    with st.expander("Detaillierte Analyse für hochgeladene Dateien", expanded=True):
-        if has_processed_files:
-
-            # Define columns to analyze
-            columns_to_analyze = [
-                "Güte_",
-                "Auflage_",
-                "Oberfläche_",
-                "Dicke_",
-                "Länge_",
-                "Breit_",
-            ]
-
-            for file_name, file_info in st.session_state["uploaded_files"].items():
-                if file_info["status"] == "Erfolgreich":
-                    df = file_info["output"]
-
-                    st.markdown(f"#### Analyse für Datei: {file_name}")
-                    row = st.container()  # Container for horizontal alignment
-
-                    # Create horizontal layout for the charts
-                    with row:
-                        col1, col2, col3, col4, col5, col6 = st.columns(6)
-
-                        # Chart for "Güte_" - Top 10 most frequent values
-                        with col1:
-                            if "Güte_" in df.columns:
-                                top_10_gute = df["Güte_"].value_counts().head(10)
-                                fig_gute = px.bar(
-                                    x=top_10_gute.index,
-                                    y=top_10_gute.values,
-                                    labels={"x": "Güte_", "y": "Anzahl"},
-                                )
-                                fig_gute.update_layout(
-                                    height=300, width=200
-                                )  # Smaller plot size
-                                st.plotly_chart(fig_gute, use_container_width=True)
-
-                        # Chart for "Auflage_" - Top 10 most frequent values
-                        with col2:
-                            if "Auflage_" in df.columns:
-                                top_10_auflage = df["Auflage_"].value_counts().head(10)
-                                fig_auflage = px.bar(
-                                    x=top_10_auflage.index,
-                                    y=top_10_auflage.values,
-                                    labels={"x": "Auflage_", "y": "Anzahl"},
-                                )
-                                fig_auflage.update_layout(
-                                    height=300, width=200
-                                )  # Smaller plot size
-                                st.plotly_chart(fig_auflage, use_container_width=True)
-
-                        # Chart for "Oberfläche_" - Top 10 most frequent values
-                        with col3:
-                            if "Oberfläche_" in df.columns:
-                                top_10_oberflaeche = (
-                                    df["Oberfläche_"].value_counts().head(10)
-                                )
-                                fig_oberflaeche = px.bar(
-                                    x=top_10_oberflaeche.index,
-                                    y=top_10_oberflaeche.values,
-                                    labels={"x": "Oberfläche_", "y": "Anzahl"},
-                                )
-                                fig_oberflaeche.update_layout(
-                                    height=300, width=200
-                                )  # Smaller plot size
-                                st.plotly_chart(
-                                    fig_oberflaeche, use_container_width=True
-                                )
-
-                        # Chart for "Dicke_" - Bin count
-                        with col4:
-                            if "Dicke_" in df.columns:
-                                fig_dicke = px.histogram(
-                                    df,
-                                    x="Dicke_",
-                                    nbins=10,
-                                    labels={"Dicke_": "Dicke_", "count": "Anzahl"},
-                                )
-                                fig_dicke.update_layout(
-                                    height=300, width=200
-                                )  # Smaller plot size
-                                st.plotly_chart(fig_dicke, use_container_width=True)
-
-                        # Chart for "Länge_" - Bin count
-                        with col5:
-                            if "Länge_" in df.columns:
-                                fig_laenge = px.histogram(
-                                    df,
-                                    x="Länge_",
-                                    nbins=10,
-                                    labels={"Länge_": "Länge_", "count": "Anzahl"},
-                                )
-                                fig_laenge.update_layout(
-                                    height=300, width=200
-                                )  # Smaller plot size
-                                st.plotly_chart(fig_laenge, use_container_width=True)
-
-                        # Chart for "Breit_" - Bin count
-                        with col6:
-                            if "Breit_" in df.columns:
-                                fig_breit = px.histogram(
-                                    df,
-                                    x="Breit_",
-                                    nbins=10,
-                                    labels={"Breit_": "Breit_", "Anzahl": "Anzahl"},
-                                )
-                                fig_breit.update_layout(
-                                    height=300, width=200
-                                )  # Smaller plot size
-                                st.plotly_chart(fig_breit, use_container_width=True)
-
+    render_dashboard()
+    # pass
 
 elif selected_menu == "Excel-Dateien verarbeiten":
     st.markdown(
@@ -570,6 +323,16 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                         # os.remove(file_path)
                         st.success(
                             f"ETL-Pipeline erfolgreich abgeschlossen für {tab_name}!"
+                        )
+
+                        dashboard = DashboardManager()
+                        dashboard.save_process_results(
+                            {
+                                "filename": tab_name,
+                                "supplier": "EMW",
+                                "dataframe": etl_output,
+                                "success": etl_status,
+                            }
                         )
 
                         if etl_errors:
