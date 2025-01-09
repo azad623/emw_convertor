@@ -65,7 +65,7 @@ class DashboardManager:
         history_df["upload_date"] = pd.to_datetime(history_df["upload_date"])
 
         # Aggregate frequencies
-        frequencies = {"Grade": {}, "Thickness (mm)": {}, "Width (mm)": {}}
+        frequencies = {"Güte_": {}, "Dicke_": {}, "Breit_": {}}
 
         for record in all_records:
             for key in frequencies:
