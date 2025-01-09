@@ -32,6 +32,9 @@ class DashboardManager:
                     "Güte_": self._get_frequencies(file_info["dataframe"], "Güte_"),
                     "Dicke_": self._get_frequencies(file_info["dataframe"], "Dicke_"),
                     "Breit_": self._get_frequencies(file_info["dataframe"], "Breit_"),
+                    "Auflage_": self._get_frequencies(
+                        file_info["dataframe"], "Auflage_"
+                    ),
                 },
             }
 
@@ -65,7 +68,7 @@ class DashboardManager:
         history_df["upload_date"] = pd.to_datetime(history_df["upload_date"])
 
         # Aggregate frequencies
-        frequencies = {"Güte_": {}, "Dicke_": {}, "Breit_": {}}
+        frequencies = {"Güte_": {}, "Dicke_": {}, "Breit_": {}, "Auflage_": {}}
 
         for record in all_records:
             for key in frequencies:

@@ -129,7 +129,14 @@ def render_dashboard():
     )
 
     if stats["frequencies"]:
-        tabs = st.tabs(["Güterverteilung", "Dickenverteilung", "Breitenverteilung"])
+        tabs = st.tabs(
+            [
+                "Güterverteilung",
+                "Dickenverteilung",
+                "Breitenverteilung",
+                "Auflageverteilung",
+            ]
+        )
 
         for tab, (key, freq) in zip(tabs, stats["frequencies"].items()):
             with tab:
