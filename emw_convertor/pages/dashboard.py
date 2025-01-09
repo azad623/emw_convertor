@@ -1,5 +1,5 @@
 import streamlit as st
-from frontend.services.dashboard_manager import DashboardManager
+from emw_convertor.pages.dashboard_manager import DashboardManager
 import pandas as pd
 import plotly.express as px
 
