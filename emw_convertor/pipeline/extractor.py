@@ -59,7 +59,7 @@ class ExtractorRunner:
                 # Try matching with grade_coating_list first
                 index, best_match, matched, score = (
                     self.grade_coating_extractor.find_best_match(
-                        candidate, self.grade_coating_extractor.grade_coating_list, 0.6
+                        candidate, self.grade_coating_extractor.grade_coating_list, 0.2
                     )
                 )
                 if matched:
