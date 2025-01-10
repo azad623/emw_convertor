@@ -134,8 +134,6 @@ class GradeCoatingExtractor:
             logger.error(f"Error extracting coating code: {e}")
             return None
 
-    @staticmethod
-    def calculate_match_score_(candidate: str, reference: str) -> float:
         """
         Calculate the match score between a candidate and a reference grade.
 
@@ -160,53 +158,102 @@ class GradeCoatingExtractor:
         return base_score
 
     @staticmethod
-    def _calculate_match_score_(candidate: str, reference: str) -> float:
+    def calculate_match_score(candidate: str, reference: str) -> float:
         """
-        Calculate the match score between a candidate and a reference grade.
+        Calculate match score between candidate and reference string.
+        Handles both prefix and substring matches, prioritizing complete reference matches.
 
         Args:
-            candidate (str): The normalized candidate grade.
-            reference (str): The normalized reference grade.
+            candidate: String to match (e.g., 'banddx53dz150mbo406x2', 'S280GD +ZM200 Ma-C')
+            reference: Reference string (e.g., 'dx53dz', 'S280GD')
 
         Returns:
-            float: The match score based on substring length and penalties.
+            float: Score between 0 and 1
         """
         if not candidate or not reference:
             return 0.0
 
-        # Calculate the longest common substring length
-        common_length_count, _ = GradeCoatingExtractor.longest_common_substring_length(
-            candidate, reference
-        )
+        # Convert both strings to lowercase for case-insensitive matching
+        candidate = candidate.lower()
+        reference = reference.lower()
 
-        # Proportion of the common substring length relative to both strings
-        candidate_ratio = common_length_count / len(candidate)
-        reference_ratio = common_length_count / len(reference)
+        # Exact match gets perfect score
+        if candidate == reference:
+            return 1.0
 
-        # Base score as the harmonic mean of the ratios (avoids overweighting one ratio)
-        if candidate_ratio + reference_ratio > 0:
-            score = (2 * candidate_ratio * reference_ratio) / (
-                candidate_ratio + reference_ratio
-            )
+        # Find the reference as a substring
+        ref_index = candidate.find(reference)
+
+        # If reference is found as a complete substring
+        if ref_index != -1:
+            # Calculate position penalty (prefer matches closer to start)
+            position_penalty = (
+                ref_index / len(candidate) * 0.3
+            )  # Reduced impact of position
+
+            # Perfect match for the reference itself
+            match_quality = 1.0
+
+            # Check if the reference characters are broken/interrupted in the candidate
+            if ref_index == -1:
+                # Find best partial match
+                best_sequence = 0
+                current_sequence = 0
+                last_matched_pos = -1
+
+                for i, char in enumerate(reference):
+                    char_pos = candidate.find(char, last_matched_pos + 1)
+                    if char_pos != -1:
+                        if char_pos == last_matched_pos + 1:
+                            current_sequence += 1
+                        else:
+                            best_sequence = max(best_sequence, current_sequence)
+                            current_sequence = 1
+                        last_matched_pos = char_pos
+
+                best_sequence = max(best_sequence, current_sequence)
+                match_quality = best_sequence / len(reference)
+
+                # Heavy penalty for broken sequences
+                match_quality *= 0.5
+
+            # Calculate final score
+            score = match_quality * (1.0 - position_penalty)
+
+            # Length bonus: prefer longer references
+            length_bonus = len(reference) / len(candidate)
+            score *= (1.0 + length_bonus) / 2
+
+            return max(0.0, min(1.0, score))
+
+        # If reference is not found as a complete substring
         else:
-            score = 0.0
+            # Count matching characters in sequence
+            matched_chars = 0
+            last_pos = -1
+            breaks = 0
 
-        # Penalize if the reference is disproportionately short compared to the candidate
-        if len(reference) < len(candidate) * 0.5:
-            score *= 0.5  # Reduce score significantly
+            for char in reference:
+                pos = candidate.find(char, last_pos + 1)
+                if pos != -1:
+                    if last_pos != -1 and pos != last_pos + 1:
+                        breaks += 1
+                    matched_chars += 1
+                    last_pos = pos
 
-        # Penalize if the reference is disproportionately long compared to the candidate
-        if len(reference) > len(candidate) * 2.0:
-            score *= 0.7  # Reduce score moderately
+            # Calculate base score from matched characters
+            base_score = matched_chars / len(reference)
 
-        # Boost score if exact matches or strong substring inclusions
-        if candidate in reference or reference in candidate:
-            score += 0.2
+            # Heavy penalty for breaks in the sequence
+            break_penalty = breaks / len(reference) * 0.7
 
-        # Final adjustment to keep score within [0, 1]
-        score = max(0.0, min(score, 1.0))
+            # Calculate final score
+            score = base_score * (1.0 - break_penalty)
 
-        return score
+            # Significant penalty for incomplete matches
+            score *= 0.3
+
+            return max(0.0, min(1.0, score))
 
     def find_best_match(
         self, candidate: str, reference_list: List[str], threshold: float
