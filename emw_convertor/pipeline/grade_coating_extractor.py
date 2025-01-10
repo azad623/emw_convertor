@@ -135,7 +135,7 @@ class GradeCoatingExtractor:
             return None
 
     @staticmethod
-    def calculate_match_score(candidate: str, reference: str) -> float:
+    def calculate_match_score_(candidate: str, reference: str) -> float:
         """
         Calculate the match score between a candidate and a reference grade.
 
@@ -160,7 +160,7 @@ class GradeCoatingExtractor:
         return base_score
 
     @staticmethod
-    def calculate_match_score_(candidate: str, reference: str) -> float:
+    def _calculate_match_score_(candidate: str, reference: str) -> float:
         """
         Calculate the match score between a candidate and a reference grade.
 
