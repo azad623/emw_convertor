@@ -147,15 +147,21 @@ def render_dashboard():
 
                     # Apply filters based on the key
                     if key.lower() == "dicke_":
+                        df["value"] = df["value"].astype(str).str.replace(",", ".")
                         df["value"] = pd.to_numeric(df["value"], errors="coerce")
                         df = df[
                             (df["value"] >= 0.1) & (df["value"] <= 16.0)
                         ]  # Limit values to 0-16 mm for Dicke
+                        print(f"After filtering ({key}):\n", df)
+
                     elif key.lower() == "breit_":
+                        df["value"] = df["value"].astype(str).str.replace(",", ".")
                         df["value"] = pd.to_numeric(df["value"], errors="coerce")
                         df = df[
                             (df["value"] >= 0) & (df["value"] <= 2000)
                         ]  # Limit values to 0-2.0 mm for Breite
+                        print(f"After filtering ({key}):\n", df)
+
                     # Add more conditions for other keys if needed
                     elif key.lower() == "auflage_":  # Ensure Auflage stays as string
                         df["value"] = df["value"].astype(str)
@@ -167,13 +173,14 @@ def render_dashboard():
                     # Plot the data
                     fig = px.bar(
                         df,
-                        x=df["value"].astype(str),
+                        x="value",
                         y="count",
                         title=f"{key.title()} Distribution",
                         color="count",
                         color_continuous_scale="viridis",
                     )
-                    fig.update_xaxes(type="category")
+                    if key.lower() == "auflage_":
+                        fig.update_xaxes(type="category")
                     fig.update_layout(
                         paper_bgcolor="#f8f9fa",
                         plot_bgcolor="#f8f9fa",
