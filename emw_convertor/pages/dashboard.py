@@ -143,6 +143,7 @@ def render_dashboard():
                 if freq:
                     # Convert freq to DataFrame
                     df = pd.DataFrame(list(freq.items()), columns=["value", "count"])
+                    print(df.head())
 
                     # Apply filters based on the key
                     if key.lower() == "dicke_":
@@ -156,18 +157,23 @@ def render_dashboard():
                             (df["value"] >= 0) & (df["value"] <= 2000)
                         ]  # Limit values to 0-2.0 mm for Breite
                     # Add more conditions for other keys if needed
-                    # elif key.lower() == "other_key":
+                    elif key.lower() == "auflage_":  # Ensure Auflage stays as string
+                        df["value"] = df["value"].astype(str)
+                        df["value"] = pd.Categorical(df["value"])
+                    else:
+                        df["value"] = df["value"].astype(str)
                     #     df = df[(df["value"] >= min_value) & (df["value"] <= max_value)]
 
                     # Plot the data
                     fig = px.bar(
                         df,
-                        x="value",
+                        x=df["value"].astype(str),
                         y="count",
                         title=f"{key.title()} Distribution",
                         color="count",
                         color_continuous_scale="viridis",
                     )
+                    fig.update_xaxes(type="category")
                     fig.update_layout(
                         paper_bgcolor="#f8f9fa",
                         plot_bgcolor="#f8f9fa",
