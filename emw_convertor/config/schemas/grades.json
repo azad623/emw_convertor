@@ -1,0 +1,1433 @@
+[
+  {
+    "base_grade": "DC01"
+  },
+  {
+    "base_grade": "DC02"
+  },
+  {
+    "base_grade": "DC03"
+  },
+  {
+    "base_grade": "DC04"
+  },
+  {
+    "base_grade": "DC05"
+  },
+  {
+    "base_grade": "DC06"
+  },
+  {
+    "base_grade": "DC07"
+  },
+  {
+    "base_grade": "CR1"
+  },
+  {
+    "base_grade": "CR2"
+  },
+  {
+    "base_grade": "CR3"
+  },
+  {
+    "base_grade": "CR4"
+  },
+  {
+    "base_grade": "CR5"
+  },
+  {
+    "base_grade": "CR6"
+  },
+  {
+    "base_grade": "DC01EK"
+  },
+  {
+    "base_grade": "DC04EK"
+  },
+  {
+    "base_grade": "DC05EK"
+  },
+  {
+    "base_grade": "DC06EK"
+  },
+  {
+    "base_grade": "DC03ED"
+  },
+  {
+    "base_grade": "DC04ED"
+  },
+  {
+    "base_grade": "DC06ED"
+  },
+  {
+    "base_grade": "HC180Y"
+  },
+  {
+    "base_grade": "HC180P"
+  },
+  {
+    "base_grade": "HC180B"
+  },
+  {
+    "base_grade": "HC220Y"
+  },
+  {
+    "base_grade": "HC260I"
+  },
+  {
+    "base_grade": "HC260P"
+  },
+  {
+    "base_grade": "HC260B"
+  },
+  {
+    "base_grade": "HC260LA"
+  },
+  {
+    "base_grade": "HC300I"
+  },
+  {
+    "base_grade": "HC300P"
+  },
+  {
+    "base_grade": "HC300B"
+  },
+  {
+    "base_grade": "HC300LA"
+  },
+  {
+    "base_grade": "HC340LA"
+  },
+  {
+    "base_grade": "HC380LA"
+  },
+  {
+    "base_grade": "HC420LA"
+  },
+  {
+    "base_grade": "HC460LA"
+  },
+  {
+    "base_grade": "HC500LA"
+  },
+  {
+    "base_grade": "HC550LA"
+  },
+  {
+    "base_grade": "HC600LA"
+  },
+  {
+    "base_grade": "HC650LA"
+  },
+  {
+    "base_grade": "HC700LA"
+  },
+  {
+    "base_grade": "HC750LA"
+  },
+  {
+    "base_grade": "HC800LA"
+  },
+  {
+    "base_grade": "HCT490X"
+  },
+  {
+    "base_grade": "HCT590X"
+  },
+  {
+    "base_grade": "HCT450X"
+  },
+  {
+    "base_grade": "HCT780X"
+  },
+  {
+    "base_grade": "HCT980X"
+  },
+  {
+    "base_grade": "HCT980XG"
+  },
+  {
+    "base_grade": "HCT690T"
+  },
+  {
+    "base_grade": "HCT780T"
+  },
+  {
+    "base_grade": "HCT780C"
+  },
+  {
+    "base_grade": "HCT980C"
+  },
+  {
+    "base_grade": "S215G"
+  },
+  {
+    "base_grade": "S245G"
+  },
+  {
+    "base_grade": "S325G"
+  },
+  {
+    "base_grade": "CR160IF"
+  },
+  {
+    "base_grade": "CR180IF"
+  },
+  {
+    "base_grade": "CR180BH"
+  },
+  {
+    "base_grade": "CR210IF"
+  },
+  {
+    "base_grade": "CR210BH"
+  },
+  {
+    "base_grade": "CR240IF"
+  },
+  {
+    "base_grade": "CR240BH"
+  },
+  {
+    "base_grade": "CR210LA"
+  },
+  {
+    "base_grade": "CR240LA"
+  },
+  {
+    "base_grade": "CR270BH"
+  },
+  {
+    "base_grade": "CR270LA"
+  },
+  {
+    "base_grade": "CR300LA"
+  },
+  {
+    "base_grade": "CR340LA"
+  },
+  {
+    "base_grade": "CR380LA"
+  },
+  {
+    "base_grade": "CR420LA"
+  },
+  {
+    "base_grade": "CR460LA"
+  },
+  {
+    "base_grade": "CR290Y490T-DP"
+  },
+  {
+    "base_grade": "CR330Y590T-DP"
+  },
+  {
+    "base_grade": "CR440Y780T-DP"
+  },
+  {
+    "base_grade": "CR590Y980T-DP"
+  },
+  {
+    "base_grade": "CR700Y980T-DP"
+  },
+  {
+    "base_grade": "CR440Y780T-DH"
+  },
+  {
+    "base_grade": "CR700Y980T-DH"
+  },
+  {
+    "base_grade": "CR400Y690T-TR"
+  },
+  {
+    "base_grade": "CR450Y780T-TR"
+  },
+  {
+    "base_grade": "CR570Y780T-CP"
+  },
+  {
+    "base_grade": "CR780Y980T-CP"
+  },
+  {
+    "base_grade": "CR900Y1180T-CP"
+  },
+  {
+    "base_grade": "CR1030Y1300T-MS"
+  },
+  {
+    "base_grade": "CR1220Y1500T-MS"
+  },
+  {
+    "base_grade": "CR1350Y1700T-MS"
+  },
+  {
+    "base_grade": "CR660Y780T-CP"
+  },
+  {
+    "base_grade": "HC300X"
+  },
+  {
+    "base_grade": "HC340X"
+  },
+  {
+    "base_grade": "HC260X"
+  },
+  {
+    "base_grade": "HC450X"
+  },
+  {
+    "base_grade": "HC700X"
+  },
+  {
+    "base_grade": "HC400T"
+  },
+  {
+    "base_grade": "HC600C"
+  },
+  {
+    "base_grade": "HC680C"
+  },
+  {
+    "base_grade": "MSC Grade A"
+  },
+  {
+    "base_grade": "MSC Grade B"
+  },
+  {
+    "base_grade": "MSC Grade C"
+  },
+  {
+    "base_grade": "MSC Grade D"
+  },
+  {
+    "base_grade": "MSC Grade E"
+  },
+  {
+    "base_grade": "IFC180Y340T"
+  },
+  {
+    "base_grade": "BHC180Y290T"
+  },
+  {
+    "base_grade": "IFC210Y350T"
+  },
+  {
+    "base_grade": "BHC210Y320T"
+  },
+  {
+    "base_grade": "IFC240Y360T"
+  },
+  {
+    "base_grade": "LAC240Y320T"
+  },
+  {
+    "base_grade": "LAC270Y350T"
+  },
+  {
+    "base_grade": "LAC300Y370T"
+  },
+  {
+    "base_grade": "LAC320Y400T"
+  },
+  {
+    "base_grade": "LAC340Y410T"
+  },
+  {
+    "base_grade": "LAC380Y450T"
+  },
+  {
+    "base_grade": "LAC420Y480T"
+  },
+  {
+    "base_grade": "DPC290Y490T"
+  },
+  {
+    "base_grade": "DPC340Y590T"
+  },
+  {
+    "base_grade": "DPC500Y780T"
+  },
+  {
+    "base_grade": "DPC650Y980T"
+  },
+  {
+    "base_grade": "TRC410Y690T"
+  },
+  {
+    "base_grade": "CPC600Y780T"
+  },
+  {
+    "base_grade": "CPC800Y980T"
+  },
+  {
+    "base_grade": "ES"
+  },
+  {
+    "base_grade": "SES"
+  },
+  {
+    "base_grade": "XE"
+  },
+  {
+    "base_grade": "XES"
+  },
+  {
+    "base_grade": "E275D"
+  },
+  {
+    "base_grade": "E335D"
+  },
+  {
+    "base_grade": "E390D"
+  },
+  {
+    "base_grade": "DP590"
+  },
+  {
+    "base_grade": "DP780"
+  },
+  {
+    "base_grade": "DPC330Y590T"
+  },
+  {
+    "base_grade": "DPC440Y780T"
+  },
+  {
+    "base_grade": "DPC550Y980T"
+  },
+  {
+    "base_grade": "DPC700Y980T"
+  },
+  {
+    "base_grade": "WSS-M1A365-A11"
+  },
+  {
+    "base_grade": "WSS-M1A365-A12"
+  },
+  {
+    "base_grade": "WSS-M1A365-A13"
+  },
+  {
+    "base_grade": "WSS-M1A365-A14"
+  },
+  {
+    "base_grade": "WSS-M1A365-A15"
+  },
+  {
+    "base_grade": "WSS-M1A367-A21"
+  },
+  {
+    "base_grade": "WSS-M1A367-A22"
+  },
+  {
+    "base_grade": "WSS-M1A367-A23"
+  },
+  {
+    "base_grade": "WSS-M1A367-A33"
+  },
+  {
+    "base_grade": "WSS-M1A367-A34"
+  },
+  {
+    "base_grade": "WSS-M1A367-A35"
+  },
+  {
+    "base_grade": "WSS-M1A367-A36"
+  },
+  {
+    "base_grade": "WSS-M1A367-A37"
+  },
+  {
+    "base_grade": "WSS-M1A367-A38"
+  },
+  {
+    "base_grade": "WSS-M1A368-A13"
+  },
+  {
+    "base_grade": "WSS-M1A368-A14"
+  },
+  {
+    "base_grade": "WSS-M1A368-A15"
+  },
+  {
+    "base_grade": "WSS-M1A368-A26"
+  },
+  {
+    "base_grade": "DD11"
+  },
+  {
+    "base_grade": "DD12"
+  },
+  {
+    "base_grade": "DD13"
+  },
+  {
+    "base_grade": "DD14"
+  },
+  {
+    "base_grade": "DD14Ti"
+  },
+  {
+    "base_grade": "S240MC"
+  },
+  {
+    "base_grade": "S315MC"
+  },
+  {
+    "base_grade": "S355MC"
+  },
+  {
+    "base_grade": "S420MC"
+  },
+  {
+    "base_grade": "S460MC"
+  },
+  {
+    "base_grade": "S500MC"
+  },
+  {
+    "base_grade": "S550MC"
+  },
+  {
+    "base_grade": "S600MC"
+  },
+  {
+    "base_grade": "S650MC"
+  },
+  {
+    "base_grade": "S700MC"
+  },
+  {
+    "base_grade": "S260NC"
+  },
+  {
+    "base_grade": "S315NC"
+  },
+  {
+    "base_grade": "S355NC"
+  },
+  {
+    "base_grade": "S420NC"
+  },
+  {
+    "base_grade": "S235JR"
+  },
+  {
+    "base_grade": "S235JO"
+  },
+  {
+    "base_grade": "S235J2"
+  },
+  {
+    "base_grade": "S275JR"
+  },
+  {
+    "base_grade": "S275J0"
+  },
+  {
+    "base_grade": "S275J2"
+  },
+  {
+    "base_grade": "S355JR"
+  },
+  {
+    "base_grade": "S355J0"
+  },
+  {
+    "base_grade": "S355J2"
+  },
+  {
+    "base_grade": "S355K2"
+  },
+  {
+    "base_grade": "S450J0"
+  },
+  {
+    "base_grade": "S185"
+  },
+  {
+    "base_grade": "E295"
+  },
+  {
+    "base_grade": "E335"
+  },
+  {
+    "base_grade": "E360"
+  },
+  {
+    "base_grade": "P245NB"
+  },
+  {
+    "base_grade": "P265NB"
+  },
+  {
+    "base_grade": "P310 NB"
+  },
+  {
+    "base_grade": "P355NB"
+  },
+  {
+    "base_grade": "HDT750C"
+  },
+  {
+    "base_grade": "HDT760C"
+  },
+  {
+    "base_grade": "HDT780C"
+  },
+  {
+    "base_grade": "HDT950C"
+  },
+  {
+    "base_grade": "HDT450F"
+  },
+  {
+    "base_grade": "HDT560F"
+  },
+  {
+    "base_grade": "HDT580F"
+  },
+  {
+    "base_grade": "HDT580X"
+  },
+  {
+    "base_grade": "HDT1180M"
+  },
+  {
+    "base_grade": "HDT1180G1"
+  },
+  {
+    "base_grade": "SZMS1200"
+  },
+  {
+    "base_grade": "HR2"
+  },
+  {
+    "base_grade": "HR300LA"
+  },
+  {
+    "base_grade": "HR340LA"
+  },
+  {
+    "base_grade": "HR380LA"
+  },
+  {
+    "base_grade": "HR420LA"
+  },
+  {
+    "base_grade": "HR460LA"
+  },
+  {
+    "base_grade": "HR500LA"
+  },
+  {
+    "base_grade": "HR550LA"
+  },
+  {
+    "base_grade": "HR700LA"
+  },
+  {
+    "base_grade": "HR660Y760T-CP"
+  },
+  {
+    "base_grade": "HR300Y450T-FB"
+  },
+  {
+    "base_grade": "HR440Y580T-FB"
+  },
+  {
+    "base_grade": "HR600Y780T-FB"
+  },
+  {
+    "base_grade": "HR330Y580T-DP"
+  },
+  {
+    "base_grade": "HR900Y1180T-MS"
+  },
+  {
+    "base_grade": "HR280MB"
+  },
+  {
+    "base_grade": "22MNB5"
+  },
+  {
+    "base_grade": "HD260LA"
+  },
+  {
+    "base_grade": "HD300LA"
+  },
+  {
+    "base_grade": "HD340LA"
+  },
+  {
+    "base_grade": "HD380LA"
+  },
+  {
+    "base_grade": "HD420LA"
+  },
+  {
+    "base_grade": "HD680C"
+  },
+  {
+    "base_grade": "HD330X"
+  },
+  {
+    "base_grade": "HD900MS"
+  },
+  {
+    "base_grade": "MSH Grade A"
+  },
+  {
+    "base_grade": "LAH240Y320T"
+  },
+  {
+    "base_grade": "LAH270Y350T"
+  },
+  {
+    "base_grade": "LAH300Y370T"
+  },
+  {
+    "base_grade": "LAH340Y410T"
+  },
+  {
+    "base_grade": "LAH420Y480T"
+  },
+  {
+    "base_grade": "LAH500Y560T"
+  },
+  {
+    "base_grade": "DPH340Y590T"
+  },
+  {
+    "base_grade": "MAH900Y1200T"
+  },
+  {
+    "base_grade": "1C"
+  },
+  {
+    "base_grade": "3C"
+  },
+  {
+    "base_grade": "HD300LA-A300"
+  },
+  {
+    "base_grade": "HD340LA-A340"
+  },
+  {
+    "base_grade": "HD380LA-A380"
+  },
+  {
+    "base_grade": "CP800HLE"
+  },
+  {
+    "base_grade": "CP1000"
+  },
+  {
+    "base_grade": "FB45"
+  },
+  {
+    "base_grade": "FB60"
+  },
+  {
+    "base_grade": "HR11"
+  },
+  {
+    "base_grade": "HR12"
+  },
+  {
+    "base_grade": "LAH270Y340T"
+  },
+  {
+    "base_grade": "LAH550Y620T"
+  },
+  {
+    "base_grade": "FBH440Y580T"
+  },
+  {
+    "base_grade": "WSS-M1A365-A21"
+  },
+  {
+    "base_grade": "WSS-M1A365-A22"
+  },
+  {
+    "base_grade": "WSS-M1A365-A23"
+  },
+  {
+    "base_grade": "WSS-M1A365-A20"
+  },
+  {
+    "base_grade": "WSS-M1A368-A42"
+  },
+  {
+    "base_grade": "WSS-M1A368-A31"
+  },
+  {
+    "base_grade": "D1"
+  },
+  {
+    "base_grade": "H320"
+  },
+  {
+    "base_grade": "H360"
+  },
+  {
+    "base_grade": "H420"
+  },
+  {
+    "base_grade": "H460"
+  },
+  {
+    "base_grade": "H500"
+  },
+  {
+    "base_grade": "STW24W"
+  },
+  {
+    "base_grade": "STW24H"
+  },
+  {
+    "base_grade": "DX51D"
+  },
+  {
+    "base_grade": "DX52D"
+  },
+  {
+    "base_grade": "DX53D"
+  },
+  {
+    "base_grade": "DX54D"
+  },
+  {
+    "base_grade": "DX55D"
+  },
+  {
+    "base_grade": "DX56D"
+  },
+  {
+    "base_grade": "DX57D"
+  },
+  {
+    "base_grade": "S220GD"
+  },
+  {
+    "base_grade": "S250GD"
+  },
+  {
+    "base_grade": "S280GD"
+  },
+  {
+    "base_grade": "S320GD"
+  },
+  {
+    "base_grade": "S350GD"
+  },
+  {
+    "base_grade": "S390GD"
+  },
+  {
+    "base_grade": "S420GD"
+  },
+  {
+    "base_grade": "S450GD"
+  },
+  {
+    "base_grade": "S550GD"
+  },
+  {
+    "base_grade": "HX160YD"
+  },
+  {
+    "base_grade": "HX180YD"
+  },
+  {
+    "base_grade": "HX180BD"
+  },
+  {
+    "base_grade": "HX220YD"
+  },
+  {
+    "base_grade": "HX220BD"
+  },
+  {
+    "base_grade": "HX260YD"
+  },
+  {
+    "base_grade": "HX260BD"
+  },
+  {
+    "base_grade": "HX260LAD"
+  },
+  {
+    "base_grade": "HX300YD"
+  },
+  {
+    "base_grade": "HX300BD"
+  },
+  {
+    "base_grade": "HX300LAD"
+  },
+  {
+    "base_grade": "HX340LAD"
+  },
+  {
+    "base_grade": "HX340BD"
+  },
+  {
+    "base_grade": "HX380LAD"
+  },
+  {
+    "base_grade": "HX420LAD"
+  },
+  {
+    "base_grade": "HX460LAD"
+  },
+  {
+    "base_grade": "HX500LAD"
+  },
+  {
+    "base_grade": "HX220PD"
+  },
+  {
+    "base_grade": "HX260PD"
+  },
+  {
+    "base_grade": "HX300PD"
+  },
+  {
+    "base_grade": "H220D"
+  },
+  {
+    "base_grade": "HCT600C"
+  },
+  {
+    "base_grade": "CR250Y440T-DP"
+  },
+  {
+    "base_grade": "HR650LA"
+  },
+  {
+    "base_grade": "HC400TD"
+  },
+  {
+    "base_grade": "WSS-M1A367A44"
+  },
+  {
+    "base_grade": "WSS-M1A367A45"
+  },
+  {
+    "base_grade": "WSS-M1A367A46"
+  },
+  {
+    "base_grade": "WSS-M1A367A47"
+  },
+  {
+    "base_grade": "WSS-M1A367A48"
+  },
+  {
+    "base_grade": "WSS-M1A367A49"
+  },
+  {
+    "base_grade": "WSS-M1A367A50"
+  },
+  {
+    "base_grade": "WSS-M1A367A52"
+  },
+  {
+    "base_grade": "S235J2C"
+  },
+  {
+    "base_grade": "P235S"
+  },
+  {
+    "base_grade": "P265S"
+  },
+  {
+    "base_grade": "P275SL"
+  },
+  {
+    "base_grade": "P310NB"
+  },
+  {
+    "base_grade": "HCT600XB"
+  },
+  {
+    "base_grade": "P235GH"
+  },
+  {
+    "base_grade": "P265GH"
+  },
+  {
+    "base_grade": "P295GH"
+  },
+  {
+    "base_grade": "P355GH"
+  },
+  {
+    "base_grade": "SZBS800"
+  },
+  {
+    "base_grade": "QStE340TM"
+  },
+  {
+    "base_grade": "QStE380TM"
+  },
+  {
+    "base_grade": "QStE420TM"
+  },
+  {
+    "base_grade": "QStE460TM"
+  },
+  {
+    "base_grade": "QStE500TM"
+  },
+  {
+    "base_grade": "QStE550TM"
+  },
+  {
+    "base_grade": "MBW-W 1500"
+  },
+  {
+    "base_grade": "MBW-K 1500"
+  },
+  {
+    "base_grade": "MBW 500"
+  },
+  {
+    "base_grade": "CR300MB"
+  },
+  {
+    "base_grade": "TL 4225"
+  },
+  {
+    "base_grade": "CR1100T-MB-DS"
+  },
+  {
+    "base_grade": "CR1100T-MB-PS"
+  },
+  {
+    "base_grade": "CR1100T-MB-MC"
+  },
+  {
+    "base_grade": "CR1500T-MB-DS"
+  },
+  {
+    "base_grade": "CR1500T-MB-IS"
+  },
+  {
+    "base_grade": "CR1500T-MB-MC"
+  },
+  {
+    "base_grade": "CR1500T-MB-PS"
+  },
+  {
+    "base_grade": "CR1500T-MB-MS"
+  },
+  {
+    "base_grade": "CR1900T-MB-DS"
+  },
+  {
+    "base_grade": "CR1900T-MB-MC"
+  },
+  {
+    "base_grade": "CR500T-LA"
+  },
+  {
+    "base_grade": "CR600T-LA"
+  },
+  {
+    "base_grade": "HR1500T-MB-DS"
+  },
+  {
+    "base_grade": "HR1500T-MB-IS"
+  },
+  {
+    "base_grade": "HR1500T-MB-MC"
+  },
+  {
+    "base_grade": "HR1900T-MB-DS"
+  },
+  {
+    "base_grade": "HR1900T-MB-MC"
+  },
+  {
+    "base_grade": "HR500T-LA"
+  },
+  {
+    "base_grade": "HR600T-LA"
+  },
+  {
+    "base_grade": "C35"
+  },
+  {
+    "base_grade": "C40"
+  },
+  {
+    "base_grade": "C45"
+  },
+  {
+    "base_grade": "C55"
+  },
+  {
+    "base_grade": "C60"
+  },
+  {
+    "base_grade": "16MncR5"
+  },
+  {
+    "base_grade": "HC300XD"
+  },
+  {
+    "base_grade": "HC340XD"
+  },
+  {
+    "base_grade": "TL1550-220"
+  },
+  {
+    "base_grade": "CR6Mn3"
+  },
+  {
+    "base_grade": "CR6Mn6"
+  },
+  {
+    "base_grade": "CR8MnB7"
+  },
+  {
+    "base_grade": "CR22Mn5"
+  },
+  {
+    "base_grade": "CR22Mn5-CS"
+  },
+  {
+    "base_grade": "HR300LAS"
+  },
+  {
+    "base_grade": "HR340LAS"
+  },
+  {
+    "base_grade": "HR380LAS"
+  },
+  {
+    "base_grade": "HR420LAS"
+  },
+  {
+    "base_grade": "HR460LAS"
+  },
+  {
+    "base_grade": "HR500LAS"
+  },
+  {
+    "base_grade": "HR550LAS"
+  },
+  {
+    "base_grade": "HR700LAS"
+  },
+  {
+    "base_grade": "HD330XD"
+  },
+  {
+    "base_grade": "HD680CD"
+  },
+  {
+    "base_grade": "S315MCD"
+  },
+  {
+    "base_grade": "S355MCD"
+  },
+  {
+    "base_grade": "S420MCD"
+  },
+  {
+    "base_grade": "S460MCD"
+  },
+  {
+    "base_grade": "S500MCD"
+  },
+  {
+    "base_grade": "S550MCD"
+  },
+  {
+    "base_grade": "S600MCD"
+  },
+  {
+    "base_grade": "S650MCD"
+  },
+  {
+    "base_grade": "S700MCD"
+  },
+  {
+    "base_grade": "CR3+IF"
+  },
+  {
+    "base_grade": "CR3+NONIF"
+  },
+  {
+    "base_grade": "CR4+IF"
+  },
+  {
+    "base_grade": "CR4+NONIF"
+  },
+  {
+    "base_grade": "CR1270Y1500T-MS"
+  },
+  {
+    "base_grade": "CR2+IF"
+  },
+  {
+    "base_grade": "CR330Y590T-DH"
+  },
+  {
+    "base_grade": "CR850Y1180T-TR"
+  },
+  {
+    "base_grade": "HD620CD"
+  },
+  {
+    "base_grade": "HC820CD"
+  },
+  {
+    "base_grade": "HD620C"
+  },
+  {
+    "base_grade": "HC720C"
+  },
+  {
+    "base_grade": "HD900M"
+  },
+  {
+    "base_grade": "HC600X"
+  },
+  {
+    "base_grade": "HC660X"
+  },
+  {
+    "base_grade": "HC500C"
+  },
+  {
+    "base_grade": "HC700C"
+  },
+  {
+    "base_grade": "HC800C"
+  },
+  {
+    "base_grade": "HC410T"
+  },
+  {
+    "base_grade": "HC470T"
+  },
+  {
+    "base_grade": "HC260XD"
+  },
+  {
+    "base_grade": "HC450XD"
+  },
+  {
+    "base_grade": "HC600XD"
+  },
+  {
+    "base_grade": "HC660XD"
+  },
+  {
+    "base_grade": "HC500CD"
+  },
+  {
+    "base_grade": "HC600CD"
+  },
+  {
+    "base_grade": "HC700CD"
+  },
+  {
+    "base_grade": "HC800CD"
+  },
+  {
+    "base_grade": "HC410TD"
+  },
+  {
+    "base_grade": "CR1-140-270-S"
+  },
+  {
+    "base_grade": "CR2-140-270-S"
+  },
+  {
+    "base_grade": "CR3-140-270-S"
+  },
+  {
+    "base_grade": "CR4-140-270-S"
+  },
+  {
+    "base_grade": "CR5-110-260-S"
+  },
+  {
+    "base_grade": "CR-180-290-BH-S"
+  },
+  {
+    "base_grade": "CR-240-340-BH-S"
+  },
+  {
+    "base_grade": "CR-340-410-LA-S"
+  },
+  {
+    "base_grade": "CR-420-480-LA-S"
+  },
+  {
+    "base_grade": "CR-290-490-DP-S"
+  },
+  {
+    "base_grade": "CR-330-590-DP-S"
+  },
+  {
+    "base_grade": "CR-440-780-DP-S"
+  },
+  {
+    "base_grade": "CR-590-980-DP-S"
+  },
+  {
+    "base_grade": "CR-700-980-DP-S"
+  },
+  {
+    "base_grade": "CR-400-690-TR-S"
+  },
+  {
+    "base_grade": "CR-450-780-TR-S"
+  },
+  {
+    "base_grade": "CR-570-780-CP-S"
+  },
+  {
+    "base_grade": "HR580T/330YDP"
+  },
+  {
+    "base_grade": "HR780T/450YDP"
+  },
+  {
+    "base_grade": "HR450T/300YFB"
+  },
+  {
+    "base_grade": "HR580T/440YFB"
+  },
+  {
+    "base_grade": "HR780T/600YFB"
+  },
+  {
+    "base_grade": "HR760T/660YMP"
+  },
+  {
+    "base_grade": "HR780T/650YMP"
+  },
+  {
+    "base_grade": "HR950T/720YMP"
+  },
+  {
+    "base_grade": "HR1200T/900YMS"
+  },
+  {
+    "base_grade": "HR1400T/1050YMS"
+  },
+  {
+    "base_grade": "CR180B2"
+  },
+  {
+    "base_grade": "CR180P"
+  },
+  {
+    "base_grade": "CR210B2"
+  },
+  {
+    "base_grade": "CR210P"
+  },
+  {
+    "base_grade": "CR240B2"
+  },
+  {
+    "base_grade": "CR240P"
+  },
+  {
+    "base_grade": "CR270B2"
+  },
+  {
+    "base_grade": "CR270P"
+  },
+  {
+    "base_grade": "CR300B2"
+  },
+  {
+    "base_grade": "CR500LA"
+  },
+  {
+    "base_grade": "CR490T/290YDP"
+  },
+  {
+    "base_grade": "CR590T/340YDP"
+  },
+  {
+    "base_grade": "CR690T/550YDP"
+  },
+  {
+    "base_grade": "CR780T/420YDP"
+  },
+  {
+    "base_grade": "CR780T/500YDP"
+  },
+  {
+    "base_grade": "CR980T/550YDP"
+  },
+  {
+    "base_grade": "CR980T/700YMP"
+  },
+  {
+    "base_grade": "CR980T/700Y-MP-LCE3"
+  },
+  {
+    "base_grade": "CR900T/700YMS"
+  },
+  {
+    "base_grade": "CR1100T/860YMS"
+  },
+  {
+    "base_grade": "CR1300T/1030YMS"
+  },
+  {
+    "base_grade": "CR1500T/1200YMS"
+  },
+  {
+    "base_grade": "CR1700T/1350YMS"
+  },
+  {
+    "base_grade": "CR1180T/875Y-MP"
+  },
+  {
+    "base_grade": "HE275"
+  },
+  {
+    "base_grade": "HE335D"
+  },
+  {
+    "base_grade": "HE390D"
+  },
+  {
+    "base_grade": "HE445D"
+  },
+  {
+    "base_grade": "HE490D"
+  },
+  {
+    "base_grade": "FBH580"
+  },
+  {
+    "base_grade": "HR55"
+  },
+  {
+    "base_grade": "HR45"
+  },
+  {
+    "base_grade": "HR60"
+  },
+  {
+    "base_grade": "DP450"
+  },
+  {
+    "base_grade": "DP980"
+  },
+  {
+    "base_grade": "TBC980"
+  }
+]

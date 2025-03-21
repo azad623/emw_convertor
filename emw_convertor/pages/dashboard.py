@@ -141,7 +141,25 @@ def render_dashboard():
         for tab, (key, freq) in zip(tabs, stats["frequencies"].items()):
             with tab:
                 if freq:
+                    # Convert freq to DataFrame
                     df = pd.DataFrame(list(freq.items()), columns=["value", "count"])
+
+                    # Apply filters based on the key
+                    if key.lower() == "dicke_":
+                        df["value"] = pd.to_numeric(df["value"], errors="coerce")
+                        df = df[
+                            (df["value"] >= 0.1) & (df["value"] <= 16.0)
+                        ]  # Limit values to 0-16 mm for Dicke
+                    elif key.lower() == "breit_":
+                        df["value"] = pd.to_numeric(df["value"], errors="coerce")
+                        df = df[
+                            (df["value"] >= 0) & (df["value"] <= 2000)
+                        ]  # Limit values to 0-2.0 mm for Breite
+                    # Add more conditions for other keys if needed
+                    # elif key.lower() == "other_key":
+                    #     df = df[(df["value"] >= min_value) & (df["value"] <= max_value)]
+
+                    # Plot the data
                     fig = px.bar(
                         df,
                         x="value",

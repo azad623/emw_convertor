@@ -1,0 +1,193 @@
+[
+  {
+    "symbol": "+",
+    "prefix_coating": "Z",
+    "coating": [
+      "100",
+      "140",
+      "180",
+      "200",
+      "225",
+      "275",
+      "350",
+      "450",
+      "600",
+      "725",
+      "800"
+    ],
+    "treatment": [
+      "MAC",
+      "MAO",
+      "NAC",
+      "NAO",
+      "MBC",
+      "MBO",
+      "MACO",
+      "MBCO",
+      "MAS",
+      "MBS",
+      "MCO",
+      "MCC"
+    ]
+  },
+  {
+    "symbol": "-",
+    "prefix_coating": "GI",
+    "coating": ["40/40", "50/50", "60/60", "70/70", "85/85", "115/115"],
+    "treatment": ["UO", "EO", "U", "E"]
+  },
+  {
+    "symbol": "-",
+    "prefix_coating": "G",
+    "coating": ["07/07", "7/7", "08/08", "10/10", "15/15", "20/20"],
+    "treatment": ["X", "Z"]
+  },
+  {
+    "symbol": "-",
+    "prefix_coating": "GA",
+    "coating": ["40/40", "45/45", "50/50", "40A40A", "45A45A", "50A50A"],
+    "treatment": ["UO", "U"]
+  },
+  {
+    "symbol": "+",
+    "prefix_coating": "ZE",
+    "coating": [
+      "0/25",
+      "25/0",
+      "25/25",
+      "0/50",
+      "50/0",
+      "50/50",
+      "75/0",
+      "0/75",
+      "75/75",
+      "100/0",
+      "0/100",
+      "100/100"
+    ],
+    "treatment": ["AO", "APC", "APO", "BO", "BPO", "BC", "BPC"]
+  },
+  {
+    "symbol": "-",
+    "prefix_coating": "EG",
+    "coating": [
+      "0/18",
+      "0/36",
+      "0/50",
+      "0/53",
+      "18/0",
+      "36/0",
+      "50/0",
+      "53/0",
+      "12/12",
+      "18/18",
+      "29/29",
+      "36/36",
+      "47/47",
+      "50/50",
+      "53/53",
+      "60/60",
+      "65/65"
+    ],
+    "treatment": ["UO", "EO", "EPO", "APO"]
+  },
+  {
+    "symbol": "+",
+    "prefix_coating": "ZM",
+    "coating": [
+      "70",
+      "90",
+      "120",
+      "140",
+      "175",
+      "200",
+      "250",
+      "310",
+      "430",
+      "620",
+      "800",
+      "30/30",
+      "35/35",
+      "40/40",
+      "50/50"
+    ],
+    "treatment": [
+      "U",
+      "UO",
+      "E",
+      "EO",
+      "AC",
+      "BC",
+      "AO",
+      "BO",
+      "MBO",
+      "MAO",
+      "MCO",
+      "MBC",
+      "MAC",
+      "MACO",
+      "MBCO"
+    ]
+  },
+  {
+    "symbol": "-",
+    "prefix_coating": "AS",
+    "coating": [
+      "80",
+      "100",
+      "120",
+      "150",
+      "30",
+      "30/30",
+      "45",
+      "45/45",
+      "60/60"
+    ],
+    "treatment": ["U", "UO", "ACO", "BCO", "AO", "BO", "AC", "BC"]
+  },
+  {
+    "symbol": "+",
+    "prefix_coating": "ZF",
+    "coating": ["09", "100", "110", "120", "140"],
+    "treatment": [
+      "U",
+      "UO",
+      "AO",
+      "BO",
+      "RAO",
+      "RBO",
+      "RCO",
+      "RAC",
+      "RBC",
+      "RCC"
+    ]
+  },
+  {
+    "symbol": "+",
+    "prefix_coating": "ZA",
+    "coating": [
+      "40/90",
+      "90/40",
+      "95",
+      "100/50",
+      "130",
+      "185",
+      "200",
+      "255",
+      "300"
+    ],
+    "treatment": ["AO", "BO", "ACO", "BCO", "AS", "BS", "AC"]
+  },
+  {
+    "symbol": "-",
+    "prefix_coating": "AZ",
+    "coating": ["70", "100", "150", "185"],
+    "treatment": ["AC", "AO", "AS", "BC", "BO", "BS"]
+  },
+  {
+    "symbol": "-",
+    "prefix_coating": "UC",
+    "coating": [""],
+    "treatment": ["UO", "U", "E", "EO", "PO"]
+  }
+]

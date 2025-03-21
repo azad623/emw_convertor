@@ -28,9 +28,6 @@ def load_layout_schema(schema_path: str) -> dict | None:
         with open(schema_path, "r", encoding="utf-8") as f:
             schema = json.load(f)
 
-        if not isinstance(schema, list):
-            raise ValueError("The schema must be a list of column definitions.")
-
         print("Schema successfully loaded and validated.")
         return schema
 
@@ -54,11 +51,16 @@ global_vars = {"error_list": []}
 log_output_path = str(Path(__file__).parent.resolve() / "logs/")
 
 # Define path to material json file
-_material_schema_path = str(
-    Path(__file__).parent.resolve() / "config/schemas/emw_material_kb.json"
+_material_schema_grade_path = str(
+    Path(__file__).parent.resolve() / "config/schemas/grades.json"
+)
+_material_schema_coating_path = str(
+    Path(__file__).parent.resolve() / "config/schemas/coating_treatment.json"
 )
 
-schema = load_layout_schema(_material_schema_path)
+grades_schema = load_layout_schema(_material_schema_grade_path)
+coating_schema = load_layout_schema(_material_schema_coating_path)
+
 
 # Read log config file
 log_config_path = Path(__file__).parent.resolve() / "config/logging.yaml"
