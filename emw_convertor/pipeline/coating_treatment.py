@@ -6,7 +6,7 @@ import itertools
 logger = logging.getLogger("<EMW SLExA ETL>")
 
 # Treatment conversion dictionary
-TREATMENT_CONVERSION = {"U": "UO", "AMO": "AO", "MB": "MBO", "AM": "MAO"}
+TREATMENT_CONVERSION = {"U": "UO", "MB": "MBO", "AM": "MAO"}
 
 
 class CoatingTreatmentExtractor:
@@ -49,6 +49,29 @@ class CoatingTreatmentExtractor:
             permutations.append(prefix)
 
         return permutations
+
+    def get_treatment(self, potential_str, treatments):
+
+        best_match_length = 0
+        matched_treatment = None
+        # First check direct matches
+        for treatment in treatments:
+            normalized_treatment = self.normalize_string(treatment)
+            if normalized_treatment in potential_str:
+                if len(normalized_treatment) > best_match_length:
+                    best_match_length = len(normalized_treatment)
+                    matched_treatment = treatment
+        if matched_treatment:
+            for key, val in TREATMENT_CONVERSION.items():
+                normalized_key = key.lower()
+                if normalized_key == matched_treatment.lower():
+                    matched_treatment = val
+                    logger.info(
+                        f"Treatment '{key}' converted to '{matched_treatment}' for candidate '{potential_str}'."
+                    )
+                    break
+
+        return matched_treatment
 
     def extract_treatment(
         self,
@@ -94,31 +117,9 @@ class CoatingTreatmentExtractor:
                         symbol = coating_["symbol"]
                         prefix_coating = coating_["prefix_coating"]
 
-                        # get treatments from the treatment dictionary by index when coating is matched
-                        treatments = coating_["treatment"]
-                        best_match_length = 0
-
-                        # First check direct matches
-                        for treatment in treatments:
-                            normalized_treatment = self.normalize_string(treatment)
-                            if normalized_treatment in potential_str:
-                                if len(normalized_treatment) > best_match_length:
-                                    best_match_length = len(normalized_treatment)
-                                    matched_treatment = treatment
-
-                        # If no direct match, check for treatment conversion
-                        if not matched_treatment:
-                            for key, val in TREATMENT_CONVERSION.items():
-                                normalized_key = key.lower()
-                                if (
-                                    normalized_key in potential_str
-                                    and val in treatments
-                                ):
-                                    matched_treatment = val
-                                    logger.info(
-                                        f"Treatment '{key}' converted to '{matched_treatment}' for candidate '{potential_str}'."
-                                    )
-                                    break
+                        matched_treatment = self.get_treatment(
+                            potential_str, coating_["treatment"]
+                        )
 
             if best_grade is not None:
                 # Construct the output string for the first return value
@@ -135,6 +136,13 @@ class CoatingTreatmentExtractor:
                 logger.warning(
                     f"Could not find any coating in candidate '{potential_str}'."
                 )
+                try:
+                    treatments = self.treatment_list[-1]["treatment"]
+                    matched_treatment = self.get_treatment(potential_str, treatments)
+                except Exception as e:
+                    logger.error(
+                        f"Error extracting coating for candidate '{potential_str}': {e}"
+                    )
 
             if matched_treatment:
                 logger.info(
