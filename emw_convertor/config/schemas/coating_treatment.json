@@ -189,5 +189,27 @@
     "prefix_coating": "UC",
     "coating": [""],
     "treatment": ["UO", "U", "E", "EO", "PO"]
+  },
+  {
+    "symbol": "",
+    "prefix_coating": "NULL",
+    "coating": [""],
+    "treatment": [
+      "AO",
+      "gebeizt gefettet",
+      "pickeled oiled",
+      "pickled unoiled",
+      "unpickeld oiled",
+      "PO",
+      "UO",
+      "ungebeizt ungefettet",
+      "schwarz",
+      "black",
+      "ungebeizt geölt",
+      "gebeizt ungeölt",
+      "gebläut",
+      "gebeizt geölt",
+      "AMO"
+    ]
   }
 ]
