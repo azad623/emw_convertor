@@ -6,7 +6,8 @@ from emw_convertor import (
     global_vars,
     log_output_path,
     local_data_input_path,
-    schema,
+    grades_schema,
+    coating_schema,
 )
 from emw_convertor.getters.data_getter import load_excel_file
 from emw_convertor.pipeline.transformation import (
@@ -16,9 +17,9 @@ from emw_convertor.pipeline.transformation import (
 
 # from emw_convertor.pipeline.schema_validation import identify_header_name
 from emw_convertor.pipeline.extractor import ExtractorRunner
-from emw_convertor.pipeline.grade_coating_extractor import GradeCoatingExtractor
+from emw_convertor.pipeline.grade_extractor import GradeExtractor
 from emw_convertor.pipeline.dimension_extractor import DimensionExtractor
-from emw_convertor.pipeline.treatment import TreatmentExtractor
+from emw_convertor.pipeline.coating_treatment import CoatingTreatmentExtractor
 from emw_convertor.utils.helper import (
     delete_all_files,
     load_schema_list,
@@ -83,31 +84,30 @@ def pipeline_run(header_names: Dict, file_path: str) -> pd.DataFrame:
 
         # Step 4: Check and update the grade column
         logger.info("<< Step 4: Validating and updating the grade column >>")
-        grade_coating_extractor = GradeCoatingExtractor(
-            grade_coating_list=load_schema_list(schema, "grade_coating"),
-            grade_list=load_schema_list(schema, "base_grade"),
-            coating_list=load_schema_list(schema, "coating"),
+        grade_extractor = GradeExtractor(
+            # grade_coating_list=load_schema_list(schema, "grade_coating"),
+            grade_list=load_schema_list(grades_schema, "base_grade"),
         )
 
         dimension_extractor = DimensionExtractor(column_name=header_names["dimensions"])
 
-        treatment_extractor = TreatmentExtractor(
-            treatment_list=load_schema_list(schema, "treatment")
+        coating_treatment_extractor = CoatingTreatmentExtractor(
+            treatment_dict=coating_schema
         )
 
         extractor_runner = ExtractorRunner(
             header_names=header_names,
-            grade_coating_extractor=grade_coating_extractor,
+            grade_extractor=grade_extractor,
             dimension_extractor=dimension_extractor,
-            treatment_extractor=treatment_extractor,
+            coating_treatment_extractor=coating_treatment_extractor,
         )
 
         df = extractor_runner.run_extractor(df)
 
         del (
-            grade_coating_extractor,
+            grade_extractor,
             extractor_runner,
-            treatment_extractor,
+            coating_treatment_extractor,
         )  # Free up resources
 
         # Step 6: Log success

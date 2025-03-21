@@ -1,10 +1,10 @@
 import pandas as pd
 import logging
 from typing import List, Tuple, Optional, Dict
-from emw_convertor import global_vars, schema
-from emw_convertor.pipeline.grade_coating_extractor import GradeCoatingExtractor
+from emw_convertor import global_vars, grades_schema, coating_schema
+from emw_convertor.pipeline.grade_extractor import GradeExtractor
 from emw_convertor.pipeline.dimension_extractor import DimensionExtractor
-from emw_convertor.pipeline.treatment import TreatmentExtractor
+from emw_convertor.pipeline.coating_treatment import CoatingTreatmentExtractor
 
 # Configure logging
 logger = logging.getLogger("<EMW SLExA ETL>")
@@ -14,21 +14,33 @@ class ExtractorRunner:
     def __init__(
         self,
         header_names: Dict,
-        grade_coating_extractor: GradeCoatingExtractor,
+        grade_extractor: GradeExtractor,
         dimension_extractor: DimensionExtractor,
-        treatment_extractor: TreatmentExtractor,
+        coating_treatment_extractor: CoatingTreatmentExtractor,
     ):
         """
         Initialize the ExtractorRunner.
 
         Args:
             header_names (Dict): Mapping of column headers for grades, dimensions, etc.
-            grade_coating_extractor (GradeCoatingExtractor): An instance of GradeCoatingExtractor.
+            grade_extractor (GradeCoatingExtractor): An instance of GradeCoatingExtractor.
         """
         self.header_names = header_names
-        self.grade_coating_extractor = grade_coating_extractor
+        self.grade_extractor = grade_extractor
         self.dimension_extractor = dimension_extractor
-        self.treatment_extractor = treatment_extractor
+        self.coating_treatment_extractor = coating_treatment_extractor
+
+    def normalize_string(self, value: str) -> str:
+        """
+        Normalize the string by removing spaces, hyphens, plus signs, and converting to lowercase.
+
+        Args:
+            value (str): The string to normalize.
+
+        Returns:
+            str: The normalized string.
+        """
+        return value.replace(" ", "").replace("-", "").replace("+", "").lower()
 
     def run_extractor(self, df: pd.DataFrame) -> pd.DataFrame:
         """
@@ -57,66 +69,28 @@ class ExtractorRunner:
                     continue
 
                 # Try matching with grade_coating_list first
-                index, best_match, matched, score = (
-                    self.grade_coating_extractor.find_best_match(
-                        candidate, self.grade_coating_extractor.grade_coating_list, 0.2
+                best_match, matched = self.grade_extractor.extract_grade(candidate, 0.2)
+                if matched:
+                    normalized_candidate = self.normalize_string(candidate)
+                    normalized_best_grade = self.normalize_string(best_match)
+
+                    # Remove best grade from the candidate to get potential string
+                    candidate = normalized_candidate.replace(
+                        normalized_best_grade, ""
+                    ).strip()
+                else:
+                    candidate = self.normalize_string(candidate)
+
+                grade, coating, treatment = (
+                    self.coating_treatment_extractor.extract_treatment(
+                        candidate, best_match
                     )
                 )
-                if matched:
-                    coating = self.grade_coating_extractor.extract_coating_code(
-                        index,
-                        candidate,
-                        best_match,
-                        self.grade_coating_extractor.grade_list,
-                        self.grade_coating_extractor.coating_list,
-                    )
 
-                    treatment = self.treatment_extractor.extract_treatment(
-                        index,
-                        candidate,
-                        best_match,
-                        coating,
-                        self.treatment_extractor.treatment_list,
-                    )
+                df.at[idx, "Güte_"] = grade
+                df.at[idx, "Auflage_"] = coating
+                df.at[idx, "Oberfläche_"] = treatment
 
-                    logger.info(
-                        f"Candidate '{candidate}' matched with grade & coating '{best_match}' "
-                        f"and coating '{coating}' (Score: {score:.2f})."
-                    )
-                    df.at[idx, "Güte_"] = best_match
-                    df.at[idx, "Auflage_"] = coating
-                    df.at[idx, "Oberfläche_"] = treatment
-                else:
-                    # Fallback to grade_list if no match found in grade_coating_list
-                    index, best_match, matched, score = (
-                        self.grade_coating_extractor.find_best_match(
-                            candidate, self.grade_coating_extractor.grade_list, 0.6
-                        )
-                    )
-                    if matched:
-                        logger.info(
-                            f"Candidate '{candidate}' matched with grade '{best_match}' and no coating "
-                            f"(Score: {score:.2f})."
-                        )
-
-                        treatment = self.treatment_extractor.extract_treatment(
-                            index,
-                            candidate,
-                            best_match,
-                            "",
-                            self.treatment_extractor.treatment_list,
-                        )
-
-                        df.at[idx, "Güte_"] = best_match
-                        df.at[idx, "Auflage_"] = None
-                        df.at[idx, "Oberfläche_"] = treatment
-                    else:
-                        logger.warning(
-                            f"Candidate '{candidate}' at index {idx} did not match any reference."
-                        )
-                        df.at[idx, "Güte_"] = None
-                        df.at[idx, "Auflage_"] = None
-                        df.at[idx, "Oberfläche_"] = None
         else:
             logger.error(
                 "Die Spalten „Güt“, „Auflage“ und „Oberfläche“ werden nicht aktualisiert. Bitte wählen Sie den korrekten Spaltennamen"
