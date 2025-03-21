@@ -34,7 +34,7 @@
     "symbol": "-",
     "prefix_coating": "GI",
     "coating": ["40/40", "50/50", "60/60", "70/70", "85/85", "115/115"],
-    "treatment": ["UO", "EO", "U", "E"]
+    "treatment": ["UO", "EO", "U"]
   },
   {
     "symbol": "-",
