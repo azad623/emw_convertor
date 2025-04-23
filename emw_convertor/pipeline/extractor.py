@@ -82,7 +82,7 @@ class ExtractorRunner:
                     candidate = self.normalize_string(candidate)
 
                 grade, coating, treatment = (
-                    self.coating_treatment_extractor.extract_treatment(
+                    self.coating_treatment_extractor.extract_coating_treatment(
                         candidate, best_match
                     )
                 )

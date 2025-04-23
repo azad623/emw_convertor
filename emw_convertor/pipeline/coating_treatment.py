@@ -6,7 +6,18 @@ import itertools
 logger = logging.getLogger("<EMW SLExA ETL>")
 
 # Treatment conversion dictionary
-TREATMENT_CONVERSION = {"U": "UO", "MB": "MBO", "AM": "MAO"}
+TREATMENT_CONVERSION = {
+    "A": "AO",
+    "U": "UO",
+    "MB": "MBO",
+    "MC": "MCO",
+    "NA": "NAC",
+    "B": "BO",
+    "MA": "MAC",
+    "E": "EO",
+    "NAC": "MAC",
+    "AM": "AMO",
+}
 
 
 class CoatingTreatmentExtractor:
@@ -70,10 +81,27 @@ class CoatingTreatmentExtractor:
                         f"Treatment '{key}' converted to '{matched_treatment}' for candidate '{potential_str}'."
                     )
                     break
+        else:
+            # If no direct match, check for partial matches
+            for treatment in TREATMENT_CONVERSION.keys():
+                normalized_treatment = self.normalize_string(treatment)
+                if normalized_treatment in potential_str:
+                    if len(normalized_treatment) > best_match_length:
+                        best_match_length = len(normalized_treatment)
+                        matched_treatment = treatment
+            if matched_treatment:
+                for key, val in TREATMENT_CONVERSION.items():
+                    normalized_key = key.lower()
+                    if normalized_key == matched_treatment.lower():
+                        matched_treatment = val
+                        logger.info(
+                            f"Treatment '{key}' converted to '{matched_treatment}' for candidate '{potential_str}'."
+                        )
+                        break
 
         return matched_treatment
 
-    def extract_treatment(
+    def extract_coating_treatment(
         self,
         potential_str: str,
         best_grade: str,
@@ -213,8 +241,8 @@ if __name__ == "__main__":
     candidate2 = "S280GD+Z07/07MAO"
 
     # Extract treatment for the candidates
-    result1 = extractor.extract_treatment(candidate1, "S350GD")
-    result2 = extractor.extract_treatment(candidate2, "S280GD")
+    result1 = extractor.extract_coating_treatment(candidate1, "S350GD")
+    result2 = extractor.extract_coating_treatment(candidate2, "S280GD")
 
     print(f"Candidate: {candidate1}")
     print(f"Result: {result1}")
