@@ -613,6 +613,42 @@
           "70/70": 1
         }
       }
+    },
+    "5": {
+      "filename": "emw_errors.xlsx",
+      "supplier": "Emw",
+      "upload_date": "2025-04-23T12:03:10.969785",
+      "rows_processed": 2,
+      "value_frequencies": {
+        "G\u00fcte_": { "DC04+ZE": 1, "CR4-UC": 1 },
+        "Dicke_": { "0,75": 1, "1,0": 1 },
+        "Breit_": { "1780,0": 1, "982,0": 1 },
+        "Auflage_": { "75/75": 1, "": 1 }
+      }
+    },
+    "6": {
+      "filename": "emw_errors.xlsx",
+      "supplier": "Emw",
+      "upload_date": "2025-04-23T13:42:18.635032",
+      "rows_processed": 2,
+      "value_frequencies": {
+        "G\u00fcte_": { "DC04+ZE": 1, "CR4-UC": 1 },
+        "Dicke_": { "0,75": 1, "1,0": 1 },
+        "Breit_": { "1780,0": 1, "982,0": 1 },
+        "Auflage_": { "75/75": 1, "": 1 }
+      }
+    },
+    "7": {
+      "filename": "emw_errors.xlsx",
+      "supplier": "Emw",
+      "upload_date": "2025-04-23T14:10:47.460620",
+      "rows_processed": 2,
+      "value_frequencies": {
+        "G\u00fcte_": { "DC04+ZE": 1, "CR4-UC": 1 },
+        "Dicke_": { "0,75": 1, "1,0": 1 },
+        "Breit_": { "1780,0": 1, "982,0": 1 },
+        "Auflage_": { "75/75": 1, "": 1 }
+      }
     }
   }
 }
