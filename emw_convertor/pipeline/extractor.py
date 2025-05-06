@@ -98,7 +98,7 @@ class ExtractorRunner:
                         ]
 
                         # Combine filtered before part with after part (skipping the best grade itself)
-                        candidate = filtered_before + after_match
+                        candidate = filtered_before + " " + after_match
                     else:
                         # If no match found, apply the filtering to the entire string
                         candidate = "".join(
