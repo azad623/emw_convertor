@@ -68,6 +68,9 @@ class ExtractorRunner:
                     logger.warning(f"Row {idx}: Candidate is empty or invalid.")
                     continue
 
+                if idx == 172:
+                    logger.info(f"Row {idx}: Candidate is {candidate}")
+
                 # Try matching with grade_coating_list first
                 best_match, matched = self.grade_extractor.extract_grade(candidate, 0.2)
                 if matched:
@@ -75,21 +78,47 @@ class ExtractorRunner:
                     normalized_best_grade = self.normalize_string(best_match)
 
                     # Remove best grade from the candidate to get potential string
-                    candidate = normalized_candidate.replace(
-                        normalized_best_grade, ""
-                    ).strip()
+                    # Find the position of normalized_best_grade in the string
+                    # Get index of normalized_best_grade in the string
+                    # Find the position of normalized_best_grade in the string
+                    index = normalized_candidate.find(normalized_best_grade)
+                    if index != -1:
+                        # Extract everything before the match
+                        before_match = normalized_candidate[:index]
+                        # Remove alphabetic characters except 'x' from the part before the match
+                        filtered_before = "".join(
+                            c
+                            for c in before_match
+                            if c == "x" or not c.isalpha() or c.isdigit()
+                        )
+
+                        # Get everything after the best grade
+                        after_match = normalized_candidate[
+                            index + len(normalized_best_grade) :
+                        ]
+
+                        # Combine filtered before part with after part (skipping the best grade itself)
+                        candidate = filtered_before + after_match
+                    else:
+                        # If no match found, apply the filtering to the entire string
+                        candidate = "".join(
+                            c
+                            for c in normalized_candidate
+                            if c == "x" or not c.isalpha() or c.isdigit()
+                        )
+
+                    grade, coating, treatment = (
+                        self.coating_treatment_extractor.extract_coating_treatment(
+                            candidate, best_match
+                        )
+                    )
+
+                    df.at[idx, "Güte_"] = grade
+                    df.at[idx, "Auflage_"] = coating
+                    df.at[idx, "Oberfläche_"] = treatment
+
                 else:
                     candidate = self.normalize_string(candidate)
-
-                grade, coating, treatment = (
-                    self.coating_treatment_extractor.extract_coating_treatment(
-                        candidate, best_match
-                    )
-                )
-
-                df.at[idx, "Güte_"] = grade
-                df.at[idx, "Auflage_"] = coating
-                df.at[idx, "Oberfläche_"] = treatment
 
         else:
             logger.error(
@@ -98,7 +127,6 @@ class ExtractorRunner:
             global_vars["error_list"].append(
                 "Die Spalten „Güt“, „Auflage“ und „Oberfläche“ werden nicht aktualisiert. Bitte wählen Sie den korrekten Spaltennamen"
             )
-        print(df.columns)
         # Extract dimensions if applicable
         if (
             "dimensions" in self.header_names
