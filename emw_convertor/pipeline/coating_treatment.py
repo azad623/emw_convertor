@@ -85,10 +85,11 @@ class CoatingTreatmentExtractor:
             # If no direct match, check for partial matches
             for treatment in TREATMENT_CONVERSION.keys():
                 normalized_treatment = self.normalize_string(treatment)
-                if normalized_treatment in potential_str:
-                    if len(normalized_treatment) > best_match_length:
-                        best_match_length = len(normalized_treatment)
-                        matched_treatment = treatment
+                for split_segment in potential_str.split(" "):
+                    if normalized_treatment == split_segment.strip():
+                        if len(normalized_treatment) > best_match_length:
+                            best_match_length = len(normalized_treatment)
+                            matched_treatment = treatment
             if matched_treatment:
                 for key, val in TREATMENT_CONVERSION.items():
                     normalized_key = key.lower()
@@ -139,7 +140,7 @@ class CoatingTreatmentExtractor:
                         matched_coating = coating_["coating"][index]
                         # Remove the matched coating from potential_str
                         potential_str = potential_str.replace(
-                            normalized_coating, ""
+                            normalized_coating, " "
                         ).strip()
 
                         symbol = coating_["symbol"]
