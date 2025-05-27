@@ -1444,5 +1444,53 @@
   },
   {
     "base_grade": "HC260Y+ZE"
+  },
+  {
+    "base_grade": "scalur BT4"
+  },
+  {
+    "base_grade": "scalur CP-W 800"
+  },
+  {
+    "base_grade": "scalur DD11"
+  },
+  {
+    "base_grade": "scalur DD12"
+  },
+  {
+    "base_grade": "scalur DD13"
+  },
+  {
+    "base_grade": "scalur DD14"
+  },
+  {
+    "base_grade": "scalur S235J"
+  },
+  {
+    "base_grade": "scalur S315MC"
+  },
+  {
+    "base_grade": "scalur S355MC"
+  },
+  {
+    "base_grade": "scalur S420MC"
+  },
+  {
+    "base_grade": "scalur S460MC"
+  },
+  {
+    "base_grade": "scalur S500MC"
+  },
+  {
+    "base_grade": "scalur S550MC"
+  },
+  {
+    "base_grade": "scalur S600MC"
+  },
+  {
+    "base_grade": "scalur S650MC"
+  },
+  {
+    "base_grade": "scalur S700MC"
   }
 ]
