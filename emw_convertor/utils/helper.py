@@ -3,7 +3,6 @@ import pickle
 import pandas as pd
 import logging
 from typing import List, Dict
-import json
 from emw_convertor import local_data_input_path, global_vars
 
 logger = logging.getLogger("<EMW SLExA ETL>")

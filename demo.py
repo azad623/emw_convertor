@@ -1,20 +1,20 @@
-import streamlit as st
-import pandas as pd
-from datetime import datetime
-import glob
-from streamlit_option_menu import option_menu
-from emw_convertor.pipeline.pipeline_manager import pipeline_run
 import os
 import shutil
+from datetime import datetime
 from io import BytesIO
+
+import pandas as pd
+import streamlit as st
+from streamlit_option_menu import option_menu
+
 from emw_convertor import log_output_path
-from emw_convertor.pages.dashboard_manager import DashboardManager
 from emw_convertor.getters.data_getter import load_excel_file
 from emw_convertor.pages.dashboard import render_dashboard
+from emw_convertor.pages.dashboard_manager import DashboardManager
+from emw_convertor.pipeline.pipeline_manager import pipeline_run
 from emw_convertor.pipeline.transformation import (
     drop_rows_with_missing_values,
 )
-from streamlit_navigation_bar import st_navbar
 
 # Initialize Streamlit App
 st.set_page_config(
@@ -58,11 +58,134 @@ def save_uploaded_file(uploaded_file, save_path):
 
 
 def convert_to_excel(df):
-    """Convert a DataFrame to an in-memory Excel file."""
+    """Convert a DataFrame to an in-memory Excel file with conditional formatting."""
     buffer = BytesIO()
     with pd.ExcelWriter(buffer, engine="xlsxwriter") as writer:
+        # Store highlighting information before sanitization
+        yellow_highlighted_rows = []
+        red_highlighted_rows = []
+
+        # Handle yellow highlighting (unmatched remainders)
+        if "Highlight_Row_" in df.columns:
+            try:
+                # Handle both boolean and string boolean values
+                highlight_column = df["Highlight_Row_"]
+
+                # Check if values are already strings (after sanitization)
+                if highlight_column.dtype == "object":
+                    # Convert string booleans to actual booleans
+                    boolean_mask = highlight_column.astype(str).str.lower() == "true"
+                else:
+                    # Use boolean values directly
+                    boolean_mask = highlight_column.astype(bool)
+
+                yellow_highlighted_rows = df[boolean_mask].index.tolist()
+
+            except (KeyError, TypeError, ValueError) as e:
+                # Handle case where Highlight_Row_ column exists but has unexpected values
+                print(f"Warning: Could not process yellow highlighting column: {e}")
+                yellow_highlighted_rows = []
+
+        # Handle red highlighting (no grade found)
+        if "Red_Highlight_Row_" in df.columns:
+            try:
+                # Handle both boolean and string boolean values
+                red_highlight_column = df["Red_Highlight_Row_"]
+
+                # Check if values are already strings (after sanitization)
+                if red_highlight_column.dtype == "object":
+                    # Convert string booleans to actual booleans
+                    red_boolean_mask = (
+                        red_highlight_column.astype(str).str.lower() == "true"
+                    )
+                else:
+                    # Use boolean values directly
+                    red_boolean_mask = red_highlight_column.astype(bool)
+
+                red_highlighted_rows = df[red_boolean_mask].index.tolist()
+
+            except (KeyError, TypeError, ValueError) as e:
+                # Handle case where Red_Highlight_Row_ column exists but has unexpected values
+                print(f"Warning: Could not process red highlighting column: {e}")
+                red_highlighted_rows = []
+
+        # Now sanitize the dataframe
         df = sanitize_dataframe(df)
+
+        # Reorder columns to show extracted data in the specified order
+        # Keep original columns first, then add extracted columns in desired order
+        original_cols = [
+            col for col in df.columns if isinstance(col, str) and not col.endswith("_")
+        ]
+        extracted_cols = [
+            "Dicke_",
+            "Breit_",
+            "Länge_",
+            "Güte_",
+            "Auflage_",
+            "Oberfläche_",
+        ]
+        other_cols = [
+            col
+            for col in df.columns
+            if isinstance(col, str) and col.endswith("_") and col not in extracted_cols
+        ]
+
+        # Create final column order: original columns + extracted columns + other columns
+        final_column_order = original_cols + extracted_cols + other_cols
+
+        # Reorder DataFrame columns (only include columns that actually exist)
+        existing_cols = [col for col in final_column_order if col in df.columns]
+        df = df[existing_cols]
+
         df.to_excel(writer, index=False, sheet_name="Sheet1")
+
+        # Get the xlsxwriter workbook and worksheet objects
+        workbook = writer.book
+        worksheet = writer.sheets["Sheet1"]
+
+        # Define highlighting formats
+        yellow_format = workbook.add_format(
+            {
+                "bg_color": "#FFFF00",
+                "border": 1,
+            }  # Yellow background for unmatched remainders
+        )
+        red_format = workbook.add_format(
+            {
+                "bg_color": "#FF9999",
+                "border": 1,
+            }  # Light red background for no grade found
+        )
+
+        # Apply yellow highlighting for unmatched remainders
+        if yellow_highlighted_rows:
+            for df_row_idx in yellow_highlighted_rows:
+                excel_row_idx = (
+                    df_row_idx + 1
+                )  # +1 because Excel rows are 1-indexed and we have a header
+
+                # Apply yellow formatting to the entire row
+                for col_idx in range(len(df.columns)):
+                    # Get the current cell value
+                    cell_value = df.iloc[df_row_idx, col_idx]
+                    # Write the cell with yellow formatting
+                    worksheet.write(excel_row_idx, col_idx, cell_value, yellow_format)
+
+        # Apply red highlighting for no grade found
+        if red_highlighted_rows:
+            for df_row_idx in red_highlighted_rows:
+                excel_row_idx = (
+                    df_row_idx + 1
+                )  # +1 because Excel rows are 1-indexed and we have a header
+
+                # Apply red formatting to the entire row
+                for col_idx in range(len(df.columns)):
+                    # Get the current cell value
+                    cell_value = df.iloc[df_row_idx, col_idx]
+                    # Write the cell with red formatting
+                    worksheet.write(excel_row_idx, col_idx, cell_value, red_format)
+
         print(buffer.getvalue)
     return buffer.getvalue()
 
@@ -338,7 +461,7 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                         if etl_errors:
                             st.error(f"{etl_errors}")
 
-                        with st.expander(label=f"Ergebnisse..", expanded=False):
+                        with st.expander(label="Ergebnisse..", expanded=False):
                             editable_df_2 = st.data_editor(
                                 sanitized_output,
                                 key=f"editor_update_{tab_name}",
@@ -456,4 +579,6 @@ elif selected_menu == "Einstellungen":
 
         # Beispiel für Systeminformationen
         st.text(f"Aktuelles Arbeitsverzeichnis: {os.getcwd()}")
-        st.text(f"Python-Version: {os.sys.version}")
+        import sys
+
+        st.text(f"Python-Version: {sys.version}")

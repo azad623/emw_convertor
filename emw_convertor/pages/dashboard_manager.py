@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
-from tinydb import TinyDB, Query
+from tinydb import TinyDB
 from datetime import datetime
-from typing import Dict, List
-import os
+from typing import Dict
 
 
 class DashboardManager:
