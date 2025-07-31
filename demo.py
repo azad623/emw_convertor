@@ -360,10 +360,19 @@ elif selected_menu == "Excel-Dateien verarbeiten":
             if uploaded_file.name not in st.session_state.uploaded_files:
                 save_path = os.path.join(session_folder, uploaded_file.name)
                 save_uploaded_file(uploaded_file, save_path)
+                # Load and immediately sanitize the Excel file to prevent NaN issues
+                raw_data = load_excel_file(save_path)
+                if raw_data is not None:
+                    # Sanitize immediately after loading to prevent JSON serialization errors
+                    sanitized_raw_data = sanitize_dataframe(raw_data)
+                    cleaned_data = drop_rows_with_missing_values(
+                        sanitized_raw_data, threshold=0.7
+                    )
+                else:
+                    cleaned_data = None
+
                 st.session_state.uploaded_files[uploaded_file.name] = {
-                    "data": drop_rows_with_missing_values(
-                        load_excel_file(save_path), threshold=0.7
-                    ),
+                    "data": cleaned_data,
                     "path": save_path,
                     "status": "Hochgeladen",
                     "output": None,
@@ -443,11 +452,30 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                         key=dimension_key,
                     )
 
-                editable_df_1 = st.data_editor(
-                    sanitize_dataframe(display_data),
-                    key=f"editor_{tab_name}",
-                    num_rows="dynamic",  # Allow adding/removing rows
-                )
+                # Additional protection against NaN values in data editor
+                try:
+                    # Double sanitization to ensure no NaN values slip through
+                    safe_display_data = sanitize_dataframe(display_data)
+                    safe_display_data = force_string_conversion(safe_display_data)
+
+                    # Ensure all columns are string type and fill any remaining NaN
+                    for col in safe_display_data.columns:
+                        safe_display_data[col] = (
+                            safe_display_data[col].astype(str).fillna("")
+                        )
+
+                    editable_df_1 = st.data_editor(
+                        safe_display_data,
+                        key=f"editor_{tab_name}",
+                        num_rows="dynamic",  # Allow adding/removing rows
+                    )
+                except Exception as e:
+                    st.error(f"Error displaying uploaded data: {str(e)}")
+                    st.write("Raw data preview (first 5 rows):")
+                    try:
+                        st.write(display_data.head().astype(str))
+                    except Exception:
+                        st.write("Unable to display data preview")
 
                 # Analysis Button
                 if st.button(
