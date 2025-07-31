@@ -1,9 +1,11 @@
-import os
-import filetype
 import logging
+import os
 from typing import Optional
+
+import filetype
 import pandas as pd
 from google.cloud import storage
+
 from emw_convertor import config, local_data_input_path
 
 logger = logging.getLogger("<Bilstein SLExA ETL>")
@@ -93,6 +95,26 @@ def load_from_local(file_path: str) -> Optional[pd.DataFrame]:
     if os.path.exists(file_path):
         df = pd.read_excel(file_path, header=None)
         logger.info(f"DataFrame is created successfully with the shape:{df.shape}")
+
+        # Immediately sanitize the DataFrame to prevent NaN issues downstream
+        # Replace all NaN values with None to prevent JSON serialization errors
+        import numpy as np
+
+        df = df.replace(
+            [
+                pd.NA,
+                pd.NaT,
+                float("nan"),
+                float("inf"),
+                -float("inf"),
+                np.nan,
+                np.inf,
+                -np.inf,
+            ],
+            None,
+        )
+
+        logger.info("DataFrame sanitized to prevent NaN-related JSON errors")
         return df
     else:
         logger.error(f"Invalid file type or path: {file_path}")
