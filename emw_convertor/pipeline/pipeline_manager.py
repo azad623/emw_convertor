@@ -1,11 +1,10 @@
 import os
 import pandas as pd
-from typing import Optional, List, Dict
+from typing import Dict
 from emw_convertor import (
     config,
     global_vars,
     log_output_path,
-    local_data_input_path,
     grades_schema,
     coating_schema,
 )
@@ -21,7 +20,6 @@ from emw_convertor.pipeline.grade_extractor import GradeExtractor
 from emw_convertor.pipeline.dimension_extractor import DimensionExtractor
 from emw_convertor.pipeline.coating_treatment import CoatingTreatmentExtractor
 from emw_convertor.utils.helper import (
-    delete_all_files,
     load_schema_list,
     validate_output,
     delete_file,

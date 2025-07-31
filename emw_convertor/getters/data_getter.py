@@ -4,7 +4,7 @@ import logging
 from typing import Optional
 import pandas as pd
 from google.cloud import storage
-from emw_convertor import PROJECT_DIR, config, local_data_input_path
+from emw_convertor import config, local_data_input_path
 
 logger = logging.getLogger("<Bilstein SLExA ETL>")
 

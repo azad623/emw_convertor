@@ -2,8 +2,6 @@ import logging
 import logging.config
 import yaml
 import os
-from datetime import datetime
-from typing import Optional
 from emw_convertor import log_config_path, log_output_path
 
 

@@ -1,6 +1,7 @@
-import pandas as pd
 import logging
+
 import numpy as np
+import pandas as pd
 
 logger = logging.getLogger("<EMW SLExA ETL>")
 
@@ -77,7 +78,9 @@ def ensure_floating_point(df):
         raise
 
 
-def translate_and_merge_description(df: pd.DataFrame) -> pd.DataFrame:
+def translate_and_merge_description(
+    df: pd.DataFrame, tokenizer=None, model=None
+) -> pd.DataFrame:
     """
     Processes a DataFrame to add a translated 'description' column,
     append 'Beschreibung' and 'batch_number' to it, and handle exceptions.
@@ -89,6 +92,8 @@ def translate_and_merge_description(df: pd.DataFrame) -> pd.DataFrame:
 
     Args:
         df (pd.DataFrame): The input DataFrame with columns 'description', 'Beschreibung', and 'batch_number'.
+        tokenizer: Optional tokenizer for translation (currently not implemented)
+        model: Optional model for translation (currently not implemented)
 
     Returns:
         pd.DataFrame: The processed DataFrame with an updated 'description' column.
@@ -96,9 +101,14 @@ def translate_and_merge_description(df: pd.DataFrame) -> pd.DataFrame:
 
     try:
         # Step 1: Translate the 'description' column
-        df["translated_description"] = df["description"].apply(
-            lambda x: translate_text(x, tokenizer, model)
-        )
+        # Note: Translation functionality is currently disabled - would need proper tokenizer and model
+        if tokenizer is not None and model is not None:
+            df["translated_description"] = df["description"].apply(
+                lambda x: translate_text(x, tokenizer, model)
+            )
+        else:
+            # For now, just copy the original description as translation is not implemented
+            df["translated_description"] = df["description"]
 
         # Step 2: Append translated text to 'description' column with '|'
         df["description"] = df.apply(

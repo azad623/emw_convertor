@@ -1,11 +1,11 @@
 """bilstein_slexa."""
 
-import os
 import json
 import logging
 import logging.config
 from pathlib import Path
 from typing import Optional
+
 import yaml
 
 
