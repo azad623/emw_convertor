@@ -191,7 +191,26 @@ def convert_to_excel(df):
 
 
 def force_string_conversion(df):
-    return df.map(lambda x: str(x) if x is not None else "")
+    """
+    Force conversion of all DataFrame values to strings, handling NaN values properly.
+    """
+    import numpy as np
+
+    def safe_string_conversion(x):
+        if x is None:
+            return ""
+        if pd.isna(x):
+            return ""
+        if isinstance(x, float) and (np.isnan(x) or np.isinf(x)):
+            return ""
+        if isinstance(x, str) and x.lower() in ["nan", "inf", "-inf", "none", "null"]:
+            return ""
+        try:
+            return str(x)
+        except (ValueError, TypeError):
+            return ""
+
+    return df.map(safe_string_conversion)
 
 
 def sanitize_dataframe(df):
@@ -202,6 +221,11 @@ def sanitize_dataframe(df):
     - Converting all data to JSON-compatible types.
     - Removing columns where all values are NaN or empty.
     """
+    import numpy as np
+
+    # Make a copy to avoid modifying the original
+    df = df.copy()
+
     # Ensure unique column names
     cols = pd.Series(df.columns)
     for dup in cols[cols.duplicated()].unique():
@@ -211,14 +235,48 @@ def sanitize_dataframe(df):
         ]
     df.columns = cols
 
-    # Replace problematic values with None
-    df = df.replace([pd.NA, pd.NaT, float("nan"), float("inf"), -float("inf")], None)
+    # Replace all types of problematic values with None
+    # This includes NaN, pd.NA, pd.NaT, inf, -inf, and numpy NaN variants
+    df = df.replace(
+        [
+            pd.NA,
+            pd.NaT,
+            float("nan"),
+            float("inf"),
+            -float("inf"),
+            np.nan,
+            np.inf,
+            -np.inf,
+            "nan",
+            "NaN",
+            "NAN",
+            "inf",
+            "Inf",
+            "INF",
+            "-inf",
+            "-Inf",
+            "-INF",
+        ],
+        None,
+    )
 
-    # Convert all data to JSON-compatible strings
-    df = df.map(lambda x: str(x) if pd.notnull(x) else None)
+    # Additional cleanup for any remaining NaN-like values
+    def clean_value(x):
+        if x is None:
+            return None
+        if pd.isna(x):
+            return None
+        if isinstance(x, float) and (np.isnan(x) or np.isinf(x)):
+            return None
+        if isinstance(x, str) and x.lower() in ["nan", "inf", "-inf", "none", "null"]:
+            return None
+        return str(x)
 
-    # Remove columns where all values are NaN or empty
-    df.dropna(axis=1, how="all", inplace=True)
+    # Apply cleaning function to all values
+    df = df.map(clean_value)
+
+    # Remove columns where all values are None or empty
+    df = df.loc[:, ~df.isnull().all()]
 
     return df
 
@@ -462,11 +520,25 @@ elif selected_menu == "Excel-Dateien verarbeiten":
                             st.error(f"{etl_errors}")
 
                         with st.expander(label="Ergebnisse..", expanded=False):
-                            editable_df_2 = st.data_editor(
-                                sanitized_output,
-                                key=f"editor_update_{tab_name}",
-                                num_rows="dynamic",  # Allow adding/removing rows
-                            )
+                            try:
+                                # Additional sanitization before display
+                                display_df = sanitized_output.copy()
+
+                                # Ensure all values are properly serializable
+                                for col in display_df.columns:
+                                    display_df[col] = (
+                                        display_df[col].astype(str).fillna("")
+                                    )
+
+                                editable_df_2 = st.data_editor(
+                                    display_df,
+                                    key=f"editor_update_{tab_name}",
+                                    num_rows="dynamic",  # Allow adding/removing rows
+                                )
+                            except Exception as e:
+                                st.error(f"Error displaying data: {str(e)}")
+                                st.write("Raw data preview:")
+                                st.write(sanitized_output.head())
 
                             # Download Button
                             st.download_button(
